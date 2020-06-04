@@ -3955,35 +3955,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.HBuilder.integrate:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.HBuilder.integrate:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.HBuilder.integrate:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.HBuilder.integrate:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.HBuilder.integrate:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.HBuilder.integrate:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.HBuilder.integrate:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.HBuilder.integrate:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.HBuilder.integrate:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.HBuilder.integrate:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.HBuilder.integrate:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.HBuilder.integrate:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.HBuilder.integrate:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.HBuilder.integrate:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.HBuilder.integrate:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.HBuilder.integrate:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.HBuilder.integrate:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.HBuilder.integrate:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.HBuilder.integrate:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.HBuilder.integrate:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.HBuilder.integrate:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.HBuilder.integrate:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.HBuilder.integrate:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.HBuilder.integrate:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.HBuilder.integrate:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.HBuilder.integrate:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.HBuilder.integrate:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.HBuilder.integrate:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.HBuilder.integrate:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.qiniu.pili.droid.streaming.demo:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.qiniu.pili.droid.streaming.demo:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.qiniu.pili.droid.streaming.demo:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.qiniu.pili.droid.streaming.demo:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.qiniu.pili.droid.streaming.demo:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.qiniu.pili.droid.streaming.demo:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.qiniu.pili.droid.streaming.demo:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.qiniu.pili.droid.streaming.demo:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.qiniu.pili.droid.streaming.demo:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.qiniu.pili.droid.streaming.demo:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.qiniu.pili.droid.streaming.demo:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.qiniu.pili.droid.streaming.demo:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.qiniu.pili.droid.streaming.demo:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.qiniu.pili.droid.streaming.demo:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.qiniu.pili.droid.streaming.demo:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.qiniu.pili.droid.streaming.demo:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.qiniu.pili.droid.streaming.demo:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.qiniu.pili.droid.streaming.demo:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.qiniu.pili.droid.streaming.demo:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.qiniu.pili.droid.streaming.demo:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.qiniu.pili.droid.streaming.demo:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.qiniu.pili.droid.streaming.demo:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.qiniu.pili.droid.streaming.demo:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.qiniu.pili.droid.streaming.demo:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.qiniu.pili.droid.streaming.demo:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.qiniu.pili.droid.streaming.demo:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.qiniu.pili.droid.streaming.demo:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.qiniu.pili.droid.streaming.demo:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.qiniu.pili.droid.streaming.demo:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -4026,7 +4026,7 @@ public final class R {
       0x7f020145
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4034,11 +4034,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:background
+     * @attr name com.qiniu.pili.droid.streaming.demo:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4049,11 +4049,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:backgroundSplit
+     * @attr name com.qiniu.pili.droid.streaming.demo:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4064,11 +4064,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:backgroundStacked
+     * @attr name com.qiniu.pili.droid.streaming.demo:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4077,11 +4077,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4090,11 +4090,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetEndWithActions
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4103,11 +4103,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetLeft
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4116,11 +4116,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetRight
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4129,11 +4129,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetStart
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4142,11 +4142,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetStartWithNavigation
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4154,11 +4154,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:customNavigationLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4176,11 +4176,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:displayOptions
+     * @attr name com.qiniu.pili.droid.streaming.demo:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4188,11 +4188,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:divider
+     * @attr name com.qiniu.pili.droid.streaming.demo:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4201,11 +4201,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:elevation
+     * @attr name com.qiniu.pili.droid.streaming.demo:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4214,21 +4214,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:height
+     * @attr name com.qiniu.pili.droid.streaming.demo:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:hideOnContentScroll
+     * @attr name com.qiniu.pili.droid.streaming.demo:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4236,11 +4236,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:homeAsUpIndicator
+     * @attr name com.qiniu.pili.droid.streaming.demo:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4248,11 +4248,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:homeLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4260,11 +4260,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:icon
+     * @attr name com.qiniu.pili.droid.streaming.demo:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4272,11 +4272,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:indeterminateProgressStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4285,11 +4285,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:itemPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4297,11 +4297,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:logo
+     * @attr name com.qiniu.pili.droid.streaming.demo:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4315,11 +4315,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:navigationMode
+     * @attr name com.qiniu.pili.droid.streaming.demo:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4327,11 +4327,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:popupTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4340,11 +4340,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:progressBarPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4352,21 +4352,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:progressBarStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:subtitle
+     * @attr name com.qiniu.pili.droid.streaming.demo:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4374,21 +4374,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:subtitleTextStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:title
+     * @attr name com.qiniu.pili.droid.streaming.demo:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4396,7 +4396,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:titleTextStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4478,12 +4478,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.HBuilder.integrate:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.HBuilder.integrate:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.HBuilder.integrate:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.HBuilder.integrate:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.HBuilder.integrate:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.HBuilder.integrate:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.qiniu.pili.droid.streaming.demo:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.qiniu.pili.droid.streaming.demo:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.qiniu.pili.droid.streaming.demo:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.qiniu.pili.droid.streaming.demo:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.qiniu.pili.droid.streaming.demo:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.qiniu.pili.droid.streaming.demo:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4497,7 +4497,7 @@ public final class R {
       0x7f020120, 0x7f020145
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4505,11 +4505,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:background
+     * @attr name com.qiniu.pili.droid.streaming.demo:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4520,11 +4520,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:backgroundSplit
+     * @attr name com.qiniu.pili.droid.streaming.demo:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4532,11 +4532,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:closeItemLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4545,11 +4545,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:height
+     * @attr name com.qiniu.pili.droid.streaming.demo:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4557,11 +4557,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:subtitleTextStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4569,7 +4569,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:titleTextStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4579,21 +4579,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionSheet_actionSheetBackground com.HBuilder.integrate:actionSheetBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_actionSheetPadding com.HBuilder.integrate:actionSheetPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_actionSheetTextSize com.HBuilder.integrate:actionSheetTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_cancelButtonBackground com.HBuilder.integrate:cancelButtonBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_cancelButtonMarginTop com.HBuilder.integrate:cancelButtonMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_cancelButtonTextColor com.HBuilder.integrate:cancelButtonTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_destructiveButtonTextColor com.HBuilder.integrate:destructiveButtonTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_otherButtonBottomBackground com.HBuilder.integrate:otherButtonBottomBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_otherButtonMiddleBackground com.HBuilder.integrate:otherButtonMiddleBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_otherButtonSingleBackground com.HBuilder.integrate:otherButtonSingleBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_otherButtonSpacing com.HBuilder.integrate:otherButtonSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_otherButtonTextColor com.HBuilder.integrate:otherButtonTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_otherButtonTitleBackground com.HBuilder.integrate:otherButtonTitleBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_otherButtonTopBackground com.HBuilder.integrate:otherButtonTopBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionSheet_titleButtonTextColor com.HBuilder.integrate:titleButtonTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_actionSheetBackground com.qiniu.pili.droid.streaming.demo:actionSheetBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_actionSheetPadding com.qiniu.pili.droid.streaming.demo:actionSheetPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_actionSheetTextSize com.qiniu.pili.droid.streaming.demo:actionSheetTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_cancelButtonBackground com.qiniu.pili.droid.streaming.demo:cancelButtonBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_cancelButtonMarginTop com.qiniu.pili.droid.streaming.demo:cancelButtonMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_cancelButtonTextColor com.qiniu.pili.droid.streaming.demo:cancelButtonTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_destructiveButtonTextColor com.qiniu.pili.droid.streaming.demo:destructiveButtonTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_otherButtonBottomBackground com.qiniu.pili.droid.streaming.demo:otherButtonBottomBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_otherButtonMiddleBackground com.qiniu.pili.droid.streaming.demo:otherButtonMiddleBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_otherButtonSingleBackground com.qiniu.pili.droid.streaming.demo:otherButtonSingleBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_otherButtonSpacing com.qiniu.pili.droid.streaming.demo:otherButtonSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_otherButtonTextColor com.qiniu.pili.droid.streaming.demo:otherButtonTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_otherButtonTitleBackground com.qiniu.pili.droid.streaming.demo:otherButtonTitleBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_otherButtonTopBackground com.qiniu.pili.droid.streaming.demo:otherButtonTopBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheet_titleButtonTextColor com.qiniu.pili.droid.streaming.demo:titleButtonTextColor}</code></td><td></td></tr>
      * </table>
      * @see #ActionSheet_actionSheetBackground
      * @see #ActionSheet_actionSheetPadding
@@ -4618,7 +4618,7 @@ public final class R {
       0x7f0200c6, 0x7f0200c7, 0x7f02013c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionSheetBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionSheetBackground}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4629,11 +4629,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionSheetBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionSheetBackground
      */
     public static final int ActionSheet_actionSheetBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionSheetPadding}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionSheetPadding}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4646,11 +4646,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:actionSheetPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionSheetPadding
      */
     public static final int ActionSheet_actionSheetPadding=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionSheetTextSize}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionSheetTextSize}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4663,11 +4663,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:actionSheetTextSize
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionSheetTextSize
      */
     public static final int ActionSheet_actionSheetTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#cancelButtonBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#cancelButtonBackground}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4678,11 +4678,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:cancelButtonBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:cancelButtonBackground
      */
     public static final int ActionSheet_cancelButtonBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#cancelButtonMarginTop}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#cancelButtonMarginTop}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4695,11 +4695,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:cancelButtonMarginTop
+     * @attr name com.qiniu.pili.droid.streaming.demo:cancelButtonMarginTop
      */
     public static final int ActionSheet_cancelButtonMarginTop=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#cancelButtonTextColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#cancelButtonTextColor}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4710,11 +4710,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:cancelButtonTextColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:cancelButtonTextColor
      */
     public static final int ActionSheet_cancelButtonTextColor=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#destructiveButtonTextColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#destructiveButtonTextColor}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4725,11 +4725,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:destructiveButtonTextColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:destructiveButtonTextColor
      */
     public static final int ActionSheet_destructiveButtonTextColor=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#otherButtonBottomBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#otherButtonBottomBackground}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4740,11 +4740,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:otherButtonBottomBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:otherButtonBottomBackground
      */
     public static final int ActionSheet_otherButtonBottomBackground=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#otherButtonMiddleBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#otherButtonMiddleBackground}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4755,11 +4755,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:otherButtonMiddleBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:otherButtonMiddleBackground
      */
     public static final int ActionSheet_otherButtonMiddleBackground=8;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#otherButtonSingleBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#otherButtonSingleBackground}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4770,11 +4770,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:otherButtonSingleBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:otherButtonSingleBackground
      */
     public static final int ActionSheet_otherButtonSingleBackground=9;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#otherButtonSpacing}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#otherButtonSpacing}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4787,11 +4787,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:otherButtonSpacing
+     * @attr name com.qiniu.pili.droid.streaming.demo:otherButtonSpacing
      */
     public static final int ActionSheet_otherButtonSpacing=10;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#otherButtonTextColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#otherButtonTextColor}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4802,11 +4802,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:otherButtonTextColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:otherButtonTextColor
      */
     public static final int ActionSheet_otherButtonTextColor=11;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#otherButtonTitleBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#otherButtonTitleBackground}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4817,11 +4817,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:otherButtonTitleBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:otherButtonTitleBackground
      */
     public static final int ActionSheet_otherButtonTitleBackground=12;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#otherButtonTopBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#otherButtonTopBackground}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4832,11 +4832,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:otherButtonTopBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:otherButtonTopBackground
      */
     public static final int ActionSheet_otherButtonTopBackground=13;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleButtonTextColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleButtonTextColor}
      * attribute's value can be found in the {@link #ActionSheet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4847,7 +4847,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:titleButtonTextColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleButtonTextColor
      */
     public static final int ActionSheet_titleButtonTextColor=14;
     /**
@@ -4857,7 +4857,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionSheets_actionSheetStyle com.HBuilder.integrate:actionSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionSheets_actionSheetStyle com.qiniu.pili.droid.streaming.demo:actionSheetStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionSheets_actionSheetStyle
      */
@@ -4865,7 +4865,7 @@ public final class R {
       0x7f020022
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionSheetStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionSheetStyle}
      * attribute's value can be found in the {@link #ActionSheets} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4873,7 +4873,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionSheetStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionSheetStyle
      */
     public static final int ActionSheets_actionSheetStyle=0;
     /**
@@ -4883,8 +4883,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.HBuilder.integrate:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.HBuilder.integrate:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.qiniu.pili.droid.streaming.demo:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.qiniu.pili.droid.streaming.demo:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4893,7 +4893,7 @@ public final class R {
       0x7f02007d, 0x7f02009f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4901,17 +4901,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:expandActivityOverflowButtonDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:initialActivityCount
+     * @attr name com.qiniu.pili.droid.streaming.demo:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4922,13 +4922,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.HBuilder.integrate:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.HBuilder.integrate:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.HBuilder.integrate:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.HBuilder.integrate:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.HBuilder.integrate:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.HBuilder.integrate:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.HBuilder.integrate:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.qiniu.pili.droid.streaming.demo:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.qiniu.pili.droid.streaming.demo:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.qiniu.pili.droid.streaming.demo:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.qiniu.pili.droid.streaming.demo:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.qiniu.pili.droid.streaming.demo:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.qiniu.pili.droid.streaming.demo:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.qiniu.pili.droid.streaming.demo:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -4956,7 +4956,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4965,11 +4965,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:buttonIconDimen
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4977,11 +4977,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonPanelSideLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4989,11 +4989,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:listItemLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5001,11 +5001,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:listLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5013,21 +5013,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:multiChoiceItemLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:showTitle
+     * @attr name com.qiniu.pili.droid.streaming.demo:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5035,7 +5035,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:singleChoiceItemLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -5046,9 +5046,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.HBuilder.integrate:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.HBuilder.integrate:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.HBuilder.integrate:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.qiniu.pili.droid.streaming.demo:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.qiniu.pili.droid.streaming.demo:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.qiniu.pili.droid.streaming.demo:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -5074,7 +5074,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5082,22 +5082,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:srcCompat
+     * @attr name com.qiniu.pili.droid.streaming.demo:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:tint
+     * @attr name com.qiniu.pili.droid.streaming.demo:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5114,7 +5114,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:tintMode
+     * @attr name com.qiniu.pili.droid.streaming.demo:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -5125,9 +5125,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.HBuilder.integrate:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.HBuilder.integrate:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.HBuilder.integrate:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.qiniu.pili.droid.streaming.demo:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.qiniu.pili.droid.streaming.demo:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.qiniu.pili.droid.streaming.demo:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -5150,7 +5150,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5158,22 +5158,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:tickMark
+     * @attr name com.qiniu.pili.droid.streaming.demo:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:tickMarkTint
+     * @attr name com.qiniu.pili.droid.streaming.demo:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5190,7 +5190,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:tickMarkTintMode
+     * @attr name com.qiniu.pili.droid.streaming.demo:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -5330,13 +5330,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.HBuilder.integrate:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.HBuilder.integrate:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.HBuilder.integrate:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.HBuilder.integrate:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.HBuilder.integrate:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.HBuilder.integrate:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.HBuilder.integrate:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.qiniu.pili.droid.streaming.demo:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.qiniu.pili.droid.streaming.demo:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.qiniu.pili.droid.streaming.demo:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.qiniu.pili.droid.streaming.demo:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.qiniu.pili.droid.streaming.demo:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.qiniu.pili.droid.streaming.demo:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.qiniu.pili.droid.streaming.demo:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -5364,7 +5364,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5373,11 +5373,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:autoSizeMaxTextSize
+     * @attr name com.qiniu.pili.droid.streaming.demo:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5386,11 +5386,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:autoSizeMinTextSize
+     * @attr name com.qiniu.pili.droid.streaming.demo:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5398,11 +5398,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:autoSizePresetSizes
+     * @attr name com.qiniu.pili.droid.streaming.demo:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5411,11 +5411,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:autoSizeStepGranularity
+     * @attr name com.qiniu.pili.droid.streaming.demo:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5428,21 +5428,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:autoSizeTextType
+     * @attr name com.qiniu.pili.droid.streaming.demo:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:fontFamily
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5452,7 +5452,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:textAllCaps
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -5464,124 +5464,124 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.HBuilder.integrate:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.HBuilder.integrate:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.HBuilder.integrate:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.HBuilder.integrate:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.HBuilder.integrate:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.HBuilder.integrate:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.HBuilder.integrate:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.HBuilder.integrate:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.HBuilder.integrate:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.HBuilder.integrate:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.HBuilder.integrate:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.HBuilder.integrate:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.HBuilder.integrate:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.HBuilder.integrate:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.HBuilder.integrate:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.HBuilder.integrate:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.HBuilder.integrate:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.HBuilder.integrate:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.HBuilder.integrate:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.HBuilder.integrate:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.HBuilder.integrate:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.HBuilder.integrate:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.HBuilder.integrate:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.HBuilder.integrate:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.HBuilder.integrate:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.HBuilder.integrate:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.HBuilder.integrate:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.HBuilder.integrate:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.HBuilder.integrate:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.HBuilder.integrate:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.HBuilder.integrate:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.HBuilder.integrate:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.HBuilder.integrate:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.HBuilder.integrate:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.HBuilder.integrate:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.HBuilder.integrate:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.HBuilder.integrate:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.HBuilder.integrate:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.HBuilder.integrate:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.HBuilder.integrate:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.HBuilder.integrate:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.HBuilder.integrate:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.HBuilder.integrate:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.HBuilder.integrate:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.HBuilder.integrate:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.HBuilder.integrate:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.HBuilder.integrate:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.HBuilder.integrate:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.HBuilder.integrate:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.HBuilder.integrate:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.HBuilder.integrate:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.HBuilder.integrate:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.HBuilder.integrate:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.HBuilder.integrate:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.HBuilder.integrate:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.HBuilder.integrate:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.HBuilder.integrate:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.HBuilder.integrate:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.HBuilder.integrate:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.HBuilder.integrate:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.HBuilder.integrate:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.HBuilder.integrate:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.HBuilder.integrate:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.HBuilder.integrate:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.HBuilder.integrate:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.HBuilder.integrate:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.HBuilder.integrate:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.HBuilder.integrate:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.HBuilder.integrate:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.HBuilder.integrate:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.HBuilder.integrate:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.HBuilder.integrate:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.HBuilder.integrate:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.HBuilder.integrate:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.HBuilder.integrate:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.HBuilder.integrate:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.HBuilder.integrate:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.HBuilder.integrate:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.HBuilder.integrate:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.HBuilder.integrate:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.HBuilder.integrate:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.HBuilder.integrate:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.HBuilder.integrate:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.HBuilder.integrate:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.HBuilder.integrate:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.HBuilder.integrate:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.HBuilder.integrate:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.HBuilder.integrate:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.HBuilder.integrate:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.HBuilder.integrate:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.HBuilder.integrate:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.HBuilder.integrate:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.HBuilder.integrate:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.HBuilder.integrate:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.HBuilder.integrate:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.HBuilder.integrate:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.HBuilder.integrate:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.HBuilder.integrate:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.HBuilder.integrate:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.HBuilder.integrate:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.HBuilder.integrate:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.HBuilder.integrate:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.HBuilder.integrate:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.HBuilder.integrate:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.HBuilder.integrate:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.HBuilder.integrate:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.HBuilder.integrate:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.HBuilder.integrate:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.HBuilder.integrate:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.HBuilder.integrate:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.HBuilder.integrate:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.HBuilder.integrate:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.HBuilder.integrate:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.HBuilder.integrate:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.HBuilder.integrate:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.HBuilder.integrate:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.HBuilder.integrate:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.HBuilder.integrate:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.qiniu.pili.droid.streaming.demo:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.qiniu.pili.droid.streaming.demo:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.qiniu.pili.droid.streaming.demo:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.qiniu.pili.droid.streaming.demo:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.qiniu.pili.droid.streaming.demo:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.qiniu.pili.droid.streaming.demo:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.qiniu.pili.droid.streaming.demo:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.qiniu.pili.droid.streaming.demo:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.qiniu.pili.droid.streaming.demo:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.qiniu.pili.droid.streaming.demo:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.qiniu.pili.droid.streaming.demo:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.qiniu.pili.droid.streaming.demo:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.qiniu.pili.droid.streaming.demo:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.qiniu.pili.droid.streaming.demo:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.qiniu.pili.droid.streaming.demo:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.qiniu.pili.droid.streaming.demo:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.qiniu.pili.droid.streaming.demo:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.qiniu.pili.droid.streaming.demo:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.qiniu.pili.droid.streaming.demo:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.qiniu.pili.droid.streaming.demo:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.qiniu.pili.droid.streaming.demo:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.qiniu.pili.droid.streaming.demo:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.qiniu.pili.droid.streaming.demo:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.qiniu.pili.droid.streaming.demo:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.qiniu.pili.droid.streaming.demo:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.qiniu.pili.droid.streaming.demo:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.qiniu.pili.droid.streaming.demo:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.qiniu.pili.droid.streaming.demo:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.qiniu.pili.droid.streaming.demo:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.qiniu.pili.droid.streaming.demo:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.qiniu.pili.droid.streaming.demo:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.qiniu.pili.droid.streaming.demo:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.qiniu.pili.droid.streaming.demo:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.qiniu.pili.droid.streaming.demo:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.qiniu.pili.droid.streaming.demo:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.qiniu.pili.droid.streaming.demo:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.qiniu.pili.droid.streaming.demo:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.qiniu.pili.droid.streaming.demo:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.qiniu.pili.droid.streaming.demo:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.qiniu.pili.droid.streaming.demo:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.qiniu.pili.droid.streaming.demo:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.qiniu.pili.droid.streaming.demo:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.qiniu.pili.droid.streaming.demo:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.qiniu.pili.droid.streaming.demo:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.qiniu.pili.droid.streaming.demo:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.qiniu.pili.droid.streaming.demo:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.qiniu.pili.droid.streaming.demo:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.qiniu.pili.droid.streaming.demo:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.qiniu.pili.droid.streaming.demo:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.qiniu.pili.droid.streaming.demo:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.qiniu.pili.droid.streaming.demo:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.qiniu.pili.droid.streaming.demo:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.qiniu.pili.droid.streaming.demo:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.qiniu.pili.droid.streaming.demo:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.qiniu.pili.droid.streaming.demo:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.qiniu.pili.droid.streaming.demo:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.qiniu.pili.droid.streaming.demo:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.qiniu.pili.droid.streaming.demo:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.qiniu.pili.droid.streaming.demo:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.qiniu.pili.droid.streaming.demo:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.qiniu.pili.droid.streaming.demo:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.qiniu.pili.droid.streaming.demo:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.qiniu.pili.droid.streaming.demo:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.qiniu.pili.droid.streaming.demo:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.qiniu.pili.droid.streaming.demo:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.qiniu.pili.droid.streaming.demo:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.qiniu.pili.droid.streaming.demo:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.qiniu.pili.droid.streaming.demo:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.qiniu.pili.droid.streaming.demo:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.qiniu.pili.droid.streaming.demo:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.qiniu.pili.droid.streaming.demo:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.qiniu.pili.droid.streaming.demo:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.qiniu.pili.droid.streaming.demo:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.qiniu.pili.droid.streaming.demo:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.qiniu.pili.droid.streaming.demo:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.qiniu.pili.droid.streaming.demo:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.qiniu.pili.droid.streaming.demo:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.qiniu.pili.droid.streaming.demo:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.qiniu.pili.droid.streaming.demo:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.qiniu.pili.droid.streaming.demo:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.qiniu.pili.droid.streaming.demo:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.qiniu.pili.droid.streaming.demo:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.qiniu.pili.droid.streaming.demo:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.qiniu.pili.droid.streaming.demo:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.qiniu.pili.droid.streaming.demo:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.qiniu.pili.droid.streaming.demo:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.qiniu.pili.droid.streaming.demo:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.qiniu.pili.droid.streaming.demo:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.qiniu.pili.droid.streaming.demo:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.qiniu.pili.droid.streaming.demo:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.qiniu.pili.droid.streaming.demo:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.qiniu.pili.droid.streaming.demo:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.qiniu.pili.droid.streaming.demo:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.qiniu.pili.droid.streaming.demo:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.qiniu.pili.droid.streaming.demo:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.qiniu.pili.droid.streaming.demo:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.qiniu.pili.droid.streaming.demo:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.qiniu.pili.droid.streaming.demo:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.qiniu.pili.droid.streaming.demo:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.qiniu.pili.droid.streaming.demo:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.qiniu.pili.droid.streaming.demo:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.qiniu.pili.droid.streaming.demo:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.qiniu.pili.droid.streaming.demo:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.qiniu.pili.droid.streaming.demo:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.qiniu.pili.droid.streaming.demo:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.qiniu.pili.droid.streaming.demo:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.qiniu.pili.droid.streaming.demo:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.qiniu.pili.droid.streaming.demo:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.qiniu.pili.droid.streaming.demo:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.qiniu.pili.droid.streaming.demo:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.qiniu.pili.droid.streaming.demo:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.qiniu.pili.droid.streaming.demo:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.qiniu.pili.droid.streaming.demo:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.qiniu.pili.droid.streaming.demo:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.qiniu.pili.droid.streaming.demo:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.qiniu.pili.droid.streaming.demo:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.qiniu.pili.droid.streaming.demo:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.qiniu.pili.droid.streaming.demo:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5759,7 +5759,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5767,11 +5767,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarDivider
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5779,11 +5779,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarItemBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5791,11 +5791,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarPopupTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5812,11 +5812,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:actionBarSize
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5824,11 +5824,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarSplitStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5836,11 +5836,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5848,11 +5848,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarTabBarStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5860,11 +5860,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarTabStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5872,11 +5872,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarTabTextStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5884,11 +5884,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5896,11 +5896,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionBarWidgetTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5908,11 +5908,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5920,11 +5920,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionDropDownStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5932,11 +5932,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionMenuTextAppearance
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5947,11 +5947,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionMenuTextColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5959,11 +5959,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5971,11 +5971,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeCloseButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5983,11 +5983,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeCloseDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5995,11 +5995,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeCopyDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6007,11 +6007,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeCutDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6019,11 +6019,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeFindDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6031,11 +6031,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModePasteDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6043,11 +6043,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModePopupWindowStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6055,11 +6055,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeSelectAllDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6067,11 +6067,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeShareDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6079,11 +6079,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeSplitBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6091,11 +6091,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6103,11 +6103,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionModeWebSearchDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6115,11 +6115,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionOverflowButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6127,11 +6127,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionOverflowMenuStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6139,11 +6139,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:activityChooserViewStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6151,21 +6151,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:alertDialogButtonGroupStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:alertDialogCenterButtons
+     * @attr name com.qiniu.pili.droid.streaming.demo:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6173,11 +6173,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:alertDialogStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6185,11 +6185,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:alertDialogTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6197,11 +6197,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:autoCompleteTextViewStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6209,11 +6209,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:borderlessButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6221,11 +6221,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonBarButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6233,11 +6233,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonBarNegativeButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6245,11 +6245,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonBarNeutralButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6257,11 +6257,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonBarPositiveButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6269,11 +6269,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonBarStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6281,11 +6281,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6293,11 +6293,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonStyleSmall
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6305,11 +6305,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:checkboxStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6317,77 +6317,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:checkedTextViewStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorAccent
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorBackgroundFloating
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorButtonNormal
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorControlActivated
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorControlHighlight
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorControlNormal
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6398,44 +6398,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorError
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorPrimary
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorPrimaryDark
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:colorSwitchThumbNormal
+     * @attr name com.qiniu.pili.droid.streaming.demo:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6443,11 +6443,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:controlBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6456,11 +6456,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:dialogPreferredPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6468,11 +6468,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:dialogTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6480,11 +6480,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:dividerHorizontal
+     * @attr name com.qiniu.pili.droid.streaming.demo:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6492,11 +6492,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:dividerVertical
+     * @attr name com.qiniu.pili.droid.streaming.demo:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6504,11 +6504,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:dropDownListViewStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6517,11 +6517,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:dropdownListPreferredItemHeight
+     * @attr name com.qiniu.pili.droid.streaming.demo:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6529,11 +6529,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:editTextBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6544,11 +6544,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:editTextColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6556,11 +6556,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:editTextStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6568,11 +6568,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:homeAsUpIndicator
+     * @attr name com.qiniu.pili.droid.streaming.demo:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6580,11 +6580,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:imageButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6592,11 +6592,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:listChoiceBackgroundIndicator
+     * @attr name com.qiniu.pili.droid.streaming.demo:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6604,11 +6604,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:listDividerAlertDialog
+     * @attr name com.qiniu.pili.droid.streaming.demo:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6616,11 +6616,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:listMenuViewStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6628,11 +6628,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:listPopupWindowStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6641,11 +6641,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:listPreferredItemHeight
+     * @attr name com.qiniu.pili.droid.streaming.demo:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6654,11 +6654,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:listPreferredItemHeightLarge
+     * @attr name com.qiniu.pili.droid.streaming.demo:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6667,11 +6667,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:listPreferredItemHeightSmall
+     * @attr name com.qiniu.pili.droid.streaming.demo:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6680,11 +6680,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:listPreferredItemPaddingLeft
+     * @attr name com.qiniu.pili.droid.streaming.demo:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6693,11 +6693,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:listPreferredItemPaddingRight
+     * @attr name com.qiniu.pili.droid.streaming.demo:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6705,11 +6705,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:panelBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6717,11 +6717,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:panelMenuListTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6730,11 +6730,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:panelMenuListWidth
+     * @attr name com.qiniu.pili.droid.streaming.demo:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6742,11 +6742,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:popupMenuStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6754,11 +6754,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:popupWindowStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6766,11 +6766,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:radioButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6778,11 +6778,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:ratingBarStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6790,11 +6790,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:ratingBarStyleIndicator
+     * @attr name com.qiniu.pili.droid.streaming.demo:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6802,11 +6802,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:ratingBarStyleSmall
+     * @attr name com.qiniu.pili.droid.streaming.demo:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6814,11 +6814,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:searchViewStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6826,11 +6826,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:seekBarStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6838,11 +6838,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:selectableItemBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6850,11 +6850,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:selectableItemBackgroundBorderless
+     * @attr name com.qiniu.pili.droid.streaming.demo:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6862,11 +6862,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:spinnerDropDownItemStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6874,11 +6874,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:spinnerStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6886,11 +6886,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:switchStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6898,11 +6898,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textAppearanceLargePopupMenu
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6910,11 +6910,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textAppearanceListItem
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6922,11 +6922,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textAppearanceListItemSecondary
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6934,11 +6934,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textAppearanceListItemSmall
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6946,11 +6946,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textAppearancePopupMenuHeader
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6958,11 +6958,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textAppearanceSearchResultSubtitle
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6970,11 +6970,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textAppearanceSearchResultTitle
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6982,11 +6982,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textAppearanceSmallPopupMenu
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6997,11 +6997,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textColorAlertDialogListItem
+     * @attr name com.qiniu.pili.droid.streaming.demo:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7012,11 +7012,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:textColorSearchUrl
+     * @attr name com.qiniu.pili.droid.streaming.demo:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7024,11 +7024,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:toolbarNavigationButtonStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7036,11 +7036,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:toolbarStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7051,11 +7051,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:tooltipForegroundColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7063,51 +7063,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:tooltipFrameBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:viewInflaterClass
+     * @attr name com.qiniu.pili.droid.streaming.demo:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:windowActionBar
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:windowActionBarOverlay
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:windowActionModeOverlay
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7120,11 +7120,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.HBuilder.integrate:windowFixedHeightMajor
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7137,11 +7137,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.HBuilder.integrate:windowFixedHeightMinor
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7154,11 +7154,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.HBuilder.integrate:windowFixedWidthMajor
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7171,11 +7171,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.HBuilder.integrate:windowFixedWidthMinor
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7188,11 +7188,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.HBuilder.integrate:windowMinWidthMajor
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7205,17 +7205,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.HBuilder.integrate:windowMinWidthMinor
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:windowNoTitle
+     * @attr name com.qiniu.pili.droid.streaming.demo:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=119;
     /**
@@ -7225,7 +7225,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.HBuilder.integrate:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.qiniu.pili.droid.streaming.demo:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -7233,13 +7233,13 @@ public final class R {
       0x7f02002d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:allowStacking
+     * @attr name com.qiniu.pili.droid.streaming.demo:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -7251,7 +7251,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.HBuilder.integrate:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.qiniu.pili.droid.streaming.demo:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -7281,12 +7281,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.HBuilder.integrate:alpha
+     * @attr name com.qiniu.pili.droid.streaming.demo:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -7297,8 +7297,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.HBuilder.integrate:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.HBuilder.integrate:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.qiniu.pili.droid.streaming.demo:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.qiniu.pili.droid.streaming.demo:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -7320,18 +7320,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:buttonTint
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7348,7 +7348,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:buttonTintMode
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -7358,8 +7358,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.HBuilder.integrate:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.HBuilder.integrate:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.qiniu.pili.droid.streaming.demo:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.qiniu.pili.droid.streaming.demo:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -7368,7 +7368,7 @@ public final class R {
       0x7f0200a3, 0x7f02011a
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7376,11 +7376,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:keylines
+     * @attr name com.qiniu.pili.droid.streaming.demo:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7391,7 +7391,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:statusBarBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -7402,12 +7402,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.HBuilder.integrate:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.HBuilder.integrate:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.HBuilder.integrate:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.HBuilder.integrate:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.HBuilder.integrate:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.HBuilder.integrate:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.qiniu.pili.droid.streaming.demo:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.qiniu.pili.droid.streaming.demo:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.qiniu.pili.droid.streaming.demo:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.qiniu.pili.droid.streaming.demo:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.qiniu.pili.droid.streaming.demo:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.qiniu.pili.droid.streaming.demo:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -7451,7 +7451,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7459,11 +7459,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:layout_anchor
+     * @attr name com.qiniu.pili.droid.streaming.demo:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7488,21 +7488,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:layout_anchorGravity
+     * @attr name com.qiniu.pili.droid.streaming.demo:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:layout_behavior
+     * @attr name com.qiniu.pili.droid.streaming.demo:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7521,11 +7521,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:layout_dodgeInsetEdges
+     * @attr name com.qiniu.pili.droid.streaming.demo:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7543,16 +7543,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:layout_insetEdge
+     * @attr name com.qiniu.pili.droid.streaming.demo:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:layout_keyline
+     * @attr name com.qiniu.pili.droid.streaming.demo:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -7562,14 +7562,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.HBuilder.integrate:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.HBuilder.integrate:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.HBuilder.integrate:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.HBuilder.integrate:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.HBuilder.integrate:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.HBuilder.integrate:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.HBuilder.integrate:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.HBuilder.integrate:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.qiniu.pili.droid.streaming.demo:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.qiniu.pili.droid.streaming.demo:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.qiniu.pili.droid.streaming.demo:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.qiniu.pili.droid.streaming.demo:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.qiniu.pili.droid.streaming.demo:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.qiniu.pili.droid.streaming.demo:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.qiniu.pili.droid.streaming.demo:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.qiniu.pili.droid.streaming.demo:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -7585,7 +7585,7 @@ public final class R {
       0x7f020075, 0x7f020091, 0x7f020113, 0x7f020132
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7594,11 +7594,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:arrowHeadLength
+     * @attr name com.qiniu.pili.droid.streaming.demo:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7607,11 +7607,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:arrowShaftLength
+     * @attr name com.qiniu.pili.droid.streaming.demo:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7620,22 +7620,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:barLength
+     * @attr name com.qiniu.pili.droid.streaming.demo:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:color
+     * @attr name com.qiniu.pili.droid.streaming.demo:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7644,11 +7644,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:drawableSize
+     * @attr name com.qiniu.pili.droid.streaming.demo:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7657,21 +7657,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:gapBetweenBars
+     * @attr name com.qiniu.pili.droid.streaming.demo:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:spinBars
+     * @attr name com.qiniu.pili.droid.streaming.demo:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7680,7 +7680,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:thickness
+     * @attr name com.qiniu.pili.droid.streaming.demo:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -7690,12 +7690,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.HBuilder.integrate:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.HBuilder.integrate:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.HBuilder.integrate:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.HBuilder.integrate:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.HBuilder.integrate:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.HBuilder.integrate:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.qiniu.pili.droid.streaming.demo:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.qiniu.pili.droid.streaming.demo:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.qiniu.pili.droid.streaming.demo:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.qiniu.pili.droid.streaming.demo:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.qiniu.pili.droid.streaming.demo:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.qiniu.pili.droid.streaming.demo:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -7709,17 +7709,17 @@ public final class R {
       0x7f02008c, 0x7f02008d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:fontProviderAuthority
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7727,11 +7727,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:fontProviderCerts
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7744,11 +7744,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:fontProviderFetchStrategy
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -7761,27 +7761,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:fontProviderFetchTimeout
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:fontProviderPackage
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:fontProviderQuery
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -7794,9 +7794,9 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.HBuilder.integrate:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.HBuilder.integrate:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.HBuilder.integrate:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.qiniu.pili.droid.streaming.demo:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.qiniu.pili.droid.streaming.demo:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.qiniu.pili.droid.streaming.demo:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -7848,7 +7848,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7856,11 +7856,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:font
+     * @attr name com.qiniu.pili.droid.streaming.demo:font
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7873,16 +7873,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:fontStyle
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:fontWeight
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
@@ -7892,9 +7892,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GIFVIEW_authPlay com.HBuilder.integrate:authPlay}</code></td><td>是否加载完自动播放</td></tr>
-     * <tr><td><code>{@link #GIFVIEW_gifSrc com.HBuilder.integrate:gifSrc}</code></td><td>gif文件引用</td></tr>
-     * <tr><td><code>{@link #GIFVIEW_playCount com.HBuilder.integrate:playCount}</code></td><td>播放次放，默认永远播放</td></tr>
+     * <tr><td><code>{@link #GIFVIEW_authPlay com.qiniu.pili.droid.streaming.demo:authPlay}</code></td><td>是否加载完自动播放</td></tr>
+     * <tr><td><code>{@link #GIFVIEW_gifSrc com.qiniu.pili.droid.streaming.demo:gifSrc}</code></td><td>gif文件引用</td></tr>
+     * <tr><td><code>{@link #GIFVIEW_playCount com.qiniu.pili.droid.streaming.demo:playCount}</code></td><td>播放次放，默认永远播放</td></tr>
      * </table>
      * @see #GIFVIEW_authPlay
      * @see #GIFVIEW_gifSrc
@@ -7911,7 +7911,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:authPlay
+     * @attr name com.qiniu.pili.droid.streaming.demo:authPlay
      */
     public static final int GIFVIEW_authPlay=0;
     /**
@@ -7924,7 +7924,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:gifSrc
+     * @attr name com.qiniu.pili.droid.streaming.demo:gifSrc
      */
     public static final int GIFVIEW_gifSrc=1;
     /**
@@ -7934,7 +7934,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:playCount
+     * @attr name com.qiniu.pili.droid.streaming.demo:playCount
      */
     public static final int GIFVIEW_playCount=2;
     /**
@@ -7944,35 +7944,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.HBuilder.integrate:actualImageScaleType}</code></td><td>Scale type of the actual image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.HBuilder.integrate:backgroundImage}</code></td><td>A drawable or color to be used as a background.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.HBuilder.integrate:fadeDuration}</code></td><td>Fade duration in milliseconds.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.HBuilder.integrate:failureImage}</code></td><td>A drawable to be be used as a failure image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.HBuilder.integrate:failureImageScaleType}</code></td><td>Scale type of the failure image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.HBuilder.integrate:overlayImage}</code></td><td>A drawable or color to be used as an overlay.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.HBuilder.integrate:placeholderImage}</code></td><td>A drawable or color to be be used as a placeholder.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.HBuilder.integrate:placeholderImageScaleType}</code></td><td>Scale type of the placeholder image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.HBuilder.integrate:pressedStateOverlayImage}</code></td><td>A drawable or color to be used as a pressed-state-overlay</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.HBuilder.integrate:progressBarAutoRotateInterval}</code></td><td>Progress bar Auto Rotate interval in milliseconds</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.HBuilder.integrate:progressBarImage}</code></td><td>A drawable to be be used as a progress bar.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.HBuilder.integrate:progressBarImageScaleType}</code></td><td>Scale type of the progress bar.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.HBuilder.integrate:retryImage}</code></td><td>A drawable to be be used as a retry image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.HBuilder.integrate:retryImageScaleType}</code></td><td>Scale type of the retry image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.HBuilder.integrate:roundAsCircle}</code></td><td>Round as circle.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.HBuilder.integrate:roundBottomEnd}</code></td><td>Round the bottom-end edge.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.HBuilder.integrate:roundBottomLeft}</code></td><td>Round the bottom-left corner.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.HBuilder.integrate:roundBottomRight}</code></td><td>Round the bottom-right corner.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.HBuilder.integrate:roundBottomStart}</code></td><td>Round the bottom-start edge.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.HBuilder.integrate:roundTopEnd}</code></td><td>Round the top-end edge.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.HBuilder.integrate:roundTopLeft}</code></td><td>Round the top-left corner.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.HBuilder.integrate:roundTopRight}</code></td><td>Round the top-right corner.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.HBuilder.integrate:roundTopStart}</code></td><td>Round the top-start edge.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.HBuilder.integrate:roundWithOverlayColor}</code></td><td>Round by overlying color.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.HBuilder.integrate:roundedCornerRadius}</code></td><td>Rounded corner radius.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.HBuilder.integrate:roundingBorderColor}</code></td><td>Rounding border color</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.HBuilder.integrate:roundingBorderPadding}</code></td><td>Rounding border padding</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.HBuilder.integrate:roundingBorderWidth}</code></td><td>Rounding border width</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.HBuilder.integrate:viewAspectRatio}</code></td><td>Aspect ratio (width / height) of the view, not necessarily of the images.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.qiniu.pili.droid.streaming.demo:actualImageScaleType}</code></td><td>Scale type of the actual image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.qiniu.pili.droid.streaming.demo:backgroundImage}</code></td><td>A drawable or color to be used as a background.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.qiniu.pili.droid.streaming.demo:fadeDuration}</code></td><td>Fade duration in milliseconds.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.qiniu.pili.droid.streaming.demo:failureImage}</code></td><td>A drawable to be be used as a failure image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.qiniu.pili.droid.streaming.demo:failureImageScaleType}</code></td><td>Scale type of the failure image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.qiniu.pili.droid.streaming.demo:overlayImage}</code></td><td>A drawable or color to be used as an overlay.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.qiniu.pili.droid.streaming.demo:placeholderImage}</code></td><td>A drawable or color to be be used as a placeholder.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.qiniu.pili.droid.streaming.demo:placeholderImageScaleType}</code></td><td>Scale type of the placeholder image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.qiniu.pili.droid.streaming.demo:pressedStateOverlayImage}</code></td><td>A drawable or color to be used as a pressed-state-overlay</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.qiniu.pili.droid.streaming.demo:progressBarAutoRotateInterval}</code></td><td>Progress bar Auto Rotate interval in milliseconds</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.qiniu.pili.droid.streaming.demo:progressBarImage}</code></td><td>A drawable to be be used as a progress bar.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.qiniu.pili.droid.streaming.demo:progressBarImageScaleType}</code></td><td>Scale type of the progress bar.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.qiniu.pili.droid.streaming.demo:retryImage}</code></td><td>A drawable to be be used as a retry image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.qiniu.pili.droid.streaming.demo:retryImageScaleType}</code></td><td>Scale type of the retry image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.qiniu.pili.droid.streaming.demo:roundAsCircle}</code></td><td>Round as circle.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.qiniu.pili.droid.streaming.demo:roundBottomEnd}</code></td><td>Round the bottom-end edge.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.qiniu.pili.droid.streaming.demo:roundBottomLeft}</code></td><td>Round the bottom-left corner.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.qiniu.pili.droid.streaming.demo:roundBottomRight}</code></td><td>Round the bottom-right corner.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.qiniu.pili.droid.streaming.demo:roundBottomStart}</code></td><td>Round the bottom-start edge.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.qiniu.pili.droid.streaming.demo:roundTopEnd}</code></td><td>Round the top-end edge.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.qiniu.pili.droid.streaming.demo:roundTopLeft}</code></td><td>Round the top-left corner.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.qiniu.pili.droid.streaming.demo:roundTopRight}</code></td><td>Round the top-right corner.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.qiniu.pili.droid.streaming.demo:roundTopStart}</code></td><td>Round the top-start edge.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.qiniu.pili.droid.streaming.demo:roundWithOverlayColor}</code></td><td>Round by overlying color.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.qiniu.pili.droid.streaming.demo:roundedCornerRadius}</code></td><td>Rounded corner radius.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.qiniu.pili.droid.streaming.demo:roundingBorderColor}</code></td><td>Rounding border color</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.qiniu.pili.droid.streaming.demo:roundingBorderPadding}</code></td><td>Rounding border padding</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.qiniu.pili.droid.streaming.demo:roundingBorderWidth}</code></td><td>Rounding border width</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.qiniu.pili.droid.streaming.demo:viewAspectRatio}</code></td><td>Aspect ratio (width / height) of the view, not necessarily of the images.</td></tr>
      * </table>
      * @see #GenericDraweeHierarchy_actualImageScaleType
      * @see #GenericDraweeHierarchy_backgroundImage
@@ -8037,7 +8037,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:actualImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:actualImageScaleType
      */
     public static final int GenericDraweeHierarchy_actualImageScaleType=0;
     /**
@@ -8050,7 +8050,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:backgroundImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:backgroundImage
      */
     public static final int GenericDraweeHierarchy_backgroundImage=1;
     /**
@@ -8060,7 +8060,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:fadeDuration
+     * @attr name com.qiniu.pili.droid.streaming.demo:fadeDuration
      */
     public static final int GenericDraweeHierarchy_fadeDuration=2;
     /**
@@ -8073,7 +8073,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:failureImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:failureImage
      */
     public static final int GenericDraweeHierarchy_failureImage=3;
     /**
@@ -8099,7 +8099,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:failureImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:failureImageScaleType
      */
     public static final int GenericDraweeHierarchy_failureImageScaleType=4;
     /**
@@ -8112,7 +8112,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:overlayImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:overlayImage
      */
     public static final int GenericDraweeHierarchy_overlayImage=5;
     /**
@@ -8125,7 +8125,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:placeholderImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:placeholderImage
      */
     public static final int GenericDraweeHierarchy_placeholderImage=6;
     /**
@@ -8151,7 +8151,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:placeholderImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:placeholderImageScaleType
      */
     public static final int GenericDraweeHierarchy_placeholderImageScaleType=7;
     /**
@@ -8164,7 +8164,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:pressedStateOverlayImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:pressedStateOverlayImage
      */
     public static final int GenericDraweeHierarchy_pressedStateOverlayImage=8;
     /**
@@ -8174,7 +8174,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:progressBarAutoRotateInterval
+     * @attr name com.qiniu.pili.droid.streaming.demo:progressBarAutoRotateInterval
      */
     public static final int GenericDraweeHierarchy_progressBarAutoRotateInterval=9;
     /**
@@ -8187,7 +8187,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:progressBarImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:progressBarImage
      */
     public static final int GenericDraweeHierarchy_progressBarImage=10;
     /**
@@ -8213,7 +8213,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:progressBarImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:progressBarImageScaleType
      */
     public static final int GenericDraweeHierarchy_progressBarImageScaleType=11;
     /**
@@ -8226,7 +8226,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:retryImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:retryImage
      */
     public static final int GenericDraweeHierarchy_retryImage=12;
     /**
@@ -8252,7 +8252,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:retryImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:retryImageScaleType
      */
     public static final int GenericDraweeHierarchy_retryImageScaleType=13;
     /**
@@ -8263,7 +8263,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundAsCircle
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundAsCircle
      */
     public static final int GenericDraweeHierarchy_roundAsCircle=14;
     /**
@@ -8274,7 +8274,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundBottomEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundBottomEnd
      */
     public static final int GenericDraweeHierarchy_roundBottomEnd=15;
     /**
@@ -8285,7 +8285,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundBottomLeft
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundBottomLeft
      */
     public static final int GenericDraweeHierarchy_roundBottomLeft=16;
     /**
@@ -8296,7 +8296,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundBottomRight
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundBottomRight
      */
     public static final int GenericDraweeHierarchy_roundBottomRight=17;
     /**
@@ -8307,7 +8307,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundBottomStart
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundBottomStart
      */
     public static final int GenericDraweeHierarchy_roundBottomStart=18;
     /**
@@ -8318,7 +8318,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundTopEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundTopEnd
      */
     public static final int GenericDraweeHierarchy_roundTopEnd=19;
     /**
@@ -8329,7 +8329,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundTopLeft
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundTopLeft
      */
     public static final int GenericDraweeHierarchy_roundTopLeft=20;
     /**
@@ -8340,7 +8340,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundTopRight
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundTopRight
      */
     public static final int GenericDraweeHierarchy_roundTopRight=21;
     /**
@@ -8351,7 +8351,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundTopStart
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundTopStart
      */
     public static final int GenericDraweeHierarchy_roundTopStart=22;
     /**
@@ -8363,7 +8363,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:roundWithOverlayColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundWithOverlayColor
      */
     public static final int GenericDraweeHierarchy_roundWithOverlayColor=23;
     /**
@@ -8377,7 +8377,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:roundedCornerRadius
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundedCornerRadius
      */
     public static final int GenericDraweeHierarchy_roundedCornerRadius=24;
     /**
@@ -8389,7 +8389,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:roundingBorderColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundingBorderColor
      */
     public static final int GenericDraweeHierarchy_roundingBorderColor=25;
     /**
@@ -8403,7 +8403,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:roundingBorderPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundingBorderPadding
      */
     public static final int GenericDraweeHierarchy_roundingBorderPadding=26;
     /**
@@ -8417,7 +8417,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:roundingBorderWidth
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundingBorderWidth
      */
     public static final int GenericDraweeHierarchy_roundingBorderWidth=27;
     /**
@@ -8427,7 +8427,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.HBuilder.integrate:viewAspectRatio
+     * @attr name com.qiniu.pili.droid.streaming.demo:viewAspectRatio
      */
     public static final int GenericDraweeHierarchy_viewAspectRatio=28;
     /**
@@ -8437,8 +8437,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GifTextureView_gifSource com.HBuilder.integrate:gifSource}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GifTextureView_isOpaque com.HBuilder.integrate:isOpaque}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GifTextureView_gifSource com.qiniu.pili.droid.streaming.demo:gifSource}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GifTextureView_isOpaque com.qiniu.pili.droid.streaming.demo:isOpaque}</code></td><td></td></tr>
      * </table>
      * @see #GifTextureView_gifSource
      * @see #GifTextureView_isOpaque
@@ -8447,7 +8447,7 @@ public final class R {
       0x7f020092, 0x7f0200a1
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#gifSource}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#gifSource}
      * attribute's value can be found in the {@link #GifTextureView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8457,17 +8457,17 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:gifSource
+     * @attr name com.qiniu.pili.droid.streaming.demo:gifSource
      */
     public static final int GifTextureView_gifSource=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#isOpaque}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#isOpaque}
      * attribute's value can be found in the {@link #GifTextureView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:isOpaque
+     * @attr name com.qiniu.pili.droid.streaming.demo:isOpaque
      */
     public static final int GifTextureView_isOpaque=1;
     /**
@@ -8477,8 +8477,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GifView_freezesAnimation com.HBuilder.integrate:freezesAnimation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GifView_loopCount com.HBuilder.integrate:loopCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GifView_freezesAnimation com.qiniu.pili.droid.streaming.demo:freezesAnimation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GifView_loopCount com.qiniu.pili.droid.streaming.demo:loopCount}</code></td><td></td></tr>
      * </table>
      * @see #GifView_freezesAnimation
      * @see #GifView_loopCount
@@ -8487,22 +8487,22 @@ public final class R {
       0x7f020090, 0x7f0200b9
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#freezesAnimation}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#freezesAnimation}
      * attribute's value can be found in the {@link #GifView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:freezesAnimation
+     * @attr name com.qiniu.pili.droid.streaming.demo:freezesAnimation
      */
     public static final int GifView_freezesAnimation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#loopCount}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#loopCount}
      * attribute's value can be found in the {@link #GifView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:loopCount
+     * @attr name com.qiniu.pili.droid.streaming.demo:loopCount
      */
     public static final int GifView_loopCount=1;
     /**
@@ -8517,10 +8517,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.HBuilder.integrate:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.HBuilder.integrate:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.HBuilder.integrate:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.HBuilder.integrate:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.qiniu.pili.droid.streaming.demo:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.qiniu.pili.droid.streaming.demo:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.qiniu.pili.droid.streaming.demo:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.qiniu.pili.droid.streaming.demo:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -8612,7 +8612,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8620,11 +8620,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:divider
+     * @attr name com.qiniu.pili.droid.streaming.demo:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8633,21 +8633,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:dividerPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:measureWithLargestChild
+     * @attr name com.qiniu.pili.droid.streaming.demo:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8662,7 +8662,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:showDividers
+     * @attr name com.qiniu.pili.droid.streaming.demo:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -8934,16 +8934,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.HBuilder.integrate:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.HBuilder.integrate:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.HBuilder.integrate:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.HBuilder.integrate:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.HBuilder.integrate:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.HBuilder.integrate:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.HBuilder.integrate:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.HBuilder.integrate:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.HBuilder.integrate:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.HBuilder.integrate:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.qiniu.pili.droid.streaming.demo:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.qiniu.pili.droid.streaming.demo:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.qiniu.pili.droid.streaming.demo:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.qiniu.pili.droid.streaming.demo:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.qiniu.pili.droid.streaming.demo:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.qiniu.pili.droid.streaming.demo:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.qiniu.pili.droid.streaming.demo:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.qiniu.pili.droid.streaming.demo:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.qiniu.pili.droid.streaming.demo:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.qiniu.pili.droid.streaming.demo:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -9120,7 +9120,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9128,31 +9128,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actionLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:actionProviderClass
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:actionViewClass
+     * @attr name com.qiniu.pili.droid.streaming.demo:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9169,32 +9169,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:alphabeticModifiers
+     * @attr name com.qiniu.pili.droid.streaming.demo:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:contentDescription
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:iconTint
+     * @attr name com.qiniu.pili.droid.streaming.demo:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9211,11 +9211,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:iconTintMode
+     * @attr name com.qiniu.pili.droid.streaming.demo:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9232,11 +9232,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:numericModifiers
+     * @attr name com.qiniu.pili.droid.streaming.demo:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9252,17 +9252,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:showAsAction
+     * @attr name com.qiniu.pili.droid.streaming.demo:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:tooltipText
+     * @attr name com.qiniu.pili.droid.streaming.demo:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -9279,8 +9279,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.HBuilder.integrate:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.HBuilder.integrate:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.qiniu.pili.droid.streaming.demo:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.qiniu.pili.droid.streaming.demo:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -9385,17 +9385,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:preserveIconSpacing
+     * @attr name com.qiniu.pili.droid.streaming.demo:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9403,7 +9403,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:subMenuArrow
+     * @attr name com.qiniu.pili.droid.streaming.demo:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -9415,7 +9415,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.HBuilder.integrate:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.qiniu.pili.droid.streaming.demo:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -9452,13 +9452,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:overlapAnchor
+     * @attr name com.qiniu.pili.droid.streaming.demo:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -9468,7 +9468,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.HBuilder.integrate:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.qiniu.pili.droid.streaming.demo:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -9476,13 +9476,13 @@ public final class R {
       0x7f020119
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:state_above_anchor
+     * @attr name com.qiniu.pili.droid.streaming.demo:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -9492,8 +9492,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.HBuilder.integrate:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.HBuilder.integrate:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.qiniu.pili.droid.streaming.demo:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.qiniu.pili.droid.streaming.demo:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -9502,7 +9502,7 @@ public final class R {
       0x7f0200ca, 0x7f0200cd
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9511,11 +9511,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:paddingBottomNoButtons
+     * @attr name com.qiniu.pili.droid.streaming.demo:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9524,7 +9524,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:paddingTopNoTitle
+     * @attr name com.qiniu.pili.droid.streaming.demo:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -9536,15 +9536,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.HBuilder.integrate:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.HBuilder.integrate:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.HBuilder.integrate:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.HBuilder.integrate:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.HBuilder.integrate:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.HBuilder.integrate:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.HBuilder.integrate:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.HBuilder.integrate:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.HBuilder.integrate:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.qiniu.pili.droid.streaming.demo:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.qiniu.pili.droid.streaming.demo:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.qiniu.pili.droid.streaming.demo:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.qiniu.pili.droid.streaming.demo:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.qiniu.pili.droid.streaming.demo:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.qiniu.pili.droid.streaming.demo:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.qiniu.pili.droid.streaming.demo:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.qiniu.pili.droid.streaming.demo:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.qiniu.pili.droid.streaming.demo:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -9599,17 +9599,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:fastScrollEnabled
+     * @attr name com.qiniu.pili.droid.streaming.demo:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9617,11 +9617,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:fastScrollHorizontalThumbDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9629,11 +9629,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:fastScrollHorizontalTrackDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9641,11 +9641,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:fastScrollVerticalThumbDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9653,46 +9653,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:fastScrollVerticalTrackDrawable
+     * @attr name com.qiniu.pili.droid.streaming.demo:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:layoutManager
+     * @attr name com.qiniu.pili.droid.streaming.demo:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:reverseLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:spanCount
+     * @attr name com.qiniu.pili.droid.streaming.demo:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:stackFromEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -9706,19 +9706,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.HBuilder.integrate:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.HBuilder.integrate:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.HBuilder.integrate:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.HBuilder.integrate:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.HBuilder.integrate:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.HBuilder.integrate:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.HBuilder.integrate:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.HBuilder.integrate:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.HBuilder.integrate:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.HBuilder.integrate:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.HBuilder.integrate:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.HBuilder.integrate:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.HBuilder.integrate:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.qiniu.pili.droid.streaming.demo:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.qiniu.pili.droid.streaming.demo:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.qiniu.pili.droid.streaming.demo:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.qiniu.pili.droid.streaming.demo:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.qiniu.pili.droid.streaming.demo:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.qiniu.pili.droid.streaming.demo:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.qiniu.pili.droid.streaming.demo:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.qiniu.pili.droid.streaming.demo:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.qiniu.pili.droid.streaming.demo:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.qiniu.pili.droid.streaming.demo:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.qiniu.pili.droid.streaming.demo:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.qiniu.pili.droid.streaming.demo:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.qiniu.pili.droid.streaming.demo:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -9856,7 +9856,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9864,11 +9864,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:closeIcon
+     * @attr name com.qiniu.pili.droid.streaming.demo:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9876,21 +9876,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:commitIcon
+     * @attr name com.qiniu.pili.droid.streaming.demo:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:defaultQueryHint
+     * @attr name com.qiniu.pili.droid.streaming.demo:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9898,21 +9898,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:goIcon
+     * @attr name com.qiniu.pili.droid.streaming.demo:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:iconifiedByDefault
+     * @attr name com.qiniu.pili.droid.streaming.demo:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9920,11 +9920,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:layout
+     * @attr name com.qiniu.pili.droid.streaming.demo:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9932,21 +9932,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:queryBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:queryHint
+     * @attr name com.qiniu.pili.droid.streaming.demo:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9954,11 +9954,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:searchHintIcon
+     * @attr name com.qiniu.pili.droid.streaming.demo:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9966,11 +9966,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:searchIcon
+     * @attr name com.qiniu.pili.droid.streaming.demo:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9978,11 +9978,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:submitBackground
+     * @attr name com.qiniu.pili.droid.streaming.demo:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9990,11 +9990,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:suggestionRowLayout
+     * @attr name com.qiniu.pili.droid.streaming.demo:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10002,7 +10002,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:voiceIcon
+     * @attr name com.qiniu.pili.droid.streaming.demo:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -10012,37 +10012,37 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.HBuilder.integrate:actualImageResource}</code></td><td>An image reference</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.HBuilder.integrate:actualImageScaleType}</code></td><td>Scale type of the actual image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.HBuilder.integrate:actualImageUri}</code></td><td>An image uri .</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.HBuilder.integrate:backgroundImage}</code></td><td>A drawable or color to be used as a background.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.HBuilder.integrate:fadeDuration}</code></td><td>Fade duration in milliseconds.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.HBuilder.integrate:failureImage}</code></td><td>A drawable to be be used as a failure image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.HBuilder.integrate:failureImageScaleType}</code></td><td>Scale type of the failure image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.HBuilder.integrate:overlayImage}</code></td><td>A drawable or color to be used as an overlay.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.HBuilder.integrate:placeholderImage}</code></td><td>A drawable or color to be be used as a placeholder.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.HBuilder.integrate:placeholderImageScaleType}</code></td><td>Scale type of the placeholder image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.HBuilder.integrate:pressedStateOverlayImage}</code></td><td>A drawable or color to be used as a pressed-state-overlay</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.HBuilder.integrate:progressBarAutoRotateInterval}</code></td><td>Progress bar Auto Rotate interval in milliseconds</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.HBuilder.integrate:progressBarImage}</code></td><td>A drawable to be be used as a progress bar.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.HBuilder.integrate:progressBarImageScaleType}</code></td><td>Scale type of the progress bar.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.HBuilder.integrate:retryImage}</code></td><td>A drawable to be be used as a retry image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.HBuilder.integrate:retryImageScaleType}</code></td><td>Scale type of the retry image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.HBuilder.integrate:roundAsCircle}</code></td><td>Round as circle.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.HBuilder.integrate:roundBottomEnd}</code></td><td>Round the bottom-end edge.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.HBuilder.integrate:roundBottomLeft}</code></td><td>Round the bottom-left corner.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.HBuilder.integrate:roundBottomRight}</code></td><td>Round the bottom-right corner.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.HBuilder.integrate:roundBottomStart}</code></td><td>Round the bottom-start edge.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.HBuilder.integrate:roundTopEnd}</code></td><td>Round the top-end edge.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.HBuilder.integrate:roundTopLeft}</code></td><td>Round the top-left corner.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.HBuilder.integrate:roundTopRight}</code></td><td>Round the top-right corner.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.HBuilder.integrate:roundTopStart}</code></td><td>Round the top-start edge.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.HBuilder.integrate:roundWithOverlayColor}</code></td><td>Round by overlying color.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.HBuilder.integrate:roundedCornerRadius}</code></td><td>Rounded corner radius.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.HBuilder.integrate:roundingBorderColor}</code></td><td>Rounding border color</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.HBuilder.integrate:roundingBorderPadding}</code></td><td>Rounding border padding</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.HBuilder.integrate:roundingBorderWidth}</code></td><td>Rounding border width</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.HBuilder.integrate:viewAspectRatio}</code></td><td>Aspect ratio (width / height) of the view, not necessarily of the images.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.qiniu.pili.droid.streaming.demo:actualImageResource}</code></td><td>An image reference</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.qiniu.pili.droid.streaming.demo:actualImageScaleType}</code></td><td>Scale type of the actual image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.qiniu.pili.droid.streaming.demo:actualImageUri}</code></td><td>An image uri .</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.qiniu.pili.droid.streaming.demo:backgroundImage}</code></td><td>A drawable or color to be used as a background.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.qiniu.pili.droid.streaming.demo:fadeDuration}</code></td><td>Fade duration in milliseconds.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.qiniu.pili.droid.streaming.demo:failureImage}</code></td><td>A drawable to be be used as a failure image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.qiniu.pili.droid.streaming.demo:failureImageScaleType}</code></td><td>Scale type of the failure image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.qiniu.pili.droid.streaming.demo:overlayImage}</code></td><td>A drawable or color to be used as an overlay.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.qiniu.pili.droid.streaming.demo:placeholderImage}</code></td><td>A drawable or color to be be used as a placeholder.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.qiniu.pili.droid.streaming.demo:placeholderImageScaleType}</code></td><td>Scale type of the placeholder image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.qiniu.pili.droid.streaming.demo:pressedStateOverlayImage}</code></td><td>A drawable or color to be used as a pressed-state-overlay</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.qiniu.pili.droid.streaming.demo:progressBarAutoRotateInterval}</code></td><td>Progress bar Auto Rotate interval in milliseconds</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.qiniu.pili.droid.streaming.demo:progressBarImage}</code></td><td>A drawable to be be used as a progress bar.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.qiniu.pili.droid.streaming.demo:progressBarImageScaleType}</code></td><td>Scale type of the progress bar.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.qiniu.pili.droid.streaming.demo:retryImage}</code></td><td>A drawable to be be used as a retry image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.qiniu.pili.droid.streaming.demo:retryImageScaleType}</code></td><td>Scale type of the retry image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.qiniu.pili.droid.streaming.demo:roundAsCircle}</code></td><td>Round as circle.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.qiniu.pili.droid.streaming.demo:roundBottomEnd}</code></td><td>Round the bottom-end edge.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.qiniu.pili.droid.streaming.demo:roundBottomLeft}</code></td><td>Round the bottom-left corner.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.qiniu.pili.droid.streaming.demo:roundBottomRight}</code></td><td>Round the bottom-right corner.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.qiniu.pili.droid.streaming.demo:roundBottomStart}</code></td><td>Round the bottom-start edge.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.qiniu.pili.droid.streaming.demo:roundTopEnd}</code></td><td>Round the top-end edge.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.qiniu.pili.droid.streaming.demo:roundTopLeft}</code></td><td>Round the top-left corner.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.qiniu.pili.droid.streaming.demo:roundTopRight}</code></td><td>Round the top-right corner.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.qiniu.pili.droid.streaming.demo:roundTopStart}</code></td><td>Round the top-start edge.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.qiniu.pili.droid.streaming.demo:roundWithOverlayColor}</code></td><td>Round by overlying color.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.qiniu.pili.droid.streaming.demo:roundedCornerRadius}</code></td><td>Rounded corner radius.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.qiniu.pili.droid.streaming.demo:roundingBorderColor}</code></td><td>Rounding border color</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.qiniu.pili.droid.streaming.demo:roundingBorderPadding}</code></td><td>Rounding border padding</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.qiniu.pili.droid.streaming.demo:roundingBorderWidth}</code></td><td>Rounding border width</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.qiniu.pili.droid.streaming.demo:viewAspectRatio}</code></td><td>Aspect ratio (width / height) of the view, not necessarily of the images.</td></tr>
      * </table>
      * @see #SimpleDraweeView_actualImageResource
      * @see #SimpleDraweeView_actualImageScaleType
@@ -10096,7 +10096,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:actualImageResource
+     * @attr name com.qiniu.pili.droid.streaming.demo:actualImageResource
      */
     public static final int SimpleDraweeView_actualImageResource=0;
     /**
@@ -10122,7 +10122,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:actualImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:actualImageScaleType
      */
     public static final int SimpleDraweeView_actualImageScaleType=1;
     /**
@@ -10133,7 +10133,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:actualImageUri
+     * @attr name com.qiniu.pili.droid.streaming.demo:actualImageUri
      */
     public static final int SimpleDraweeView_actualImageUri=2;
     /**
@@ -10146,7 +10146,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:backgroundImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:backgroundImage
      */
     public static final int SimpleDraweeView_backgroundImage=3;
     /**
@@ -10156,7 +10156,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:fadeDuration
+     * @attr name com.qiniu.pili.droid.streaming.demo:fadeDuration
      */
     public static final int SimpleDraweeView_fadeDuration=4;
     /**
@@ -10169,7 +10169,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:failureImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:failureImage
      */
     public static final int SimpleDraweeView_failureImage=5;
     /**
@@ -10195,7 +10195,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:failureImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:failureImageScaleType
      */
     public static final int SimpleDraweeView_failureImageScaleType=6;
     /**
@@ -10208,7 +10208,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:overlayImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:overlayImage
      */
     public static final int SimpleDraweeView_overlayImage=7;
     /**
@@ -10221,7 +10221,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:placeholderImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:placeholderImage
      */
     public static final int SimpleDraweeView_placeholderImage=8;
     /**
@@ -10247,7 +10247,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:placeholderImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:placeholderImageScaleType
      */
     public static final int SimpleDraweeView_placeholderImageScaleType=9;
     /**
@@ -10260,7 +10260,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:pressedStateOverlayImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:pressedStateOverlayImage
      */
     public static final int SimpleDraweeView_pressedStateOverlayImage=10;
     /**
@@ -10270,7 +10270,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:progressBarAutoRotateInterval
+     * @attr name com.qiniu.pili.droid.streaming.demo:progressBarAutoRotateInterval
      */
     public static final int SimpleDraweeView_progressBarAutoRotateInterval=11;
     /**
@@ -10283,7 +10283,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:progressBarImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:progressBarImage
      */
     public static final int SimpleDraweeView_progressBarImage=12;
     /**
@@ -10309,7 +10309,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:progressBarImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:progressBarImageScaleType
      */
     public static final int SimpleDraweeView_progressBarImageScaleType=13;
     /**
@@ -10322,7 +10322,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:retryImage
+     * @attr name com.qiniu.pili.droid.streaming.demo:retryImage
      */
     public static final int SimpleDraweeView_retryImage=14;
     /**
@@ -10348,7 +10348,7 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:retryImageScaleType
+     * @attr name com.qiniu.pili.droid.streaming.demo:retryImageScaleType
      */
     public static final int SimpleDraweeView_retryImageScaleType=15;
     /**
@@ -10359,7 +10359,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundAsCircle
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundAsCircle
      */
     public static final int SimpleDraweeView_roundAsCircle=16;
     /**
@@ -10370,7 +10370,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundBottomEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundBottomEnd
      */
     public static final int SimpleDraweeView_roundBottomEnd=17;
     /**
@@ -10381,7 +10381,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundBottomLeft
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundBottomLeft
      */
     public static final int SimpleDraweeView_roundBottomLeft=18;
     /**
@@ -10392,7 +10392,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundBottomRight
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundBottomRight
      */
     public static final int SimpleDraweeView_roundBottomRight=19;
     /**
@@ -10403,7 +10403,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundBottomStart
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundBottomStart
      */
     public static final int SimpleDraweeView_roundBottomStart=20;
     /**
@@ -10414,7 +10414,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundTopEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundTopEnd
      */
     public static final int SimpleDraweeView_roundTopEnd=21;
     /**
@@ -10425,7 +10425,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundTopLeft
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundTopLeft
      */
     public static final int SimpleDraweeView_roundTopLeft=22;
     /**
@@ -10436,7 +10436,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundTopRight
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundTopRight
      */
     public static final int SimpleDraweeView_roundTopRight=23;
     /**
@@ -10447,7 +10447,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:roundTopStart
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundTopStart
      */
     public static final int SimpleDraweeView_roundTopStart=24;
     /**
@@ -10459,7 +10459,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:roundWithOverlayColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundWithOverlayColor
      */
     public static final int SimpleDraweeView_roundWithOverlayColor=25;
     /**
@@ -10473,7 +10473,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:roundedCornerRadius
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundedCornerRadius
      */
     public static final int SimpleDraweeView_roundedCornerRadius=26;
     /**
@@ -10485,7 +10485,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:roundingBorderColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundingBorderColor
      */
     public static final int SimpleDraweeView_roundingBorderColor=27;
     /**
@@ -10499,7 +10499,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:roundingBorderPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundingBorderPadding
      */
     public static final int SimpleDraweeView_roundingBorderPadding=28;
     /**
@@ -10513,7 +10513,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:roundingBorderWidth
+     * @attr name com.qiniu.pili.droid.streaming.demo:roundingBorderWidth
      */
     public static final int SimpleDraweeView_roundingBorderWidth=29;
     /**
@@ -10523,7 +10523,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.HBuilder.integrate:viewAspectRatio
+     * @attr name com.qiniu.pili.droid.streaming.demo:viewAspectRatio
      */
     public static final int SimpleDraweeView_viewAspectRatio=30;
     /**
@@ -10537,7 +10537,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.HBuilder.integrate:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.qiniu.pili.droid.streaming.demo:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -10612,7 +10612,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10620,7 +10620,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:popupTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -10630,24 +10630,24 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_background com.HBuilder.integrate:sb_background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_border_width com.HBuilder.integrate:sb_border_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_button_color com.HBuilder.integrate:sb_button_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_checked com.HBuilder.integrate:sb_checked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_checked_color com.HBuilder.integrate:sb_checked_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_checkline_color com.HBuilder.integrate:sb_checkline_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_checkline_width com.HBuilder.integrate:sb_checkline_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_effect_duration com.HBuilder.integrate:sb_effect_duration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_enable_effect com.HBuilder.integrate:sb_enable_effect}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_shadow_color com.HBuilder.integrate:sb_shadow_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_shadow_effect com.HBuilder.integrate:sb_shadow_effect}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_shadow_offset com.HBuilder.integrate:sb_shadow_offset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_shadow_radius com.HBuilder.integrate:sb_shadow_radius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_show_indicator com.HBuilder.integrate:sb_show_indicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_uncheck_color com.HBuilder.integrate:sb_uncheck_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_uncheckcircle_color com.HBuilder.integrate:sb_uncheckcircle_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_uncheckcircle_radius com.HBuilder.integrate:sb_uncheckcircle_radius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchButton_sb_uncheckcircle_width com.HBuilder.integrate:sb_uncheckcircle_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_background com.qiniu.pili.droid.streaming.demo:sb_background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_border_width com.qiniu.pili.droid.streaming.demo:sb_border_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_button_color com.qiniu.pili.droid.streaming.demo:sb_button_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_checked com.qiniu.pili.droid.streaming.demo:sb_checked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_checked_color com.qiniu.pili.droid.streaming.demo:sb_checked_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_checkline_color com.qiniu.pili.droid.streaming.demo:sb_checkline_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_checkline_width com.qiniu.pili.droid.streaming.demo:sb_checkline_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_effect_duration com.qiniu.pili.droid.streaming.demo:sb_effect_duration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_enable_effect com.qiniu.pili.droid.streaming.demo:sb_enable_effect}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_shadow_color com.qiniu.pili.droid.streaming.demo:sb_shadow_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_shadow_effect com.qiniu.pili.droid.streaming.demo:sb_shadow_effect}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_shadow_offset com.qiniu.pili.droid.streaming.demo:sb_shadow_offset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_shadow_radius com.qiniu.pili.droid.streaming.demo:sb_shadow_radius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_show_indicator com.qiniu.pili.droid.streaming.demo:sb_show_indicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_uncheck_color com.qiniu.pili.droid.streaming.demo:sb_uncheck_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_uncheckcircle_color com.qiniu.pili.droid.streaming.demo:sb_uncheckcircle_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_uncheckcircle_radius com.qiniu.pili.droid.streaming.demo:sb_uncheckcircle_radius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchButton_sb_uncheckcircle_width com.qiniu.pili.droid.streaming.demo:sb_uncheckcircle_width}</code></td><td></td></tr>
      * </table>
      * @see #SwitchButton_sb_background
      * @see #SwitchButton_sb_border_width
@@ -10676,7 +10676,7 @@ public final class R {
       0x7f020105, 0x7f020106
     };
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_background}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_background}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10687,11 +10687,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:sb_background
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_background
      */
     public static final int SwitchButton_sb_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_border_width}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_border_width}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10704,11 +10704,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:sb_border_width
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_border_width
      */
     public static final int SwitchButton_sb_border_width=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_button_color}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_button_color}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10719,11 +10719,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:sb_button_color
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_button_color
      */
     public static final int SwitchButton_sb_button_color=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_checked}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_checked}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10733,11 +10733,11 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:sb_checked
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_checked
      */
     public static final int SwitchButton_sb_checked=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_checked_color}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_checked_color}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10748,11 +10748,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:sb_checked_color
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_checked_color
      */
     public static final int SwitchButton_sb_checked_color=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_checkline_color}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_checkline_color}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10763,11 +10763,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:sb_checkline_color
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_checkline_color
      */
     public static final int SwitchButton_sb_checkline_color=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_checkline_width}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_checkline_width}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10780,11 +10780,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:sb_checkline_width
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_checkline_width
      */
     public static final int SwitchButton_sb_checkline_width=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_effect_duration}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_effect_duration}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10793,11 +10793,11 @@ public final class R {
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.HBuilder.integrate:sb_effect_duration
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_effect_duration
      */
     public static final int SwitchButton_sb_effect_duration=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_enable_effect}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_enable_effect}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10807,11 +10807,11 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:sb_enable_effect
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_enable_effect
      */
     public static final int SwitchButton_sb_enable_effect=8;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_shadow_color}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_shadow_color}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10822,11 +10822,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:sb_shadow_color
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_shadow_color
      */
     public static final int SwitchButton_sb_shadow_color=9;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_shadow_effect}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_shadow_effect}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10836,11 +10836,11 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:sb_shadow_effect
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_shadow_effect
      */
     public static final int SwitchButton_sb_shadow_effect=10;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_shadow_offset}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_shadow_offset}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10853,11 +10853,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:sb_shadow_offset
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_shadow_offset
      */
     public static final int SwitchButton_sb_shadow_offset=11;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_shadow_radius}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_shadow_radius}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10870,11 +10870,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:sb_shadow_radius
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_shadow_radius
      */
     public static final int SwitchButton_sb_shadow_radius=12;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_show_indicator}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_show_indicator}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10884,11 +10884,11 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:sb_show_indicator
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_show_indicator
      */
     public static final int SwitchButton_sb_show_indicator=13;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_uncheck_color}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_uncheck_color}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10899,11 +10899,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:sb_uncheck_color
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_uncheck_color
      */
     public static final int SwitchButton_sb_uncheck_color=14;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_uncheckcircle_color}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_uncheckcircle_color}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10914,11 +10914,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:sb_uncheckcircle_color
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_uncheckcircle_color
      */
     public static final int SwitchButton_sb_uncheckcircle_color=15;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_uncheckcircle_radius}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_uncheckcircle_radius}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10931,11 +10931,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:sb_uncheckcircle_radius
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_uncheckcircle_radius
      */
     public static final int SwitchButton_sb_uncheckcircle_radius=16;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#sb_uncheckcircle_width}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#sb_uncheckcircle_width}
      * attribute's value can be found in the {@link #SwitchButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10948,7 +10948,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:sb_uncheckcircle_width
+     * @attr name com.qiniu.pili.droid.streaming.demo:sb_uncheckcircle_width
      */
     public static final int SwitchButton_sb_uncheckcircle_width=17;
     /**
@@ -10961,17 +10961,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.HBuilder.integrate:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.HBuilder.integrate:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.HBuilder.integrate:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.HBuilder.integrate:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.HBuilder.integrate:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.HBuilder.integrate:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.HBuilder.integrate:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.HBuilder.integrate:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.HBuilder.integrate:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.HBuilder.integrate:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.HBuilder.integrate:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.qiniu.pili.droid.streaming.demo:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.qiniu.pili.droid.streaming.demo:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.qiniu.pili.droid.streaming.demo:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.qiniu.pili.droid.streaming.demo:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.qiniu.pili.droid.streaming.demo:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.qiniu.pili.droid.streaming.demo:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.qiniu.pili.droid.streaming.demo:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.qiniu.pili.droid.streaming.demo:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.qiniu.pili.droid.streaming.demo:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.qiniu.pili.droid.streaming.demo:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.qiniu.pili.droid.streaming.demo:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -11027,27 +11027,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:showText
+     * @attr name com.qiniu.pili.droid.streaming.demo:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:splitTrack
+     * @attr name com.qiniu.pili.droid.streaming.demo:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11056,11 +11056,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:switchMinWidth
+     * @attr name com.qiniu.pili.droid.streaming.demo:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11069,11 +11069,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:switchPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11081,11 +11081,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:switchTextAppearance
+     * @attr name com.qiniu.pili.droid.streaming.demo:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11094,22 +11094,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:thumbTextPadding
+     * @attr name com.qiniu.pili.droid.streaming.demo:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:thumbTint
+     * @attr name com.qiniu.pili.droid.streaming.demo:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11126,11 +11126,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:thumbTintMode
+     * @attr name com.qiniu.pili.droid.streaming.demo:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11138,22 +11138,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:track
+     * @attr name com.qiniu.pili.droid.streaming.demo:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:trackTint
+     * @attr name com.qiniu.pili.droid.streaming.demo:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11170,7 +11170,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:trackTintMode
+     * @attr name com.qiniu.pili.droid.streaming.demo:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -11191,8 +11191,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.HBuilder.integrate:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.HBuilder.integrate:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.qiniu.pili.droid.streaming.demo:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.qiniu.pili.droid.streaming.demo:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -11358,17 +11358,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:fontFamily
+     * @attr name com.qiniu.pili.droid.streaming.demo:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11378,7 +11378,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.HBuilder.integrate:textAllCaps
+     * @attr name com.qiniu.pili.droid.streaming.demo:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -11390,33 +11390,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.HBuilder.integrate:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.HBuilder.integrate:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.HBuilder.integrate:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.HBuilder.integrate:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.HBuilder.integrate:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.HBuilder.integrate:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.HBuilder.integrate:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.HBuilder.integrate:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.HBuilder.integrate:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.HBuilder.integrate:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.HBuilder.integrate:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.HBuilder.integrate:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.HBuilder.integrate:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.HBuilder.integrate:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.HBuilder.integrate:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.HBuilder.integrate:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.HBuilder.integrate:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.HBuilder.integrate:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.HBuilder.integrate:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.HBuilder.integrate:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.HBuilder.integrate:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.HBuilder.integrate:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.HBuilder.integrate:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.HBuilder.integrate:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.HBuilder.integrate:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.HBuilder.integrate:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.HBuilder.integrate:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.qiniu.pili.droid.streaming.demo:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.qiniu.pili.droid.streaming.demo:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.qiniu.pili.droid.streaming.demo:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.qiniu.pili.droid.streaming.demo:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.qiniu.pili.droid.streaming.demo:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.qiniu.pili.droid.streaming.demo:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.qiniu.pili.droid.streaming.demo:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.qiniu.pili.droid.streaming.demo:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.qiniu.pili.droid.streaming.demo:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.qiniu.pili.droid.streaming.demo:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.qiniu.pili.droid.streaming.demo:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.qiniu.pili.droid.streaming.demo:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.qiniu.pili.droid.streaming.demo:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.qiniu.pili.droid.streaming.demo:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.qiniu.pili.droid.streaming.demo:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.qiniu.pili.droid.streaming.demo:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.qiniu.pili.droid.streaming.demo:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.qiniu.pili.droid.streaming.demo:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.qiniu.pili.droid.streaming.demo:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.qiniu.pili.droid.streaming.demo:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.qiniu.pili.droid.streaming.demo:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.qiniu.pili.droid.streaming.demo:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.qiniu.pili.droid.streaming.demo:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.qiniu.pili.droid.streaming.demo:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.qiniu.pili.droid.streaming.demo:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.qiniu.pili.droid.streaming.demo:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.qiniu.pili.droid.streaming.demo:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -11501,7 +11501,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11514,21 +11514,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:buttonGravity
+     * @attr name com.qiniu.pili.droid.streaming.demo:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:collapseContentDescription
+     * @attr name com.qiniu.pili.droid.streaming.demo:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11536,11 +11536,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:collapseIcon
+     * @attr name com.qiniu.pili.droid.streaming.demo:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11549,11 +11549,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11562,11 +11562,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetEndWithActions
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11575,11 +11575,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetLeft
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11588,11 +11588,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetRight
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11601,11 +11601,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetStart
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11614,11 +11614,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:contentInsetStartWithNavigation
+     * @attr name com.qiniu.pili.droid.streaming.demo:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11626,21 +11626,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:logo
+     * @attr name com.qiniu.pili.droid.streaming.demo:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:logoDescription
+     * @attr name com.qiniu.pili.droid.streaming.demo:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11649,21 +11649,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:maxButtonHeight
+     * @attr name com.qiniu.pili.droid.streaming.demo:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:navigationContentDescription
+     * @attr name com.qiniu.pili.droid.streaming.demo:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11671,11 +11671,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:navigationIcon
+     * @attr name com.qiniu.pili.droid.streaming.demo:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11683,21 +11683,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:popupTheme
+     * @attr name com.qiniu.pili.droid.streaming.demo:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:subtitle
+     * @attr name com.qiniu.pili.droid.streaming.demo:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11705,32 +11705,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:subtitleTextAppearance
+     * @attr name com.qiniu.pili.droid.streaming.demo:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:subtitleTextColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.HBuilder.integrate:title
+     * @attr name com.qiniu.pili.droid.streaming.demo:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11739,11 +11739,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:titleMargin
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11752,11 +11752,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:titleMarginBottom
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11765,11 +11765,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:titleMarginEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11778,11 +11778,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:titleMarginStart
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11791,11 +11791,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:titleMarginTop
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11804,11 +11804,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:titleMargins
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11816,18 +11816,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:titleTextAppearance
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:titleTextColor
+     * @attr name com.qiniu.pili.droid.streaming.demo:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -11839,9 +11839,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.HBuilder.integrate:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.HBuilder.integrate:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.HBuilder.integrate:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.qiniu.pili.droid.streaming.demo:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.qiniu.pili.droid.streaming.demo:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.qiniu.pili.droid.streaming.demo:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -11884,7 +11884,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11893,11 +11893,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:paddingEnd
+     * @attr name com.qiniu.pili.droid.streaming.demo:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11906,11 +11906,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.HBuilder.integrate:paddingStart
+     * @attr name com.qiniu.pili.droid.streaming.demo:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11918,7 +11918,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.HBuilder.integrate:theme
+     * @attr name com.qiniu.pili.droid.streaming.demo:theme
      */
     public static final int View_theme=4;
     /**
@@ -11929,8 +11929,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.HBuilder.integrate:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.HBuilder.integrate:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.qiniu.pili.droid.streaming.demo:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.qiniu.pili.droid.streaming.demo:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -11955,18 +11955,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.HBuilder.integrate:backgroundTint
+     * @attr name com.qiniu.pili.droid.streaming.demo:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.HBuilder.integrate.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.qiniu.pili.droid.streaming.demo.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11983,7 +11983,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.HBuilder.integrate:backgroundTintMode
+     * @attr name com.qiniu.pili.droid.streaming.demo:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
