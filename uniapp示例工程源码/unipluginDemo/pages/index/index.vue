@@ -38,6 +38,12 @@
 					name:'插件示例RichAlert',
 					open:false,
 					url:'/pages/sample/richAlert'
+				},
+				{
+					id:'qiniu',
+					name:'七牛推流',
+					open:false,
+					url:'/pages/sample/qiniu'
 				}],
 				navigateFlag: false
 			}

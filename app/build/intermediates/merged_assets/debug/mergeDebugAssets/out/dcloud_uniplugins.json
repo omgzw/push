@@ -27,6 +27,16 @@
           "class": "uni.dcloud.io.uniplugin_richalert.RichAlertWXModule"
         }
       ]
+    },
+    {
+      "hooksClass": "com.mrtan.qiniu_push.QiniuAppProxy",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "QiniuModule",
+          "class": "com.mrtan.qiniu_push.QiniuModule"
+        }
+      ]
     }
   ]
 }

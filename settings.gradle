@@ -1,3 +1,4 @@
+include ':qiniu_push'
 include ':app'
 include ':uniplugin_module'
 include ':uniplugin_component'

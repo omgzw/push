@@ -13,6 +13,12 @@
 			}
 		},
 		{
+			"path": "pages/sample/qiniu",
+			"style": {
+				"navigationBarTitleText": "七牛推流"
+			}
+		},
+		{
 			"path": "pages/sample/ext-component",
 			"style": {
 				"navigationBarTitleText": "扩展 component"

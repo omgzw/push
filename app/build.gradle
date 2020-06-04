@@ -55,4 +55,5 @@ dependencies {
     implementation project(':uniplugin_component')
     implementation project(':uniplugin_module')
     implementation project(':uniplugin_richalert')
+    implementation project(':qiniu_push')
 }

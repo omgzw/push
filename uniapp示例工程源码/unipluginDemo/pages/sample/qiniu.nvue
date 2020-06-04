@@ -1,0 +1,80 @@
+<template>
+	<div>
+		<button type="primary" @click="testAsyncFunc">testAsyncFunc</button>
+		<button type="primary" @click="testSyncFunc">testSyncFunc</button>
+		<button type="primary" @click="onClickInit">初始化</button>
+		<button type="primary" @click="onClickPush">推流</button>
+		<button type="primary" @click="onClickStop">停止</button>
+	</div>
+</template>
+
+<script>
+	// 获取 module 
+	var testModule = uni.requireNativePlugin("QiniuModule")
+	const modal = uni.requireNativePlugin('modal');
+	export default {
+		onLoad() {
+			plus.globalEvent.addEventListener('TestEvent', function(e) {
+				modal.toast({
+					message: "TestEvent收到：" + e.msg,
+					duration: 1.5
+				});
+			});
+		},
+		methods: {
+			testAsyncFunc() {
+				// 调用异步方法
+				testModule.testAsyncFunc({
+						'name': 'unimp',
+						'age': 1
+					},
+					(ret) => {
+						modal.toast({
+							message: ret,
+							duration: 1.5
+						});
+					})
+			},
+			testSyncFunc() {
+				// 调用同步方法
+				var ret = testModule.testSyncFunc({
+					'name': 'unimp',
+					'age': 1
+				})
+				modal.toast({
+					message: ret,
+					duration: 1.5
+				});
+			},
+			gotoNativePage() {
+				testModule.gotoNativePage();
+			},
+			onClickInit() {
+				testModule.setStreamingStateChangedListener((ret) => {
+					modal.toast({
+						message: ret,
+						duration: 1.5
+					});
+				});
+				testModule.setShutterStateCallback((ret) => {
+					modal.toast({
+						message: ret,
+						duration: 1.5
+					});
+				});
+				//开始直播
+				testModule.init({
+					"url": 'rtmp://push.dwusoft.com/1facdc5d068441d0bc572a3416b33790/1facdc5d068441d0bc572a3416b33790?auth_key=1591128777-0-0-a3f93e34cbdedc0117c95835643490f4&itemId=1facdc5d068441d0bc572a3416b33790'
+				});
+			},
+			onClickPush() {
+				//推流
+				testModule.startStream()
+			},
+			onClickStop() {
+				//停止推流
+				testModule.stopStream()
+			}
+		}
+	}
+</script>

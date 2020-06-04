@@ -18,6 +18,7 @@ MERGED from [com.facebook.fresco:fresco:1.13.0] C:\Users\Mrtan\.gradle\caches\tr
 MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\animated-gif-1.13.0.aar\9deff9a8f562a0d7577a6b776b3c1c99\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\aa0bdd2fcc98d615f2dd4de6c8aee3e3\AndroidManifest.xml:2:1-12:12
 MERGED from [:uniplugin_richalert] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\uniplugin_richalert\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-35:12
 MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\5d7c1284db67a56b612e6cebda58b94e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\12c83b4e380ace0d43027aeecb342f72\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2f54de1102cf16376594f5ff719269cf\AndroidManifest.xml:17:1-22:12
@@ -72,12 +73,16 @@ MERGED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transform
 		ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:6:9-34
 uses-permission#android.permission.CAMERA
 ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:13:5-65
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-65
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-65
 	android:name
 		ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:13:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:14:5-81
 MERGED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\ae26ab60eafa9afbfa1a74331ceaba8f\AndroidManifest.xml:16:5-81
 MERGED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\ae26ab60eafa9afbfa1a74331ceaba8f\AndroidManifest.xml:16:5-81
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-81
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-81
 	android:name
 		ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:14:22-78
 uses-feature#android.hardware.camera
@@ -86,6 +91,8 @@ ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hel
 		ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:16:19-57
 uses-feature#android.hardware.camera.autofocus
 ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:17:5-70
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:5-70
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:5-70
 	android:name
 		ADDED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:17:19-67
 uses-permission#android.permission.VIBRATE
@@ -106,6 +113,8 @@ MERGED from [:uniplugin_module] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_2
 MERGED from [:uniplugin_module] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\uniplugin_module\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\aa0bdd2fcc98d615f2dd4de6c8aee3e3\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\aa0bdd2fcc98d615f2dd4de6c8aee3e3\AndroidManifest.xml:10:5-20
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:29:5-33:19
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:29:5-33:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\3a4195391e5b5b4a2fa6ed157f2edc75\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\3a4195391e5b5b4a2fa6ed157f2edc75\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\1046609c205e92199a3d2e66000f7d4b\AndroidManifest.xml:11:5-20
@@ -232,6 +241,8 @@ MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Mrtan\.gradle\cache
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\aa0bdd2fcc98d615f2dd4de6c8aee3e3\AndroidManifest.xml:6:5-8:41
 MERGED from [:uniplugin_richalert] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\uniplugin_richalert\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
 MERGED from [:uniplugin_richalert] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\uniplugin_richalert\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\5d7c1284db67a56b612e6cebda58b94e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\5d7c1284db67a56b612e6cebda58b94e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\12c83b4e380ace0d43027aeecb342f72\AndroidManifest.xml:20:5-44
@@ -288,12 +299,16 @@ uses-permission#android.permission.INTERNET
 ADDED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\ae26ab60eafa9afbfa1a74331ceaba8f\AndroidManifest.xml:17:5-67
 MERGED from [miit_mdid_1.0.10.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\e6896d9e1050487201ca0ee0769546f5\AndroidManifest.xml:6:5-67
 MERGED from [miit_mdid_1.0.10.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\e6896d9e1050487201ca0ee0769546f5\AndroidManifest.xml:6:5-67
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-67
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\ae26ab60eafa9afbfa1a74331ceaba8f\AndroidManifest.xml:17:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\ae26ab60eafa9afbfa1a74331ceaba8f\AndroidManifest.xml:18:5-79
 MERGED from [miit_mdid_1.0.10.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\e6896d9e1050487201ca0ee0769546f5\AndroidManifest.xml:4:5-79
 MERGED from [miit_mdid_1.0.10.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\e6896d9e1050487201ca0ee0769546f5\AndroidManifest.xml:4:5-79
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:5-79
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:5-79
 	android:name
 		ADDED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\ae26ab60eafa9afbfa1a74331ceaba8f\AndroidManifest.xml:18:22-76
 uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
@@ -480,8 +495,12 @@ ADDED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transforms
 		ADDED from [lib.5plus.base-release.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\ae26ab60eafa9afbfa1a74331ceaba8f\AndroidManifest.xml:285:13-46
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-87:12 reason: io.dcloud.base requested WRITE_EXTERNAL_STORAGE
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-80
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-80
 uses-permission#android.permission.READ_PHONE_STATE
 ADDED from [miit_mdid_1.0.10.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\e6896d9e1050487201ca0ee0769546f5\AndroidManifest.xml:5:5-75
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:20:5-75
+MERGED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:20:5-75
 	android:name
 		ADDED from [miit_mdid_1.0.10.aar] C:\Users\Mrtan\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\e6896d9e1050487201ca0ee0769546f5\AndroidManifest.xml:5:22-72
 uses-permission#com.asus.msa.SupplementaryDID.ACCESS
@@ -502,3 +521,39 @@ ADDED from [:uniplugin_module] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20
 		ADDED from [:uniplugin_module] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\uniplugin_module\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:13-81
 	android:name
 		ADDED from [:uniplugin_module] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\uniplugin_module\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-66
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:22-77
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:5-77
+	android:name
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:22-74
+uses-feature#0x00020000
+ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:5-27:35
+	android:glEsVersion
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:9-41
+	android:required
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:27:9-32
+activity#com.qiniu.pili.droid.streaming.screen.ScreenCaptureRequestActivity
+ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:30:9-32:75
+	android:theme
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [:qiniu_push] C:\Users\Mrtan\Desktop\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\qiniu_push\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:31:13-94
