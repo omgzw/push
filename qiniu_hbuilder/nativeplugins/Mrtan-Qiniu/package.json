@@ -1,0 +1,33 @@
+{
+	"name": "七牛云推流插件",
+	"id": "Mrtan-Qiniu",
+	"version": "1.0.6",
+	"description": "七牛云推流插件",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"hooksClass": "com.mrtan.qiniu_push.QiniuAppProxy",
+			"plugins": [{
+					"type": "module",
+					"name": "Mrtan-Qiniu",
+					"class": "com.mrtan.qiniu_push.QiniuModule"
+				},
+				{
+					"type": "module",
+					"name": "Mrtan-Permission",
+					"class": "com.mrtan.qiniu_push.Tool"
+				}
+			],
+			"integrateType": "aar",
+			"dependencies": [
+				"com.qiniu:happy-dns:0.2.8",
+				"com.hjq:xxpermissions:6.2"
+			],
+			"abis": [
+				"armeabi-v7a"
+			],
+			"minSdkVersion": "19"
+		}
+
+	}
+}

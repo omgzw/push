@@ -31,13 +31,13 @@ repositories {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
+    compileOnly fileTree(dir: '../app/libs', include: ['pldroid-media-streaming-3.0.0.jar'])
     compileOnly 'com.android.support:recyclerview-v7:27.1.0'
     compileOnly 'com.android.support:support-v4:27.1.0'
     compileOnly 'com.android.support:appcompat-v7:27.1.0'
     compileOnly 'com.alibaba:fastjson:1.1.46.android'
     implementation 'com.qiniu:happy-dns:0.2.8'
+    implementation 'com.hjq:xxpermissions:6.2'
 
     compileOnly fileTree(dir: '../app/libs', include: ['uniapp-release.aar'])
 

@@ -35,6 +35,11 @@
           "type": "module",
           "name": "QiniuModule",
           "class": "com.mrtan.qiniu_push.QiniuModule"
+        },
+        {
+          "type": "module",
+          "name": "PermissionModule",
+          "class": "com.mrtan.qiniu_push.Tool"
         }
       ]
     }

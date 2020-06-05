@@ -2,9 +2,11 @@ package com.mrtan.qiniu_push;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
+import android.view.WindowManager;
 
 import com.alibaba.fastjson.JSONObject;
 import com.taobao.weex.annotation.JSMethod;
@@ -30,7 +32,6 @@ import java.net.URISyntaxException;
 public class QiniuModule extends WXModule {
 
     String TAG = "QiniuModule";
-    public static int REQUEST_CODE = 1000;
 
     //run ui thread
     @JSMethod(uiThread = true)
@@ -50,15 +51,6 @@ public class QiniuModule extends WXModule {
         JSONObject data = new JSONObject();
         data.put("code", "success");
         return data;
-    }
-
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(requestCode == REQUEST_CODE && data.hasExtra("respond")) {
-            Log.e("TestModule", "原生页面返回----"+data.getStringExtra("respond"));
-        } else {
-            super.onActivityResult(requestCode, resultCode, data);
-        }
     }
 
     private JSCallback mStreamingStateChangedListener;
@@ -100,15 +92,19 @@ public class QiniuModule extends WXModule {
     @JSMethod(uiThread = true)
     public void stopStream(){
         stopStreamingInternal();
+        if (mWXSDKInstance.getContext() instanceof Activity) {
+            ((Activity) mWXSDKInstance.getContext()).getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        }
     }
 
     /**
      * 初始化
-     * @param options
-     * @return
      */
-    @JSMethod(uiThread = false)
+    @JSMethod(uiThread = true)
     public JSONObject init(JSONObject options) {
+        if (mWXSDKInstance.getContext() instanceof Activity) {
+            ((Activity) mWXSDKInstance.getContext()).getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        }
         String url = options.getString(KEY_URL);
         JSONObject data = new JSONObject();
         // 弱网推流
@@ -188,7 +184,6 @@ public class QiniuModule extends WXModule {
     private void initStreamingManager() {
         // In screen streaming, screen size normally should equals to encoding size
         ScreenSetting screenSetting = new ScreenSetting();
-        //todo 输入
         screenSetting.setSize(480, 848);
         screenSetting.setDpi(1);
 
@@ -327,7 +322,7 @@ public class QiniuModule extends WXModule {
                     break;
             }
             if (mStreamingStateChangedListener != null) {
-                mStreamingStateChangedListener.invoke(data);
+                mStreamingStateChangedListener.invokeAndKeepAlive(data);
             }
         }
     };
@@ -336,7 +331,7 @@ public class QiniuModule extends WXModule {
         if (mShutterStateCallback != null){
             JSONObject data = new JSONObject();
             data.put("isEnable", enable);
-            mShutterStateCallback.invoke(data);
+            mShutterStateCallback.invokeAndKeepAlive(data);
         }
     }
 
@@ -344,7 +339,7 @@ public class QiniuModule extends WXModule {
         if (mShutterStateCallback != null){
             JSONObject data = new JSONObject();
             data.put("pressed", pressed);
-            mShutterStateCallback.invoke(data);
+            mShutterStateCallback.invokeAndKeepAlive(data);
         }
     }
 

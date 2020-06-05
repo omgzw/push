@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<button type="primary" @click="testAsyncFunc">testAsyncFunc</button>
-		<button type="primary" @click="testSyncFunc">testSyncFunc</button>
+		<button type="primary" @click="checkPermission">权限</button>
 		<button type="primary" @click="onClickInit">初始化</button>
 		<button type="primary" @click="onClickPush">推流</button>
 		<button type="primary" @click="onClickStop">停止</button>
@@ -10,7 +10,8 @@
 
 <script>
 	// 获取 module 
-	var testModule = uni.requireNativePlugin("QiniuModule")
+	const testModule = uni.requireNativePlugin("QiniuModule")
+	const permissionModule = uni.requireNativePlugin("PermissionModule")
 	const modal = uni.requireNativePlugin('modal');
 	export default {
 		onLoad() {
@@ -35,16 +36,13 @@
 						});
 					})
 			},
-			testSyncFunc() {
-				// 调用同步方法
-				var ret = testModule.testSyncFunc({
-					'name': 'unimp',
-					'age': 1
-				})
-				modal.toast({
-					message: ret,
-					duration: 1.5
-				});
+			checkPermission() {
+				permissionModule.checkMicrophone((ret) => {
+						modal.toast({
+							message: ret,
+							duration: 1.5
+						});
+					});
 			},
 			gotoNativePage() {
 				testModule.gotoNativePage();
@@ -64,7 +62,7 @@
 				});
 				//开始直播
 				testModule.init({
-					"url": 'rtmp://push.dwusoft.com/1facdc5d068441d0bc572a3416b33790/1facdc5d068441d0bc572a3416b33790?auth_key=1591128777-0-0-a3f93e34cbdedc0117c95835643490f4&itemId=1facdc5d068441d0bc572a3416b33790'
+					"url": 'rtmp://push.dwusoft.com/cfb62afac7a640e58df8ff2744a056f5/cfb62afac7a640e58df8ff2744a056f5?auth_key=1591363688-0-0-a192ee5f25afa95375bf0c449cf45817&itemId=cfb62afac7a640e58df8ff2744a056f5'
 				});
 			},
 			onClickPush() {
