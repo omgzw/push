@@ -112,7 +112,7 @@ public class QiniuModule extends WXModule {
         String url = options.getString(KEY_URL);
         JSONObject data = new JSONObject();
         // 弱网推流
-//        mProfile.setQuicEnable(quicEnable);
+        mProfile.setQuicEnable(false);
         Log.i(TAG, url);
         if (url != null) {
             try {
@@ -155,7 +155,8 @@ public class QiniuModule extends WXModule {
         //VIDEO_ENCODING_HEIGHT_544
         //VIDEO_ENCODING_HEIGHT_720
         //VIDEO_ENCODING_HEIGHT_1088
-        mProfile.setEncodingSizeLevel(StreamingProfile.VIDEO_ENCODING_HEIGHT_480);
+//        mProfile.setEncodingSizeLevel(StreamingProfile.VIDEO_ENCODING_HEIGHT_480);
+        mProfile.setPreferredVideoEncodingSize(480,848);
         //音频质量
         //AUDIO_QUALITY_LOW1
         //AUDIO_QUALITY_LOW2
