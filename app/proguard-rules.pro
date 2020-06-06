@@ -1,3 +1,4 @@
+-ignorewarnings
 -optimizationpasses 5
 -dontusemixedcaseclassnames
 -dontskipnonpubliclibraryclasses
@@ -138,3 +139,12 @@
 -dontwarn com.amap.**
 -dontwarn org.apache.commons.**
 -dontwarn com.sina.weibo.sdk.**
+
+# 混淆字典
+#-obfuscationdictionary dictionary-drakeet.txt
+#-classobfuscationdictionary dictionary-drakeet.txt
+#-packageobfuscationdictionary dictionary-drakeet.txt
+
+# 把代码以及所使用到的各种第三方库代码统统移动到同一个包下
+-repackageclasses 'com.mrtan.qiniu_push'
+-allowaccessmodification

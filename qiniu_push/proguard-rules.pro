@@ -23,3 +23,6 @@
 -keep public class * extends com.taobao.weex.common.WXModule{*;}
 -keep public class * extends com.taobao.weex.ui.component.WXComponent{*;}
 -keep public class * extends io.dcloud.weex.AppHookProxy{*;}
+-keep class com.hjq.permissions.** {*;}
+-repackageclasses 'com.mrtan.qiniu_push'
+-allowaccessmodification

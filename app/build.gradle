@@ -1,24 +1,65 @@
 apply plugin: 'com.android.application'
 
+static def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "com.qiniu.pili.droid.streaming.demo"
         minSdkVersion 19
-        targetSdkVersion 26 //建议此属性值设为21 io.dcloud.PandoraEntry 作为apk入口时   必须设置 targetSDKVersion>=21 沉浸式才生效
+        targetSdkVersion 26
+        //建议此属性值设为21 io.dcloud.PandoraEntry 作为apk入口时   必须设置 targetSDKVersion>=21 沉浸式才生效
 
-        versionCode 1
-        versionName "1.0"
+        versionCode 10
+        versionName "1.0.10"
         multiDexEnabled true
         ndk {
             abiFilters 'armeabi-v7a'
         }
     }
+    signingConfigs {
+        release {
+            storeFile file('release.jks')
+            storePassword 'VJP94nzjim'
+            keyAlias 'android'
+            keyPassword '6RHrfH6uir'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
+//            debuggable false
+//            zipAlignEnabled true
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName =
+                    "QiniuPush" +
+                            "_${variant.buildType.name}" +
+                            "_v${defaultConfig.versionName}" +
+                            "_${defaultConfig.versionCode}" +
+                            "_${releaseTime()}.apk"
+            if (variant.getBuildType().isMinifyEnabled()) {
+                variant.assemble.doLast {
+                    copy {
+                        from variant.mappingFile
+                        into "${rootDir}/mapping"
+                        rename { String fileName ->
+                            "mapping_${variant.flavorName}" +
+                                    "_${variant.buildType.name}" +
+                                    "_v${defaultConfig.versionName}" +
+                                    "_${defaultConfig.versionCode}" +
+                                    "_${releaseTime()}.txt"
+                        }
+                    }
+                }
+            }
         }
     }
     //使用uniapp时，需复制下面代码
