@@ -346,7 +346,7 @@
                     type: "primary"
                 },
                 on: {
-                    click: t.testAsyncFunc
+                    click: t.gotoNativePage
                 }
             }, [t._v("testAsyncFunc")]), n("button", {
                 attrs: {

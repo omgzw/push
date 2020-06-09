@@ -1,5 +1,8 @@
 package com.mrtan.qiniu_push;
 
+import android.app.Activity;
+import android.content.Intent;
+
 import com.alibaba.fastjson.JSONObject;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
@@ -64,5 +67,13 @@ public class QiniuModule extends WXModule {
     @JSMethod(uiThread = true)
     public JSONObject init(JSONObject options) {
         return mProxy.init(options, mWXSDKInstance);
+    }
+
+    @JSMethod (uiThread = true)
+    public void gotoNativePage(){
+        if(mWXSDKInstance != null && mWXSDKInstance.getContext() instanceof Activity) {
+            Intent intent = new Intent(mWXSDKInstance.getContext(), PreviewActivity.class);
+            ((Activity)mWXSDKInstance.getContext()).startActivity(intent);
+        }
     }
 }
