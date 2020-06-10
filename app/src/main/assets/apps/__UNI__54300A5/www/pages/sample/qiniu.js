@@ -203,35 +203,35 @@
 }, function(t, e, n) {
 	"use strict";
 
-	function o(t, e, n, o, i, r, a, c, u, l) {
-		var f, s = "function" == typeof t ? t.options : t;
-		if (u) {
-			s.components || (s.components = {});
-			var d = Object.prototype.hasOwnProperty;
-			for (var p in u) d.call(u, p) && !d.call(s.components, p) && (s.components[p] = u[p])
+	function o(t, e, n, o, i, r, a, u, c, f) {
+		var l, d = "function" == typeof t ? t.options : t;
+		if (c) {
+			d.components || (d.components = {});
+			var s = Object.prototype.hasOwnProperty;
+			for (var p in c) s.call(c, p) && !s.call(d.components, p) && (d.components[p] = c[p])
 		}
-		if (l && ((l.beforeCreate || (l.beforeCreate = [])).unshift((function() {
-				this[l.__module] = this
-			})), (s.mixins || (s.mixins = [])).push(l)), e && (s.render = e, s.staticRenderFns = n, s._compiled = !0), o && (s
-				.functional = !0), r && (s._scopeId = "data-v-" + r), a ? (f = function(t) {
+		if (f && ((f.beforeCreate || (f.beforeCreate = [])).unshift((function() {
+				this[f.__module] = this
+			})), (d.mixins || (d.mixins = [])).push(f)), e && (d.render = e, d.staticRenderFns = n, d._compiled = !0), o && (d
+				.functional = !0), r && (d._scopeId = "data-v-" + r), a ? (l = function(t) {
 				(t = t || this.$vnode && this.$vnode.ssrContext || this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) ||
 				"undefined" == typeof __VUE_SSR_CONTEXT__ || (t = __VUE_SSR_CONTEXT__), i && i.call(this, t), t && t._registeredComponents &&
 					t._registeredComponents.add(a)
-			}, s._ssrRegister = f) : i && (f = c ? function() {
+			}, d._ssrRegister = l) : i && (l = u ? function() {
 				i.call(this, this.$root.$options.shadowRoot)
-			} : i), f)
-			if (s.functional) {
-				s._injectStyles = f;
-				var g = s.render;
-				s.render = function(t, e) {
-					return f.call(e), g(t, e)
+			} : i), l)
+			if (d.functional) {
+				d._injectStyles = l;
+				var g = d.render;
+				d.render = function(t, e) {
+					return l.call(e), g(t, e)
 				}
 			} else {
-				var m = s.beforeCreate;
-				s.beforeCreate = m ? [].concat(m, f) : [f]
+				var m = d.beforeCreate;
+				d.beforeCreate = m ? [].concat(m, l) : [l]
 			} return {
 			exports: t,
-			options: s
+			options: d
 		}
 	}
 	n.d(e, "a", (function() {
@@ -265,79 +265,68 @@
 	e.default = i.a
 }, function(t, e, n) {
 	"use strict";
-	(function(t, n) {
+	(function(t) {
 		Object.defineProperty(e, "__esModule", {
 			value: !0
 		}), e.default = void 0;
-		var o = t("QiniuModule"),
-			i = t("PermissionModule"),
-			r = t("modal"),
-			a = {
+		var n = t("QiniuModule"),
+			o = t("PermissionModule"),
+			i = t("modal"),
+			r = {
 				data: function() {
 					return {}
 				},
 				onLoad: function() {
 					plus.globalEvent.addEventListener("TestEvent", (function(t) {
-						r.toast({
+						i.toast({
 							message: "TestEvent收到：" + t.msg,
 							duration: 1.5
 						})
 					}))
 				},
 				methods: {
-					testAsyncFunc: function() {
-						o.testAsyncFunc({
-							name: "unimp",
-							age: 1
-						}, (function(t) {
-							r.toast({
-								message: t,
-								duration: 1.5
-							})
-						}))
+					openCamera: function() {
+						this.$refs.cv.open()
+					},
+					closeCamera: function() {
+						this.$refs.cv.close()
 					},
 					checkPermission: function() {
-						i.checkMicrophone((function(t) {
-							r.toast({
+						o.checkMicrophone((function(t) {
+							i.toast({
 								message: t,
 								duration: 1.5
 							})
 						}))
 					},
 					gotoNativePage: function() {
-						o.gotoNativePage()
+						n.gotoNativePage()
 					},
 					onClickInit: function() {
-						o.setStreamingStateChangedListener((function(t) {
-							r.toast({
+						n.setStreamingStateChangedListener((function(t) {
+							i.toast({
 								message: t,
 								duration: 1.5
 							})
-						})), o.setShutterStateCallback((function(t) {
-							r.toast({
+						})), n.setShutterStateCallback((function(t) {
+							i.toast({
 								message: t,
 								duration: 1.5
 							})
-						})), o.init({
+						})), n.init({
 							url: "rtmp://push.dwusoft.com/cfb62afac7a640e58df8ff2744a056f5/cfb62afac7a640e58df8ff2744a056f5?auth_key=1591363688-0-0-a192ee5f25afa95375bf0c449cf45817&itemId=cfb62afac7a640e58df8ff2744a056f5"
 						})
 					},
 					onClickPush: function() {
-						o.startStream()
+						n.startStream()
 					},
 					onClickStop: function() {
-						o.stopStream()
-					},
-					onTel: function(t) {
-						n("log", "onTel=" + t.detail.tel, " at pages/sample/qiniu.nvue:82")
-					},
-					myTextClick: function(t) {
-						this.$refs.telText.clearTel()
+						n.stopStream()
 					}
 				}
 			};
-		e.default = a
-	}).call(this, n(17).default, n(16).default)
+		e.default = r
+	}).call(this, n(16).default)
 }, , , , function(t, e, n) {
 	"use strict";
 	var o = function() {
@@ -355,32 +344,26 @@
 					bubble: "true"
 				}
 			}, [n("div", [n("cameraview", {
-				ref: "cameraView",
+				ref: "cv",
 				staticStyle: {
 					width: "100%",
-					height: "300"
-				},
-				attrs: {
-					tel: "12305",
-					cameraFacing: "back",
-					cameraGestureTap: "autoFocus",
-					cameraEngine: "camera2",
-					cameraPreview: "glSurface",
-					keepScreenOn: "true",
-					cameraGesturePinch: "zoom"
-				},
-				on: {
-					onTel: t.onTel,
-					click: t.myTextClick
+					height: "250"
 				}
 			}), n("button", {
 				attrs: {
 					type: "primary"
 				},
 				on: {
-					click: t.testAsyncFunc
+					click: t.openCamera
 				}
-			}, [t._v("testAsyncFunc")]), n("button", {
+			}, [t._v("打开摄像头")]), n("button", {
+				attrs: {
+					type: "primary"
+				},
+				on: {
+					click: t.closeCamera
+				}
+			}, [t._v("关闭摄像头")]), n("button", {
 				attrs: {
 					type: "primary"
 				},
@@ -418,53 +401,12 @@
 	})), n.d(e, "a", (function() {}))
 }, , function(t, e, n) {
 	"use strict";
-
-	function o(t) {
-		var e = Object.prototype.toString.call(t);
-		return e.substring(8, e.length - 1)
-	}
-
-	function i() {
-		return "string" == typeof __channelId__ && __channelId__
-	}
-	Object.defineProperty(e, "__esModule", {
-		value: !0
-	}), e.log = function(t) {
-		for (var e = arguments.length, n = new Array(e > 1 ? e - 1 : 0), o = 1; o < e; o++) n[o - 1] = arguments[o];
-		console[t].apply(console, n)
-	}, e.default = function() {
-		for (var t = arguments.length, e = new Array(t), n = 0; n < t; n++) e[n] = arguments[n];
-		var r = e.shift();
-		if (i()) return e.push(e.pop().replace("at ", "uni-app:///")), console[r].apply(console, e);
-		var a = e.map((function(t) {
-				var e = Object.prototype.toString.call(t).toLowerCase();
-				if ("[object object]" === e || "[object array]" === e) try {
-						t = "---BEGIN:JSON---" + JSON.stringify(t) + "---END:JSON---"
-					} catch (e) {
-						t = "[object object]"
-					} else if (null === t) t = "---NULL---";
-					else if (void 0 === t) t = "---UNDEFINED---";
-				else {
-					var n = o(t).toUpperCase();
-					t = "NUMBER" === n || "BOOLEAN" === n ? "---BEGIN:" + n + "---" + t + "---END:" + n + "---" : String(t)
-				}
-				return t
-			})),
-			c = "";
-		if (a.length > 1) {
-			var u = a.pop();
-			c = a.join("---COMMA---"), 0 === u.indexOf(" at ") ? c += u : c += "---COMMA---" + u
-		} else c = a[0];
-		console[r](c)
-	}
-}, function(t, e, n) {
-	"use strict";
 	Object.defineProperty(e, "__esModule", {
 		value: !0
 	}), e.default = function(t) {
 		return weex.requireModule(t)
 	}
-}, , function(t, e, n) {
+}, , , function(t, e, n) {
 	"use strict";
 	n.r(e);
 	n(2);

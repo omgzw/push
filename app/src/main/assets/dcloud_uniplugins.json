@@ -40,6 +40,11 @@
           "type": "module",
           "name": "PermissionModule",
           "class": "com.mrtan.qiniu_push.Tool"
+        },
+        {
+          "type": "component",
+          "name": "cameraview",
+          "class": "com.mrtan.qiniu_push.CameraViewComponent"
         }
       ]
     }

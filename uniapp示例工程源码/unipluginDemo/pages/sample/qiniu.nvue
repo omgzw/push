@@ -1,7 +1,8 @@
 <template>
 	<div>
-		<cameraview ref="cameraView" tel="12305" cameraFacing="back" cameraGestureTap="autoFocus" cameraEngine="camera2" cameraPreview="glSurface" keepScreenOn="true" cameraGesturePinch="zoom" style="width:100%;height:300" @onTel="onTel" @click="myTextClick"></cameraview>
-		<button type="primary" @click="testAsyncFunc">testAsyncFunc</button>
+		<cameraview ref="cv"  style="width:100%;height:250"></cameraview>
+		<button type="primary" @click="openCamera">打开摄像头</button>
+		<button type="primary" @click="closeCamera">关闭摄像头</button>
 		<button type="primary" @click="checkPermission">权限</button>
 		<button type="primary" @click="onClickInit">初始化</button>
 		<button type="primary" @click="onClickPush">推流</button>
@@ -28,18 +29,11 @@
 			});
 		},
 		methods: {
-			testAsyncFunc() {
-				// 调用异步方法
-				testModule.testAsyncFunc({
-						'name': 'unimp',
-						'age': 1
-					},
-					(ret) => {
-						modal.toast({
-							message: ret,
-							duration: 1.5
-						});
-					})
+			openCamera() {
+				this.$refs.cv.open();
+			},
+			closeCamera() {
+				this.$refs.cv.close();
 			},
 			checkPermission() {
 				permissionModule.checkMicrophone((ret) => {
@@ -77,12 +71,6 @@
 			onClickStop() {
 				//停止推流
 				testModule.stopStream()
-			},
-			onTel(e) {
-				console.log("onTel="+e.detail.tel);
-			},
-			myTextClick(e) {
-				this.$refs.telText.clearTel();
 			}
 		}
 	}
