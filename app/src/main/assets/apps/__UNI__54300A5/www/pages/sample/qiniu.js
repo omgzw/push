@@ -203,32 +203,32 @@
 }, function(t, e, n) {
 	"use strict";
 
-	function o(t, e, n, o, i, r, a, u, c, f) {
-		var l, d = "function" == typeof t ? t.options : t;
+	function o(t, e, n, o, i, r, a, u, c, l) {
+		var f, d = "function" == typeof t ? t.options : t;
 		if (c) {
 			d.components || (d.components = {});
 			var s = Object.prototype.hasOwnProperty;
 			for (var p in c) s.call(c, p) && !s.call(d.components, p) && (d.components[p] = c[p])
 		}
-		if (f && ((f.beforeCreate || (f.beforeCreate = [])).unshift((function() {
-				this[f.__module] = this
-			})), (d.mixins || (d.mixins = [])).push(f)), e && (d.render = e, d.staticRenderFns = n, d._compiled = !0), o && (d
-				.functional = !0), r && (d._scopeId = "data-v-" + r), a ? (l = function(t) {
+		if (l && ((l.beforeCreate || (l.beforeCreate = [])).unshift((function() {
+				this[l.__module] = this
+			})), (d.mixins || (d.mixins = [])).push(l)), e && (d.render = e, d.staticRenderFns = n, d._compiled = !0), o && (d
+				.functional = !0), r && (d._scopeId = "data-v-" + r), a ? (f = function(t) {
 				(t = t || this.$vnode && this.$vnode.ssrContext || this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) ||
 				"undefined" == typeof __VUE_SSR_CONTEXT__ || (t = __VUE_SSR_CONTEXT__), i && i.call(this, t), t && t._registeredComponents &&
 					t._registeredComponents.add(a)
-			}, d._ssrRegister = l) : i && (l = u ? function() {
+			}, d._ssrRegister = f) : i && (f = u ? function() {
 				i.call(this, this.$root.$options.shadowRoot)
-			} : i), l)
+			} : i), f)
 			if (d.functional) {
-				d._injectStyles = l;
+				d._injectStyles = f;
 				var g = d.render;
 				d.render = function(t, e) {
-					return l.call(e), g(t, e)
+					return f.call(e), g(t, e)
 				}
 			} else {
 				var m = d.beforeCreate;
-				d.beforeCreate = m ? [].concat(m, l) : [l]
+				d.beforeCreate = m ? [].concat(m, f) : [f]
 			} return {
 			exports: t,
 			options: d
@@ -272,7 +272,8 @@
 		var n = t("QiniuModule"),
 			o = t("PermissionModule"),
 			i = t("modal"),
-			r = {
+			r = "rtmp://push.dwusoft.com/8cf0b0c9a49b43d491f10d6d4e322190/8cf0b0c9a49b43d491f10d6d4e322190?auth_key=1592236469-0-0-66dc4d92c8db41aae9f4416932ed9626&itemId=8cf0b0c9a49b43d491f10d6d4e322190",
+			a = {
 				data: function() {
 					return {}
 				},
@@ -302,6 +303,9 @@
 					gotoNativePage: function() {
 						n.gotoNativePage()
 					},
+					onKeyInput: function(t) {
+						r = t.target.value
+					},
 					onClickInit: function() {
 						n.setStreamingStateChangedListener((function(t) {
 							i.toast({
@@ -314,7 +318,7 @@
 								duration: 1.5
 							})
 						})), n.init({
-							url: "rtmp://push.dwusoft.com/cfb62afac7a640e58df8ff2744a056f5/cfb62afac7a640e58df8ff2744a056f5?auth_key=1591363688-0-0-a192ee5f25afa95375bf0c449cf45817&itemId=cfb62afac7a640e58df8ff2744a056f5"
+							url: r.trim()
 						})
 					},
 					onClickPush: function() {
@@ -325,7 +329,7 @@
 					}
 				}
 			};
-		e.default = r
+		e.default = a
 	}).call(this, n(16).default)
 }, , , , function(t, e, n) {
 	"use strict";
@@ -370,7 +374,19 @@
 				on: {
 					click: t.checkPermission
 				}
-			}, [t._v("权限")]), n("button", {
+			}, [t._v("权限")]), n("u-input", {
+				staticStyle: {
+					height: "60px"
+				},
+				attrs: {
+					focus: !0,
+					placeholder: "推流地址",
+					value:"rtmp://push.dwusoft.com/8cf0b0c9a49b43d491f10d6d4e322190/8cf0b0c9a49b43d491f10d6d4e322190?auth_key=1592236469-0-0-66dc4d92c8db41aae9f4416932ed9626&itemId=8cf0b0c9a49b43d491f10d6d4e322190"
+				},
+				on: {
+					input: t.onKeyInput
+				}
+			}), n("button", {
 				attrs: {
 					type: "primary"
 				},
