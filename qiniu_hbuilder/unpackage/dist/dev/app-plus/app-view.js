@@ -217,18 +217,21 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "v-uni-view",
+    "div",
     { attrs: { _i: 0 } },
     [
-      _c("v-uni-camera", {
-        staticStyle: { width: "100%", height: "300px" },
-        attrs: { "device-position": "back", flash: "off", _i: 1 },
-        on: {
-          error: function($event) {
-            return _vm.$handleViewEvent($event)
+      _c(
+        "v-uni-button",
+        {
+          attrs: { type: "primary", _i: 1 },
+          on: {
+            click: function($event) {
+              return _vm.$handleViewEvent($event)
+            }
           }
-        }
-      }),
+        },
+        [_vm._v("权限")]
+      ),
       _c(
         "v-uni-button",
         {
@@ -239,12 +242,44 @@ var render = function() {
             }
           }
         },
-        [_vm._v("拍照")]
+        [_vm._v("摄像头推流")]
       ),
-      _c("v-uni-view", { attrs: { _i: 3 } }, [_vm._v("预览")]),
-      _c("v-uni-image", {
-        attrs: { mode: "widthFix", src: _vm._$g(4, "a-src"), _i: 4 }
-      })
+      _c(
+        "v-uni-button",
+        {
+          attrs: { type: "primary", _i: 3 },
+          on: {
+            click: function($event) {
+              return _vm.$handleViewEvent($event)
+            }
+          }
+        },
+        [_vm._v("初始化")]
+      ),
+      _c(
+        "v-uni-button",
+        {
+          attrs: { type: "primary", _i: 4 },
+          on: {
+            click: function($event) {
+              return _vm.$handleViewEvent($event)
+            }
+          }
+        },
+        [_vm._v("推流")]
+      ),
+      _c(
+        "v-uni-button",
+        {
+          attrs: { type: "primary", _i: 5 },
+          on: {
+            click: function($event) {
+              return _vm.$handleViewEvent($event)
+            }
+          }
+        },
+        [_vm._v("停止")]
+      )
     ],
     1
   )

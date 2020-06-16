@@ -1,9 +1,7 @@
 <template>
 	<div>
-		<cameraview ref="cv"  style="width:100%;height:250"></cameraview>
-		<button type="primary" @click="openCamera">打开摄像头</button>
-		<button type="primary" @click="closeCamera">关闭摄像头</button>
 		<button type="primary" @click="checkPermission">权限</button>
+		<button type="primary" @click="gotoNativePage">摄像头推流</button>
 		<button type="primary" @click="onClickInit">初始化</button>
 		<button type="primary" @click="onClickPush">推流</button>
 		<button type="primary" @click="onClickStop">停止</button>
@@ -15,6 +13,7 @@
 	const testModule = uni.requireNativePlugin("QiniuModule")
 	const permissionModule = uni.requireNativePlugin("PermissionModule")
 	const modal = uni.requireNativePlugin('modal');
+	const pushUrl = "rtmp://pili-publish.qnsdk.com/sdk-live/ff5afd6d-bcb2-4671-b5cd-965a2d57eb92?e=1592307049&token=QxZugR8TAhI38AiJ_cptTl3RbzLyca3t-AAiH-Hh:KlKtpmX8Q36Eepjc2tewYU1Fx-8="
 	export default {
 		data() {
 		    return {  
@@ -29,14 +28,8 @@
 			});
 		},
 		methods: {
-			openCamera() {
-				this.$refs.cv.open();
-			},
-			closeCamera() {
-				this.$refs.cv.close();
-			},
 			checkPermission() {
-				permissionModule.checkMicrophone((ret) => {
+				permissionModule.checkPush((ret) => {
 						modal.toast({
 							message: ret,
 							duration: 1.5
@@ -44,7 +37,7 @@
 					});
 			},
 			gotoNativePage() {
-				testModule.gotoNativePage();
+				testModule.gotoNativePage({"url":pushUrl});
 			},
 			onClickInit() {
 				testModule.setStreamingStateChangedListener((ret) => {
@@ -61,7 +54,7 @@
 				});
 				//开始直播
 				testModule.init({
-					"url": 'rtmp://push.dwusoft.com/cfb62afac7a640e58df8ff2744a056f5/cfb62afac7a640e58df8ff2744a056f5?auth_key=1591363688-0-0-a192ee5f25afa95375bf0c449cf45817&itemId=cfb62afac7a640e58df8ff2744a056f5'
+					"url": pushUrl
 				});
 			},
 			onClickPush() {

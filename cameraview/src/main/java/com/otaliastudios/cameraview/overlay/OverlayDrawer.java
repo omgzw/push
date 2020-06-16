@@ -12,8 +12,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.VisibleForTesting;
 
 import com.otaliastudios.cameraview.CameraLogger;
-import com.otaliastudios.cameraview.internal.GlTextureDrawer;
 import com.otaliastudios.cameraview.internal.Issue514Workaround;
+import com.otaliastudios.cameraview.internal.egl.EglViewport;
 import com.otaliastudios.cameraview.size.Size;
 
 import java.nio.Buffer;
@@ -27,7 +27,7 @@ import java.nio.Buffer;
  * - Renders this into the current EGL window: {@link #render(long)}
  * - Applies the {@link Issue514Workaround} the correct way
  *
- * In the future we might want to use a different approach than {@link GlTextureDrawer},
+ * In the future we might want to use a different approach than {@link EglViewport},
  * {@link SurfaceTexture} and {@link GLES11Ext#GL_TEXTURE_EXTERNAL_OES},
  * for example by using a regular {@link GLES20#GL_TEXTURE_2D} that might
  * be filled through {@link GLES20#glTexImage2D(int, int, int, int, int, int, int, int, Buffer)}.
@@ -40,19 +40,22 @@ public class OverlayDrawer {
     private static final CameraLogger LOG = CameraLogger.create(TAG);
 
     private Overlay mOverlay;
+    @VisibleForTesting int mTextureId;
     private SurfaceTexture mSurfaceTexture;
     private Surface mSurface;
-    @VisibleForTesting GlTextureDrawer mTextureDrawer;
+    private float[] mTransform = new float[16];
+    @VisibleForTesting EglViewport mViewport;
     private Issue514Workaround mIssue514Workaround;
     private final Object mIssue514WorkaroundLock = new Object();
 
     public OverlayDrawer(@NonNull Overlay overlay, @NonNull Size size) {
         mOverlay = overlay;
-        mTextureDrawer = new GlTextureDrawer();
-        mSurfaceTexture = new SurfaceTexture(mTextureDrawer.getTexture().getId());
+        mViewport = new EglViewport();
+        mTextureId = mViewport.createTexture();
+        mSurfaceTexture = new SurfaceTexture(mTextureId);
         mSurfaceTexture.setDefaultBufferSize(size.getWidth(), size.getHeight());
         mSurface = new Surface(mSurfaceTexture);
-        mIssue514Workaround = new Issue514Workaround(mTextureDrawer.getTexture().getId());
+        mIssue514Workaround = new Issue514Workaround(mTextureId);
     }
 
     /**
@@ -74,7 +77,7 @@ public class OverlayDrawer {
             mIssue514Workaround.beforeOverlayUpdateTexImage();
             mSurfaceTexture.updateTexImage();
         }
-        mSurfaceTexture.getTransformMatrix(mTextureDrawer.getTextureTransform());
+        mSurfaceTexture.getTransformMatrix(mTransform);
     }
 
     /**
@@ -83,7 +86,7 @@ public class OverlayDrawer {
      * @return the transform matrix
      */
     public float[] getTransform() {
-        return mTextureDrawer.getTextureTransform();
+        return mTransform;
     }
 
     /**
@@ -102,7 +105,7 @@ public class OverlayDrawer {
         GLES20.glBlendFunc(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE_MINUS_SRC_ALPHA);
 
         synchronized (mIssue514WorkaroundLock) {
-            mTextureDrawer.draw(timestampUs);
+            mViewport.drawFrame(timestampUs, mTextureId, mTransform);
         }
     }
 
@@ -122,9 +125,9 @@ public class OverlayDrawer {
             mSurface.release();
             mSurface = null;
         }
-        if (mTextureDrawer != null) {
-            mTextureDrawer.release();
-            mTextureDrawer = null;
+        if (mViewport != null) {
+            mViewport.release();
+            mViewport = null;
         }
     }
 }

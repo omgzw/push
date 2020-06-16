@@ -5,7 +5,7 @@ import android.opengl.GLES20;
 import android.support.annotation.NonNull;
 
 import com.otaliastudios.cameraview.filter.BaseFilter;
-import com.otaliastudios.opengl.core.Egloo;
+import com.otaliastudios.cameraview.internal.GlUtils;
 
 import java.util.Random;
 
@@ -122,13 +122,13 @@ public class LomoishFilter extends BaseFilter {
     public void onCreate(int programHandle) {
         super.onCreate(programHandle);
         scaleLocation = GLES20.glGetUniformLocation(programHandle, "scale");
-        Egloo.checkGlProgramLocation(scaleLocation, "scale");
+        GlUtils.checkLocation(scaleLocation, "scale");
         maxDistLocation = GLES20.glGetUniformLocation(programHandle, "inv_max_dist");
-        Egloo.checkGlProgramLocation(maxDistLocation, "inv_max_dist");
+        GlUtils.checkLocation(maxDistLocation, "inv_max_dist");
         stepSizeXLocation = GLES20.glGetUniformLocation(programHandle, "stepsizeX");
-        Egloo.checkGlProgramLocation(stepSizeXLocation, "stepsizeX");
+        GlUtils.checkLocation(stepSizeXLocation, "stepsizeX");
         stepSizeYLocation = GLES20.glGetUniformLocation(programHandle, "stepsizeY");
-        Egloo.checkGlProgramLocation(stepSizeYLocation, "stepsizeY");
+        GlUtils.checkLocation(stepSizeYLocation, "stepsizeY");
     }
 
     @Override
@@ -153,12 +153,12 @@ public class LomoishFilter extends BaseFilter {
         }
         float maxDist = ((float) Math.sqrt(scale[0] * scale[0] + scale[1] * scale[1])) * 0.5f;
         GLES20.glUniform2fv(scaleLocation, 1, scale, 0);
-        Egloo.checkGlError("glUniform2fv");
+        GlUtils.checkError("glUniform2fv");
         GLES20.glUniform1f(maxDistLocation, 1.0F / maxDist);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
         GLES20.glUniform1f(stepSizeXLocation, 1.0F / width);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
         GLES20.glUniform1f(stepSizeYLocation, 1.0F / height);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
     }
 }

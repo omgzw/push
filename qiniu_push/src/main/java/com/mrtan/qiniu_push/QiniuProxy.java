@@ -35,7 +35,7 @@ public class QiniuProxy implements StreamStatusCallback, StreamingStateChangedLi
     private JSCallback mShutterStateCallback;
     private StreamingProfile mProfile = new StreamingProfile();
     private boolean mShutterButtonPressed = false;
-    private static final String KEY_URL = "url";
+    public static final String KEY_URL = "url";
     private ScreenStreamingManager mScreenStreamingManager;
     private boolean isInit = false;
     private WXSDKInstance mWXSDKInstance;

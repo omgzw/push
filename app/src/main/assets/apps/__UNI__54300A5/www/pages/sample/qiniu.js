@@ -203,35 +203,35 @@
 }, function(t, e, n) {
 	"use strict";
 
-	function o(t, e, n, o, i, r, a, u, c, l) {
-		var f, d = "function" == typeof t ? t.options : t;
-		if (c) {
-			d.components || (d.components = {});
+	function o(t, e, n, o, i, r, a, u, l, c) {
+		var d, f = "function" == typeof t ? t.options : t;
+		if (l) {
+			f.components || (f.components = {});
 			var s = Object.prototype.hasOwnProperty;
-			for (var p in c) s.call(c, p) && !s.call(d.components, p) && (d.components[p] = c[p])
+			for (var p in l) s.call(l, p) && !s.call(f.components, p) && (f.components[p] = l[p])
 		}
-		if (l && ((l.beforeCreate || (l.beforeCreate = [])).unshift((function() {
-				this[l.__module] = this
-			})), (d.mixins || (d.mixins = [])).push(l)), e && (d.render = e, d.staticRenderFns = n, d._compiled = !0), o && (d
-				.functional = !0), r && (d._scopeId = "data-v-" + r), a ? (f = function(t) {
+		if (c && ((c.beforeCreate || (c.beforeCreate = [])).unshift((function() {
+				this[c.__module] = this
+			})), (f.mixins || (f.mixins = [])).push(c)), e && (f.render = e, f.staticRenderFns = n, f._compiled = !0), o && (f
+				.functional = !0), r && (f._scopeId = "data-v-" + r), a ? (d = function(t) {
 				(t = t || this.$vnode && this.$vnode.ssrContext || this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) ||
 				"undefined" == typeof __VUE_SSR_CONTEXT__ || (t = __VUE_SSR_CONTEXT__), i && i.call(this, t), t && t._registeredComponents &&
 					t._registeredComponents.add(a)
-			}, d._ssrRegister = f) : i && (f = u ? function() {
+			}, f._ssrRegister = d) : i && (d = u ? function() {
 				i.call(this, this.$root.$options.shadowRoot)
-			} : i), f)
-			if (d.functional) {
-				d._injectStyles = f;
-				var g = d.render;
-				d.render = function(t, e) {
-					return f.call(e), g(t, e)
+			} : i), d)
+			if (f.functional) {
+				f._injectStyles = d;
+				var g = f.render;
+				f.render = function(t, e) {
+					return d.call(e), g(t, e)
 				}
 			} else {
-				var m = d.beforeCreate;
-				d.beforeCreate = m ? [].concat(m, f) : [f]
+				var m = f.beforeCreate;
+				f.beforeCreate = m ? [].concat(m, d) : [d]
 			} return {
 			exports: t,
-			options: d
+			options: f
 		}
 	}
 	n.d(e, "a", (function() {
@@ -272,7 +272,8 @@
 		var n = t("QiniuModule"),
 			o = t("PermissionModule"),
 			i = t("modal"),
-			r = "rtmp://push.dwusoft.com/8cf0b0c9a49b43d491f10d6d4e322190/8cf0b0c9a49b43d491f10d6d4e322190?auth_key=1592236469-0-0-66dc4d92c8db41aae9f4416932ed9626&itemId=8cf0b0c9a49b43d491f10d6d4e322190",
+			r =
+			"rtmp://push.dwusoft.com/2e0dd3989fc540c19a3d5218742377af/2e0dd3989fc540c19a3d5218742377af?auth_key=1592355448-0-0-214b3dad75104daf7bf3bcfb4f3bce4f&itemId=2e0dd3989fc540c19a3d5218742377af",
 			a = {
 				data: function() {
 					return {}
@@ -286,14 +287,8 @@
 					}))
 				},
 				methods: {
-					openCamera: function() {
-						this.$refs.cv.open()
-					},
-					closeCamera: function() {
-						this.$refs.cv.close()
-					},
 					checkPermission: function() {
-						o.checkMicrophone((function(t) {
+						o.checkPush((function(t) {
 							i.toast({
 								message: t,
 								duration: 1.5
@@ -301,10 +296,9 @@
 						}))
 					},
 					gotoNativePage: function() {
-						n.gotoNativePage()
-					},
-					onKeyInput: function(t) {
-						r = t.target.value
+						n.gotoNativePage({
+							url: r
+						})
 					},
 					onClickInit: function() {
 						n.setStreamingStateChangedListener((function(t) {
@@ -318,7 +312,7 @@
 								duration: 1.5
 							})
 						})), n.init({
-							url: r.trim()
+							url: r
 						})
 					},
 					onClickPush: function() {
@@ -347,46 +341,21 @@
 					enableBackToTop: !0,
 					bubble: "true"
 				}
-			}, [n("div", [n("cameraview", {
-				ref: "cv",
-				staticStyle: {
-					width: "100%",
-					height: "250"
-				}
-			}), n("button", {
-				attrs: {
-					type: "primary"
-				},
-				on: {
-					click: t.openCamera
-				}
-			}, [t._v("打开摄像头")]), n("button", {
-				attrs: {
-					type: "primary"
-				},
-				on: {
-					click: t.closeCamera
-				}
-			}, [t._v("关闭摄像头")]), n("button", {
+			}, [n("div", [n("button", {
 				attrs: {
 					type: "primary"
 				},
 				on: {
 					click: t.checkPermission
 				}
-			}, [t._v("权限")]), n("u-input", {
-				staticStyle: {
-					height: "60px"
-				},
+			}, [t._v("权限")]), n("button", {
 				attrs: {
-					focus: !0,
-					placeholder: "推流地址",
-					value:"rtmp://push.dwusoft.com/8cf0b0c9a49b43d491f10d6d4e322190/8cf0b0c9a49b43d491f10d6d4e322190?auth_key=1592236469-0-0-66dc4d92c8db41aae9f4416932ed9626&itemId=8cf0b0c9a49b43d491f10d6d4e322190"
+					type: "primary"
 				},
 				on: {
-					input: t.onKeyInput
+					click: t.gotoNativePage
 				}
-			}), n("button", {
+			}, [t._v("摄像头推流")]), n("button", {
 				attrs: {
 					type: "primary"
 				},

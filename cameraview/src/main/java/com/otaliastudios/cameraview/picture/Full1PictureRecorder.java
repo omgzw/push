@@ -4,9 +4,10 @@ import android.hardware.Camera;
 
 import com.otaliastudios.cameraview.PictureResult;
 import com.otaliastudios.cameraview.engine.Camera1Engine;
-import com.otaliastudios.cameraview.internal.ExifHelper;
+import com.otaliastudios.cameraview.internal.utils.ExifHelper;
 
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.media.ExifInterface;
 
 import java.io.ByteArrayInputStream;

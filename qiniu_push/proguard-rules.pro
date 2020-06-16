@@ -19,7 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
--keep class com.qiniu.pili.droid.streaming.** { *; }
 -keep public class * extends com.taobao.weex.common.WXModule{*;}
 -keep public class * extends com.taobao.weex.ui.component.WXComponent{*;}
 -keep public class * extends io.dcloud.weex.AppHookProxy{*;}

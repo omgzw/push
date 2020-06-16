@@ -60,11 +60,11 @@ import com.otaliastudios.cameraview.frame.Frame;
 import com.otaliastudios.cameraview.frame.FrameManager;
 import com.otaliastudios.cameraview.frame.ImageFrameManager;
 import com.otaliastudios.cameraview.gesture.Gesture;
-import com.otaliastudios.cameraview.internal.CropHelper;
+import com.otaliastudios.cameraview.internal.utils.CropHelper;
 import com.otaliastudios.cameraview.metering.MeteringRegions;
 import com.otaliastudios.cameraview.picture.Full2PictureRecorder;
 import com.otaliastudios.cameraview.picture.Snapshot2PictureRecorder;
-import com.otaliastudios.cameraview.preview.RendererCameraPreview;
+import com.otaliastudios.cameraview.preview.GlCameraPreview;
 import com.otaliastudios.cameraview.size.AspectRatio;
 import com.otaliastudios.cameraview.size.Size;
 import com.otaliastudios.cameraview.video.Full2VideoRecorder;
@@ -785,16 +785,17 @@ public class Camera2Engine extends CameraBaseEngine implements
             action.start(this);
         } else {
             LOG.i("onTakePictureSnapshot:", "doMetering is false. Performing.");
-            if (!(mPreview instanceof RendererCameraPreview)) {
+            if (!(mPreview instanceof GlCameraPreview)) {
                 throw new RuntimeException("takePictureSnapshot with Camera2 is only " +
                         "supported with Preview.GL_SURFACE");
             }
             // stub.size is not the real size: it will be cropped to the given ratio
             // stub.rotation will be set to 0 - we rotate the texture instead.
             stub.size = getUncroppedSnapshotSize(Reference.OUTPUT);
-            stub.rotation = getAngles().offset(Reference.VIEW, Reference.OUTPUT, Axis.ABSOLUTE);
+            stub.rotation = getAngles().offset(Reference.SENSOR, Reference.OUTPUT,
+                    Axis.RELATIVE_TO_SENSOR);
             mPictureRecorder = new Snapshot2PictureRecorder(stub, this,
-                    (RendererCameraPreview) mPreview, outputRatio);
+                    (GlCameraPreview) mPreview, outputRatio);
             mPictureRecorder.take();
         }
     }
@@ -909,10 +910,10 @@ public class Camera2Engine extends CameraBaseEngine implements
     @Override
     protected void onTakeVideoSnapshot(@NonNull VideoResult.Stub stub,
                                        @NonNull AspectRatio outputRatio) {
-        if (!(mPreview instanceof RendererCameraPreview)) {
+        if (!(mPreview instanceof GlCameraPreview)) {
             throw new IllegalStateException("Video snapshots are only supported with GL_SURFACE.");
         }
-        RendererCameraPreview glPreview = (RendererCameraPreview) mPreview;
+        GlCameraPreview glPreview = (GlCameraPreview) mPreview;
         Size outputSize = getUncroppedSnapshotSize(Reference.OUTPUT);
         if (outputSize == null) {
             throw new IllegalStateException("outputSize should not be null.");
@@ -920,10 +921,24 @@ public class Camera2Engine extends CameraBaseEngine implements
         Rect outputCrop = CropHelper.computeCrop(outputSize, outputRatio);
         outputSize = new Size(outputCrop.width(), outputCrop.height());
         stub.size = outputSize;
-        stub.rotation = getAngles().offset(Reference.VIEW, Reference.OUTPUT, Axis.ABSOLUTE);
+        // Vertical:               0   (270-0-0)
+        // Left (unlocked):        270 (270-90-270)
+        // Right (unlocked):       90  (270-270-90)
+        // Upside down (unlocked): 180 (270-180-180)
+        // Left (locked):          270 (270-0-270)
+        // Right (locked):         90  (270-0-90)
+        // Upside down (locked):   180 (270-0-180)
+        // Unlike Camera1, the correct formula seems to be deviceOrientation,
+        // which means offset(Reference.BASE, Reference.OUTPUT, Axis.ABSOLUTE).
+        stub.rotation = getAngles().offset(Reference.BASE, Reference.OUTPUT, Axis.ABSOLUTE);
         stub.videoFrameRate = Math.round(mPreviewFrameRate);
         LOG.i("onTakeVideoSnapshot", "rotation:", stub.rotation, "size:", stub.size);
-        mVideoRecorder = new SnapshotVideoRecorder(this, glPreview, getOverlay());
+
+        // Start.
+        // The overlay rotation should alway be VIEW-OUTPUT, just liek Camera1Engine.
+        int overlayRotation = getAngles().offset(Reference.VIEW, Reference.OUTPUT, Axis.ABSOLUTE);
+        mVideoRecorder = new SnapshotVideoRecorder(this, glPreview, getOverlay(),
+                overlayRotation);
         mVideoRecorder.start(stub);
     }
 

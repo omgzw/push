@@ -101,5 +101,5 @@ dependencies {
     implementation project(':uniplugin_module')
     implementation project(':uniplugin_richalert')
     implementation project(':qiniu_push')
-    implementation project(':cameraview')
+//    implementation project(':cameraview')
 }

@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 
 import com.otaliastudios.cameraview.filter.BaseFilter;
 import com.otaliastudios.cameraview.filter.TwoParameterFilter;
-import com.otaliastudios.opengl.core.Egloo;
+import com.otaliastudios.cameraview.internal.GlUtils;
 
 /**
  * Representation of input frames using only two color tones.
@@ -131,9 +131,9 @@ public class DuotoneFilter extends BaseFilter implements TwoParameterFilter {
     public void onCreate(int programHandle) {
         super.onCreate(programHandle);
         mFirstColorLocation = GLES20.glGetUniformLocation(programHandle, "first");
-        Egloo.checkGlProgramLocation(mFirstColorLocation, "first");
+        GlUtils.checkLocation(mFirstColorLocation, "first");
         mSecondColorLocation = GLES20.glGetUniformLocation(programHandle, "second");
-        Egloo.checkGlProgramLocation(mSecondColorLocation, "second");
+        GlUtils.checkLocation(mSecondColorLocation, "second");
     }
 
     @Override
@@ -150,9 +150,9 @@ public class DuotoneFilter extends BaseFilter implements TwoParameterFilter {
                 Color.blue(mSecondColor) / 255f
         };
         GLES20.glUniform3fv(mFirstColorLocation, 1, first, 0);
-        Egloo.checkGlError("glUniform3fv");
+        GlUtils.checkError("glUniform3fv");
         GLES20.glUniform3fv(mSecondColorLocation, 1, second, 0);
-        Egloo.checkGlError("glUniform3fv");
+        GlUtils.checkError("glUniform3fv");
     }
 
     @Override

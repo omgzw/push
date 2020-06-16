@@ -1,17 +1,11 @@
 <template>
-	<view>
-		<camera device-position="back" flash="off" @error="error" style="width: 100%; height: 300px;"></camera>
-		<button type="primary" @click="takePhoto">拍照</button>
-		<view>预览</view>
-		<image mode="widthFix" :src="src"></image>
-	</view>
-	<!-- <div>
-		<button type="primary" @click="testAsyncFunc">testAsyncFunc</button>
+	<div>
 		<button type="primary" @click="checkPermission">权限</button>
+		<button type="primary" @click="gotoNativePage">摄像头推流</button>
 		<button type="primary" @click="onClickInit">初始化</button>
 		<button type="primary" @click="onClickPush">推流</button>
 		<button type="primary" @click="onClickStop">停止</button>
-	</div> -->
+	</div>
 </template>
 
 <script>
@@ -19,76 +13,59 @@
 	let testModule = uni.requireNativePlugin("Mrtan-Qiniu")
 	let permissionModule = uni.requireNativePlugin("Mrtan-Permission")
 	let modal = uni.requireNativePlugin('modal');
-	export default {
-		data() {
-			return {
-				src: ""
-			}
-		},
-		onLoad() {
-			plus.globalEvent.addEventListener('TestEvent', function(e) {
-				modal.toast({
-					message: "TestEvent收到：" + e.msg,
-					duration: 1.5
-				});
-			});
-		},
-		methods: {
-			testAsyncFunc() {
-				modal.toast({
-					message: "TestEvent收到：",
-					duration: 1.5
-				});
-			},
-			checkPermission() {
-				permissionModule.checkMicrophone((ret) => {
+	const pushUrl = "rtmp://push.dwusoft.com/2e0dd3989fc540c19a3d5218742377af/2e0dd3989fc540c19a3d5218742377af?auth_key=1592355448-0-0-214b3dad75104daf7bf3bcfb4f3bce4f&itemId=2e0dd3989fc540c19a3d5218742377af"
+		export default {
+			data() {
+			    return {  
+			    }  
+			}, 
+			onLoad() {
+				plus.globalEvent.addEventListener('TestEvent', function(e) {
 					modal.toast({
-						message: ret,
+						message: "TestEvent收到：" + e.msg,
 						duration: 1.5
 					});
 				});
 			},
-			gotoNativePage() {
-				testModule.gotoNativePage();
-			},
-			onClickInit() {
-				testModule.setStreamingStateChangedListener((ret) => {
-					modal.toast({
-						message: ret,
-						duration: 1.5
+			methods: {
+				checkPermission() {
+					permissionModule.checkPush((ret) => {
+							modal.toast({
+								message: ret,
+								duration: 1.5
+							});
+						});
+				},
+				gotoNativePage() {
+					testModule.gotoNativePage({"url":pushUrl});
+				},
+				onClickInit() {
+					testModule.setStreamingStateChangedListener((ret) => {
+						modal.toast({
+							message: ret,
+							duration: 1.5
+						});
 					});
-				});
-				testModule.setShutterStateCallback((ret) => {
-					modal.toast({
-						message: ret,
-						duration: 1.5
+					testModule.setShutterStateCallback((ret) => {
+						modal.toast({
+							message: ret,
+							duration: 1.5
+						});
 					});
-				});
-				//开始直播
-				testModule.init({
-					"url": 'rtmp://push.dwusoft.com/ea2e27a612e24f7f938f04a3e843dbce/ea2e27a612e24f7f938f04a3e843dbce?auth_key=1591718495-0-0-f0806fc5159a61ecbe627a83a89efc55&itemId=ea2e27a612e24f7f938f04a3e843dbce'
-				});
-			},
-			onClickPush() {
-				//推流
-				testModule.startStream()
-			},
-			onClickStop() {
-				//停止推流
-				testModule.stopStream()
-			},
-			takePhoto() {
-				const ctx = uni.createCameraContext();
-				ctx.takePhoto({
-					quality: 'high',
-					success: (res) => {
-						this.src = res.tempImagePath
-					}
-				});
-			},
-			error(e) {
-				console.log(e.detail);
+					//开始直播
+					testModule.init({
+						"url": pushUrl
+					});
+				},
+				onClickPush() {
+					//推流
+					testModule.startStream()
+				},
+				onClickStop() {
+					//停止推流
+					testModule.stopStream()
+				}
 			}
 		}
-	}
-</script>
+	</script>
+	

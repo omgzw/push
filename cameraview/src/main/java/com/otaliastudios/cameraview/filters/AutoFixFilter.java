@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 
 import com.otaliastudios.cameraview.filter.BaseFilter;
 import com.otaliastudios.cameraview.filter.OneParameterFilter;
-import com.otaliastudios.opengl.core.Egloo;
+import com.otaliastudios.cameraview.internal.GlUtils;
 
 /**
  * Attempts to auto-fix the frames based on histogram equalization.
@@ -107,7 +107,7 @@ public class AutoFixFilter extends BaseFilter implements OneParameterFilter {
     public void onCreate(int programHandle) {
         super.onCreate(programHandle);
         scaleLocation = GLES20.glGetUniformLocation(programHandle, "scale");
-        Egloo.checkGlProgramLocation(scaleLocation, "scale");
+        GlUtils.checkLocation(scaleLocation, "scale");
     }
 
     @Override
@@ -120,6 +120,6 @@ public class AutoFixFilter extends BaseFilter implements OneParameterFilter {
     protected void onPreDraw(long timestampUs, @NonNull float[] transformMatrix) {
         super.onPreDraw(timestampUs, transformMatrix);
         GLES20.glUniform1f(scaleLocation, scale);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
     }
 }

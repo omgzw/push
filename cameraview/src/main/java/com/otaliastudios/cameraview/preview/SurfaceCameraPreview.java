@@ -75,7 +75,7 @@ public class SurfaceCameraPreview extends CameraPreview<SurfaceView, SurfaceHold
 
     @NonNull
     @Override
-    public View getRootView() {
+    View getRootView() {
         return mRootView;
     }
 

@@ -1,13 +1,15 @@
 package com.otaliastudios.cameraview.filter;
 
+import android.opengl.GLES20;
+
 import android.support.annotation.NonNull;
 import android.support.annotation.VisibleForTesting;
 
 import com.otaliastudios.cameraview.CameraLogger;
+import com.otaliastudios.cameraview.internal.GlUtils;
 import com.otaliastudios.cameraview.size.Size;
-import com.otaliastudios.opengl.draw.GlDrawable;
-import com.otaliastudios.opengl.draw.GlRect;
-import com.otaliastudios.opengl.program.GlTextureProgram;
+
+import java.nio.FloatBuffer;
 
 /**
  * A base implementation of {@link Filter} that just leaves the fragment shader to subclasses.
@@ -88,8 +90,26 @@ public abstract class BaseFilter implements Filter {
                 + "}\n";
     }
 
-    @VisibleForTesting GlTextureProgram program = null;
-    private GlDrawable programDrawable = null;
+    // When the model/view/projection matrix is identity, this will exactly cover the viewport.
+    private FloatBuffer vertexPosition = GlUtils.floatBuffer(new float[]{
+            -1.0f, -1.0f, // 0 bottom left
+            1.0f, -1.0f, // 1 bottom right
+            -1.0f, 1.0f, // 2 top left
+            1.0f, 1.0f, // 3 top right
+    });
+
+    private FloatBuffer textureCoordinates = GlUtils.floatBuffer(new float[]{
+            0.0f, 0.0f, // 0 bottom left
+            1.0f, 0.0f, // 1 bottom right
+            0.0f, 1.0f, // 2 top left
+            1.0f, 1.0f  // 3 top right
+    });
+
+    private int vertexModelViewProjectionMatrixLocation = -1;
+    private int vertexTransformMatrixLocation = -1;
+    private int vertexPositionLocation = -1;
+    private int vertexTextureCoordinateLocation = -1;
+    @VisibleForTesting int programHandle = -1;
     @VisibleForTesting Size size;
 
     @SuppressWarnings("WeakerAccess")
@@ -121,23 +141,28 @@ public abstract class BaseFilter implements Filter {
 
     @Override
     public void onCreate(int programHandle) {
-        program = new GlTextureProgram(programHandle,
-                vertexPositionName,
-                vertexModelViewProjectionMatrixName,
-                vertexTextureCoordinateName,
+        this.programHandle = programHandle;
+        vertexPositionLocation = GLES20.glGetAttribLocation(programHandle, vertexPositionName);
+        GlUtils.checkLocation(vertexPositionLocation, vertexPositionName);
+        vertexTextureCoordinateLocation = GLES20.glGetAttribLocation(programHandle,
+                vertexTextureCoordinateName);
+        GlUtils.checkLocation(vertexTextureCoordinateLocation, vertexTextureCoordinateName);
+        vertexModelViewProjectionMatrixLocation = GLES20.glGetUniformLocation(programHandle,
+                vertexModelViewProjectionMatrixName);
+        GlUtils.checkLocation(vertexModelViewProjectionMatrixLocation,
+                vertexModelViewProjectionMatrixName);
+        vertexTransformMatrixLocation = GLES20.glGetUniformLocation(programHandle,
                 vertexTransformMatrixName);
-        programDrawable = new GlRect();
+        GlUtils.checkLocation(vertexTransformMatrixLocation, vertexTransformMatrixName);
     }
 
     @Override
     public void onDestroy() {
-        // Since we used the handle constructor of GlTextureProgram, calling release here
-        // will NOT destroy the GL program. This is important because Filters are not supposed
-        // to have ownership of programs. Creation and deletion happen outside, and deleting twice
-        // would cause an error.
-        program.release();
-        program = null;
-        programDrawable = null;
+        programHandle = -1;
+        vertexPositionLocation = -1;
+        vertexTextureCoordinateLocation = -1;
+        vertexModelViewProjectionMatrixLocation = -1;
+        vertexTransformMatrixLocation = -1;
     }
 
     @NonNull
@@ -153,7 +178,7 @@ public abstract class BaseFilter implements Filter {
 
     @Override
     public void draw(long timestampUs, @NonNull float[] transformMatrix) {
-        if (program == null) {
+        if (programHandle == -1) {
             LOG.w("Filter.draw() called after destroying the filter. " +
                     "This can happen rarely because of threading.");
         } else {
@@ -164,18 +189,43 @@ public abstract class BaseFilter implements Filter {
     }
 
     protected void onPreDraw(long timestampUs, @NonNull float[] transformMatrix) {
-        program.setTextureTransform(transformMatrix);
-        program.onPreDraw(programDrawable, programDrawable.getModelMatrix());
+        // Copy the model / view / projection matrix over.
+        GLES20.glUniformMatrix4fv(vertexModelViewProjectionMatrixLocation, 1,
+                false, GlUtils.IDENTITY_MATRIX, 0);
+        GlUtils.checkError("glUniformMatrix4fv");
+
+        // Copy the texture transformation matrix over.
+        GLES20.glUniformMatrix4fv(vertexTransformMatrixLocation, 1,
+                false, transformMatrix, 0);
+        GlUtils.checkError("glUniformMatrix4fv");
+
+        // Enable the "aPosition" vertex attribute.
+        // Connect vertexBuffer to "aPosition".
+        GLES20.glEnableVertexAttribArray(vertexPositionLocation);
+        GlUtils.checkError("glEnableVertexAttribArray: " + vertexPositionLocation);
+        GLES20.glVertexAttribPointer(vertexPositionLocation, 2, GLES20.GL_FLOAT,
+                false, 8, vertexPosition);
+        GlUtils.checkError("glVertexAttribPointer");
+
+        // Enable the "aTextureCoord" vertex attribute.
+        // Connect texBuffer to "aTextureCoord".
+        GLES20.glEnableVertexAttribArray(vertexTextureCoordinateLocation);
+        GlUtils.checkError("glEnableVertexAttribArray");
+        GLES20.glVertexAttribPointer(vertexTextureCoordinateLocation, 2, GLES20.GL_FLOAT,
+                false, 8, textureCoordinates);
+        GlUtils.checkError("glVertexAttribPointer");
     }
 
     @SuppressWarnings("WeakerAccess")
-    protected void onDraw(@SuppressWarnings("unused") long timestampUs) {
-        program.onDraw(programDrawable);
+    protected void onDraw(long timestampUs) {
+        GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
+        GlUtils.checkError("glDrawArrays");
     }
 
     @SuppressWarnings("WeakerAccess")
-    protected void onPostDraw(@SuppressWarnings("unused") long timestampUs) {
-        program.onPostDraw(programDrawable);
+    protected void onPostDraw(long timestampUs) {
+        GLES20.glDisableVertexAttribArray(vertexPositionLocation);
+        GLES20.glDisableVertexAttribArray(vertexTextureCoordinateLocation);
     }
 
     @NonNull
@@ -194,7 +244,6 @@ public abstract class BaseFilter implements Filter {
         return copy;
     }
 
-    @NonNull
     protected BaseFilter onCopy() {
         try {
             return getClass().newInstance();

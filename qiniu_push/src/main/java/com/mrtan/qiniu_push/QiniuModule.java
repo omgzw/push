@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 
 import com.alibaba.fastjson.JSONObject;
+import com.mrtan.qiniu_push.activity.AVStreamingActivity;
+import com.mrtan.qiniu_push.activity.StreamingBaseActivity;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
@@ -70,10 +72,14 @@ public class QiniuModule extends WXModule {
     }
 
     @JSMethod (uiThread = true)
-    public void gotoNativePage(){
-        if(mWXSDKInstance != null && mWXSDKInstance.getContext() instanceof Activity) {
-            Intent intent = new Intent(mWXSDKInstance.getContext(), PreviewActivity.class);
-            ((Activity)mWXSDKInstance.getContext()).startActivity(intent);
+    public void gotoNativePage(JSONObject options){
+        String url = options.getString(QiniuProxy.KEY_URL);
+        if (url != null) {
+            if (mWXSDKInstance != null && mWXSDKInstance.getContext() instanceof Activity) {
+                Intent intent = new Intent(mWXSDKInstance.getContext(), AVStreamingActivity.class);
+                intent.putExtra(StreamingBaseActivity.INPUT_TEXT, url);
+                ((Activity) mWXSDKInstance.getContext()).startActivity(intent);
+            }
         }
     }
 }

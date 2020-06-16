@@ -10,10 +10,10 @@ import android.support.annotation.RequiresApi;
 
 import com.otaliastudios.cameraview.CameraLogger;
 import com.otaliastudios.cameraview.filter.Filter;
-import com.otaliastudios.cameraview.internal.GlTextureDrawer;
-import com.otaliastudios.cameraview.internal.Pool;
-import com.otaliastudios.opengl.core.EglCore;
-import com.otaliastudios.opengl.surface.EglWindowSurface;
+import com.otaliastudios.cameraview.internal.egl.EglCore;
+import com.otaliastudios.cameraview.internal.egl.EglViewport;
+import com.otaliastudios.cameraview.internal.egl.EglWindowSurface;
+import com.otaliastudios.cameraview.internal.utils.Pool;
 
 /**
  * Default implementation for video encoding.
@@ -30,7 +30,7 @@ public class TextureMediaEncoder extends VideoMediaEncoder<TextureConfig> {
     private int mTransformRotation;
     private EglCore mEglCore;
     private EglWindowSurface mWindow;
-    private GlTextureDrawer mDrawer;
+    private EglViewport mViewport;
     private Pool<Frame> mFramePool = new Pool<>(Integer.MAX_VALUE, new Pool.Factory<Frame>() {
         @Override
         public Frame create() {
@@ -99,7 +99,7 @@ public class TextureMediaEncoder extends VideoMediaEncoder<TextureConfig> {
         mEglCore = new EglCore(mConfig.eglContext, EglCore.FLAG_RECORDABLE);
         mWindow = new EglWindowSurface(mEglCore, mSurface, true);
         mWindow.makeCurrent();
-        mDrawer = new GlTextureDrawer(mConfig.textureId);
+        mViewport = new EglViewport();
     }
 
     /**
@@ -149,7 +149,7 @@ public class TextureMediaEncoder extends VideoMediaEncoder<TextureConfig> {
     }
 
     private void onFilter(@NonNull Filter filter) {
-        mDrawer.setFilter(filter);
+        mViewport.setFilter(filter);
     }
 
     private void onFrame(@NonNull Frame frame) {
@@ -218,8 +218,8 @@ public class TextureMediaEncoder extends VideoMediaEncoder<TextureConfig> {
             mConfig.overlayDrawer.draw(mConfig.overlayTarget);
             Matrix.translateM(mConfig.overlayDrawer.getTransform(),
                     0, 0.5F, 0.5F, 0);
-            Matrix.rotateM(mConfig.overlayDrawer.getTransform(),
-                    0, mConfig.overlayRotation, 0, 0, 1);
+            Matrix.rotateM(mConfig.overlayDrawer.getTransform(), 0, mConfig.overlayRotation,
+                    0, 0, 1);
             Matrix.translateM(mConfig.overlayDrawer.getTransform(),
                     0, -0.5F, -0.5F, 0);
         }
@@ -229,8 +229,7 @@ public class TextureMediaEncoder extends VideoMediaEncoder<TextureConfig> {
                 "hasReachedMaxLength:", hasReachedMaxLength(),
                 "thread:", Thread.currentThread(),
                 "- gl rendering.");
-        mDrawer.setTextureTransform(transform);
-        mDrawer.draw(frame.timestampUs());
+        mViewport.drawFrame(frame.timestampUs(), mConfig.textureId, transform);
         if (mConfig.hasOverlay()) {
             mConfig.overlayDrawer.render(frame.timestampUs());
         }
@@ -253,9 +252,9 @@ public class TextureMediaEncoder extends VideoMediaEncoder<TextureConfig> {
             mWindow.release();
             mWindow = null;
         }
-        if (mDrawer != null) {
-            mDrawer.release();
-            mDrawer = null;
+        if (mViewport != null) {
+            mViewport.release();
+            mViewport = null;
         }
         if (mEglCore != null) {
             mEglCore.release();

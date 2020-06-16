@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 
 import com.otaliastudios.cameraview.filter.BaseFilter;
 import com.otaliastudios.cameraview.filter.TwoParameterFilter;
-import com.otaliastudios.opengl.core.Egloo;
+import com.otaliastudios.cameraview.internal.GlUtils;
 
 
 /**
@@ -126,13 +126,13 @@ public class VignetteFilter extends BaseFilter implements TwoParameterFilter {
     public void onCreate(int programHandle) {
         super.onCreate(programHandle);
         mRangeLocation = GLES20.glGetUniformLocation(programHandle, "range");
-        Egloo.checkGlProgramLocation(mRangeLocation, "range");
+        GlUtils.checkLocation(mRangeLocation, "range");
         mMaxDistLocation = GLES20.glGetUniformLocation(programHandle, "inv_max_dist");
-        Egloo.checkGlProgramLocation(mMaxDistLocation, "inv_max_dist");
+        GlUtils.checkLocation(mMaxDistLocation, "inv_max_dist");
         mShadeLocation = GLES20.glGetUniformLocation(programHandle, "shade");
-        Egloo.checkGlProgramLocation(mShadeLocation, "shade");
+        GlUtils.checkLocation(mShadeLocation, "shade");
         mScaleLocation = GLES20.glGetUniformLocation(programHandle, "scale");
-        Egloo.checkGlProgramLocation(mScaleLocation, "scale");
+        GlUtils.checkLocation(mScaleLocation, "scale");
     }
 
     @Override
@@ -156,20 +156,20 @@ public class VignetteFilter extends BaseFilter implements TwoParameterFilter {
             scale[1] = 1f;
         }
         GLES20.glUniform2fv(mScaleLocation, 1, scale, 0);
-        Egloo.checkGlError("glUniform2fv");
+        GlUtils.checkError("glUniform2fv");
 
         float maxDist = ((float) Math.sqrt(scale[0] * scale[0] + scale[1] * scale[1])) * 0.5f;
         GLES20.glUniform1f(mMaxDistLocation, 1F / maxDist);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
 
         GLES20.glUniform1f(mShadeLocation, mShade);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
 
         // The 'range' is between 1.3 to 0.6. When scale is zero then range is 1.3
         // which means no vignette at all because the luminousity difference is
         // less than 1/256 and will cause nothing.
         float range = (1.30f - (float) Math.sqrt(mScale) * 0.7f);
         GLES20.glUniform1f(mRangeLocation, range);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
     }
 }

@@ -18,7 +18,6 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +33,6 @@ import android.arch.lifecycle.LifecycleOwner;
 import android.arch.lifecycle.OnLifecycleEvent;
 
 import com.otaliastudios.cameraview.controls.Audio;
-import com.otaliastudios.cameraview.controls.AudioCodec;
 import com.otaliastudios.cameraview.controls.Control;
 import com.otaliastudios.cameraview.controls.ControlParser;
 import com.otaliastudios.cameraview.controls.Engine;
@@ -68,8 +66,8 @@ import com.otaliastudios.cameraview.gesture.PinchGestureFinder;
 import com.otaliastudios.cameraview.gesture.ScrollGestureFinder;
 import com.otaliastudios.cameraview.gesture.TapGestureFinder;
 import com.otaliastudios.cameraview.internal.GridLinesLayout;
-import com.otaliastudios.cameraview.internal.CropHelper;
-import com.otaliastudios.cameraview.internal.OrientationHelper;
+import com.otaliastudios.cameraview.internal.utils.CropHelper;
+import com.otaliastudios.cameraview.internal.utils.OrientationHelper;
 import com.otaliastudios.cameraview.markers.AutoFocusMarker;
 import com.otaliastudios.cameraview.markers.AutoFocusTrigger;
 import com.otaliastudios.cameraview.markers.MarkerLayout;
@@ -270,7 +268,6 @@ public class CameraView extends FrameLayout implements LifecycleObserver {
         setHdr(controls.getHdr());
         setAudio(controls.getAudio());
         setAudioBitRate(audioBitRate);
-        setAudioCodec(controls.getAudioCodec());
         setPictureSize(sizeSelectors.getPictureSizeSelector());
         setPictureMetering(pictureMetering);
         setPictureSnapshotMetering(pictureSnapshotMetering);
@@ -730,14 +727,6 @@ public class CameraView extends FrameLayout implements LifecycleObserver {
     //region Lifecycle APIs
 
     /**
-     * Sets permissions flag if you want enable auto check permissions or disable it.
-     * @param requestPermissions - true: auto check permissions enabled, false: auto check permissions disabled.
-     */
-    public void setRequestPermissions(boolean requestPermissions) {
-        mRequestPermissions = requestPermissions;
-    }
-
-    /**
      * Returns whether the camera engine has started.
      * @return whether the camera has started
      */
@@ -755,26 +744,12 @@ public class CameraView extends FrameLayout implements LifecycleObserver {
      * Sets the lifecycle owner for this view. This means you don't need
      * to call {@link #open()}, {@link #close()} or {@link #destroy()} at all.
      *
-     * If you want that lifecycle stopped controlling the state of the camera,
-     * pass null in this method.
-     *
      * @param owner the owner activity or fragment
      */
-    public void setLifecycleOwner(@Nullable LifecycleOwner owner) {
-        if (owner == null) {
-            clearLifecycleObserver();
-        } else {
-            clearLifecycleObserver();
-            mLifecycle = owner.getLifecycle();
-            mLifecycle.addObserver(this);
-        }
-    }
-
-    private void clearLifecycleObserver() {
-        if (mLifecycle != null) {
-            mLifecycle.removeObserver(this);
-            mLifecycle = null;
-        }
+    public void setLifecycleOwner(@NonNull LifecycleOwner owner) {
+        if (mLifecycle != null) mLifecycle.removeObserver(this);
+        mLifecycle = owner.getLifecycle();
+        mLifecycle.addObserver(this);
     }
 
     /**
@@ -909,8 +884,6 @@ public class CameraView extends FrameLayout implements LifecycleObserver {
             setWhiteBalance((WhiteBalance) control);
         } else if (control instanceof VideoCodec) {
             setVideoCodec((VideoCodec) control);
-        } else if (control instanceof AudioCodec) {
-            setAudioCodec((AudioCodec) control);
         } else if (control instanceof Preview) {
             setPreview((Preview) control);
         } else if (control instanceof Engine) {
@@ -947,8 +920,6 @@ public class CameraView extends FrameLayout implements LifecycleObserver {
             return (T) getWhiteBalance();
         } else if (controlClass == VideoCodec.class) {
             return (T) getVideoCodec();
-        } else if (controlClass == AudioCodec.class) {
-            return (T) getAudioCodec();
         } else if (controlClass == Preview.class) {
             return (T) getPreview();
         } else if (controlClass == Engine.class) {
@@ -1021,7 +992,6 @@ public class CameraView extends FrameLayout implements LifecycleObserver {
         setHdr(oldEngine.getHdr());
         setAudio(oldEngine.getAudio());
         setAudioBitRate(oldEngine.getAudioBitRate());
-        setAudioCodec(oldEngine.getAudioCodec());
         setPictureSize(oldEngine.getPictureSizeSelector());
         setPictureFormat(oldEngine.getPictureFormat());
         setVideoSize(oldEngine.getVideoSizeSelector());
@@ -1649,30 +1619,6 @@ public class CameraView extends FrameLayout implements LifecycleObserver {
     @SuppressWarnings("unused")
     public int getAudioBitRate() {
         return mCameraEngine.getAudioBitRate();
-    }
-
-    /**
-     * Sets the encoder for audio recordings.
-     * Defaults to {@link AudioCodec#DEVICE_DEFAULT}.
-     *
-     * @see AudioCodec#DEVICE_DEFAULT
-     * @see AudioCodec#AAC
-     * @see AudioCodec#HE_AAC
-     * @see AudioCodec#AAC_ELD
-     *
-     * @param codec requested audio codec
-     */
-    public void setAudioCodec(@NonNull AudioCodec codec) {
-        mCameraEngine.setAudioCodec(codec);
-    }
-
-    /**
-     * Gets the current encoder for audio recordings.
-     * @return the current audio codec
-     */
-    @NonNull
-    public AudioCodec getAudioCodec() {
-        return mCameraEngine.getAudioCodec();
     }
 
     /**

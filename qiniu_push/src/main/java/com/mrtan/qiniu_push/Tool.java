@@ -98,6 +98,35 @@ public class Tool extends WXSDKEngine.DestroyableModule {
           });
     } 
   }
+
+  @JSMethod(uiThread = true)
+  public void checkPush(final JSCallback callback) {
+    final JSONObject object = new JSONObject();
+    Context context = this.mWXSDKInstance.getContext();
+    if (XXPermissions.isHasPermission(context, Permission.RECORD_AUDIO, Permission.CAMERA)) {
+      object.put("code", 1);
+      object.put("msg", "已授权");
+      if (callback != null) {
+        callback.invokeAndKeepAlive(object);
+      }
+    } else {
+      XXPermissions.with((Activity)context).permission("android.permission.RECORD_AUDIO").request(new OnPermission() {
+        public void hasPermission(List<String> param1List, boolean param1Boolean) {
+          object.put("code", 1);
+          object.put("msg", "已授权");
+          if (callback != null)
+            callback.invokeAndKeepAlive(object);
+        }
+
+        public void noPermission(List<String> param1List, boolean param1Boolean) {
+          object.put("code", 0);
+          object.put("msg", "未授权");
+          if (callback != null)
+            callback.invokeAndKeepAlive(object);
+        }
+      });
+    }
+  }
   
   @JSMethod(uiThread = true)
   public void checkMicrophone(final JSCallback callback) {

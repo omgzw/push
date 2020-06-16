@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 
 import com.otaliastudios.cameraview.filter.BaseFilter;
 import com.otaliastudios.cameraview.filter.OneParameterFilter;
-import com.otaliastudios.opengl.core.Egloo;
+import com.otaliastudios.cameraview.internal.GlUtils;
 
 import java.util.Random;
 
@@ -122,11 +122,11 @@ public class GrainFilter extends BaseFilter implements OneParameterFilter {
     public void onCreate(int programHandle) {
         super.onCreate(programHandle);
         strengthLocation = GLES20.glGetUniformLocation(programHandle, "scale");
-        Egloo.checkGlProgramLocation(strengthLocation, "scale");
+        GlUtils.checkLocation(strengthLocation, "scale");
         stepXLocation = GLES20.glGetUniformLocation(programHandle, "stepX");
-        Egloo.checkGlProgramLocation(stepXLocation, "stepX");
+        GlUtils.checkLocation(stepXLocation, "stepX");
         stepYLocation = GLES20.glGetUniformLocation(programHandle, "stepY");
-        Egloo.checkGlProgramLocation(stepYLocation, "stepY");
+        GlUtils.checkLocation(stepYLocation, "stepY");
     }
 
     @Override
@@ -141,10 +141,10 @@ public class GrainFilter extends BaseFilter implements OneParameterFilter {
     protected void onPreDraw(long timestampUs, @NonNull float[] transformMatrix) {
         super.onPreDraw(timestampUs, transformMatrix);
         GLES20.glUniform1f(strengthLocation, strength);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
         GLES20.glUniform1f(stepXLocation, 0.5f / width);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
         GLES20.glUniform1f(stepYLocation, 0.5f / height);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
     }
 }

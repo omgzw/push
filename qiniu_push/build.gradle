@@ -39,10 +39,7 @@ dependencies {
     compileOnly 'com.alibaba:fastjson:1.1.46.android'
     implementation 'com.qiniu:happy-dns:0.2.8'
     implementation 'com.hjq:xxpermissions:6.2'
-//    compileOnly 'com.otaliastudios:cameraview:2.6.2'
-//    ':cameraview'
     compileOnly fileTree(dir: '../app/libs', include: ['uniapp-release.aar'])
-    implementation project(':cameraview')
 
     compileOnly 'com.alibaba:fastjson:1.1.46.android'
 }

@@ -1,16 +1,16 @@
 package com.otaliastudios.cameraview;
 
-import android.util.Log;
-
 import android.support.annotation.IntDef;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 
+import android.util.Log;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import java.util.Set;
-import java.util.concurrent.CopyOnWriteArraySet;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Utility class that can log traces and info.
@@ -59,7 +59,7 @@ public final class CameraLogger {
     @VisibleForTesting static String lastTag;
 
     private static int sLevel;
-    private static Set<Logger> sLoggers = new CopyOnWriteArraySet<>();
+    private static List<Logger> sLoggers = new ArrayList<>();
 
     @VisibleForTesting static Logger sAndroidLogger = new Logger() {
         @Override

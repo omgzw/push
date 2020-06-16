@@ -2,20 +2,17 @@ package com.otaliastudios.cameraview.video;
 
 import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
-import android.os.Build;
 
 import com.otaliastudios.cameraview.CameraLogger;
 import com.otaliastudios.cameraview.VideoResult;
 import com.otaliastudios.cameraview.controls.Audio;
-import com.otaliastudios.cameraview.controls.AudioCodec;
 import com.otaliastudios.cameraview.controls.VideoCodec;
 import com.otaliastudios.cameraview.internal.DeviceEncoders;
-import com.otaliastudios.cameraview.internal.CamcorderProfiles;
+import com.otaliastudios.cameraview.internal.utils.CamcorderProfiles;
 import com.otaliastudios.cameraview.size.Size;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 
 /**
  * A {@link VideoRecorder} that uses {@link android.media.MediaRecorder} APIs.
@@ -107,16 +104,6 @@ public abstract class FullVideoRecorder extends VideoRecorder {
         } else if (stub.videoCodec == VideoCodec.H_263) {
             mProfile.videoCodec = MediaRecorder.VideoEncoder.H263;
             mProfile.fileFormat = MediaRecorder.OutputFormat.MPEG_4; // should work
-        }
-        // Set audio codec if the user has specified a specific codec.
-        if (stub.audioCodec == AudioCodec.AAC) {
-            mProfile.audioCodec = MediaRecorder.AudioEncoder.AAC;
-        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN
-                && stub.audioCodec == AudioCodec.HE_AAC) {
-            mProfile.audioCodec = MediaRecorder.AudioEncoder.HE_AAC;
-        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN
-                && stub.audioCodec == AudioCodec.AAC_ELD) {
-            mProfile.audioCodec = MediaRecorder.AudioEncoder.AAC_ELD;
         }
         mMediaRecorder.setOutputFormat(mProfile.fileFormat);
 

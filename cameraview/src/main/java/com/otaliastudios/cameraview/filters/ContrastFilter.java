@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 
 import com.otaliastudios.cameraview.filter.BaseFilter;
 import com.otaliastudios.cameraview.filter.OneParameterFilter;
-import com.otaliastudios.opengl.core.Egloo;
+import com.otaliastudios.cameraview.internal.GlUtils;
 
 /**
  * Adjusts the contrast.
@@ -78,7 +78,7 @@ public class ContrastFilter extends BaseFilter implements OneParameterFilter {
     public void onCreate(int programHandle) {
         super.onCreate(programHandle);
         contrastLocation = GLES20.glGetUniformLocation(programHandle, "contrast");
-        Egloo.checkGlProgramLocation(contrastLocation, "contrast");
+        GlUtils.checkLocation(contrastLocation, "contrast");
     }
 
     @Override
@@ -91,6 +91,6 @@ public class ContrastFilter extends BaseFilter implements OneParameterFilter {
     protected void onPreDraw(long timestampUs, @NonNull float[] transformMatrix) {
         super.onPreDraw(timestampUs, transformMatrix);
         GLES20.glUniform1f(contrastLocation, contrast);
-        Egloo.checkGlError("glUniform1f");
+        GlUtils.checkError("glUniform1f");
     }
 }
