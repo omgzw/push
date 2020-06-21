@@ -1,0 +1,66 @@
+<template>
+	<div>
+		<button type="primary" @click="goDetailPage('/pages/sample/push','push')">組件</button>
+		<button type="primary" @click="goDetailPage('/pages/sample/qiniu','qiniu')">录屏</button>
+	</div>
+</template>
+<script>
+	const permissionModule = uni.requireNativePlugin("Mrtan-Permission")
+	const modal = uni.requireNativePlugin('modal');
+	export default {
+		data() {
+			return {}
+		},
+		onLoad() {},
+		methods: {
+			goDetailPage(itemUrl, id) {
+				if (id === 'push' || id === 'qiniu') {
+					permissionModule.checkMicrophone((ret) => {
+						if (ret.code === 1) {
+							// 检查摄像头
+							permissionModule.checkCamera((ret) => {
+								if (ret.code === 1) {
+									if (this.navigateFlag) {
+										return;
+									}
+									this.navigateFlag = true;
+									uni.navigateTo({
+										url: itemUrl
+									});
+									setTimeout(() => {
+										this.navigateFlag = false;
+									}, 200)
+								} else {
+									modal.toast({
+										message: '请授权摄像头权限',
+										duration: 1.5
+									});
+								}
+							})
+						} else {
+							modal.toast({
+								message: '请授权录音权限',
+								duration: 1.5
+							});
+						}
+					});
+				} else {
+					if (this.navigateFlag) {
+						return;
+					}
+					this.navigateFlag = true;
+					uni.navigateTo({
+						url: itemUrl
+					});
+					setTimeout(() => {
+						this.navigateFlag = false;
+					}, 200)
+					return false;
+				}
+			}
+		}
+	}
+</script>
+
+<style>
+</style>

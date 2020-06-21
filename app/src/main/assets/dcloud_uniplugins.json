@@ -42,6 +42,16 @@
           "class": "com.mrtan.qiniu_push.Tool"
         }
       ]
+    },
+    {
+      "hooksClass": "com.otaliastudios.cameraview.CameraAppProxy",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "cameraview",
+          "class": "com.otaliastudios.cameraview.CameraViewComponent"
+        }
+      ]
     }
   ]
 }

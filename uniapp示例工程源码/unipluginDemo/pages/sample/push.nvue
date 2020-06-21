@@ -1,0 +1,50 @@
+<template>
+	<div>
+		<cameraPush ref="cv" style="width:100%;height:1000rpx" :url="url">
+		</cameraPush>
+		<!-- <button type="primary" @click="init">初始化</button>
+		<button type="primary" @click="open">开启摄像头</button> -->
+		<button type="primary" style="position: fixed; top: 0rpx; right: 0rpx;" @click="switchCamera">切换摄像头</button>
+		<button type="primary" style="position: fixed; top: 120rpx; right: 0rpx;" @click="switchFlash">切换闪光灯</button>
+		<button type="primary" style="position: fixed; top: 240rpx; right: 0rpx;" @click="switchFaceBeauty">切换美颜</button>
+	</div>
+</template>
+
+<script>
+	// 获取 module
+	let testModule = uni.requireNativePlugin("Mrtan-Qiniu");
+	let permissionModule = uni.requireNativePlugin("Mrtan-Permission")
+	let modal = uni.requireNativePlugin('modal');
+	const pushUrl =
+		"rtmp://push.dwusoft.com/2e0dd3989fc540c19a3d5218742377af/2e0dd3989fc540c19a3d5218742377af?auth_key=1592355448-0-0-214b3dad75104daf7bf3bcfb4f3bce4f&itemId=2e0dd3989fc540c19a3d5218742377af"
+	export default {
+		data() {
+			return {url:pushUrl}
+		},
+		onLoad() {
+			plus.globalEvent.addEventListener('TestEvent', function(e) {
+				modal.toast({
+					message: "TestEvent收到：" + e.msg,
+					duration: 1.5
+				});
+			});
+		},
+		onHide(){
+			this.$refs.cv.onHidden()
+		},
+		onShow(){
+			this.$refs.cv.onShow()
+		},
+		methods: {
+			switchCamera() {
+				this.$refs.cv.switchCamera();
+			},
+			switchFlash() {
+				this.$refs.cv.switchFlash();
+			},
+			switchFaceBeauty() {
+				this.$refs.cv.switchFaceBeauty();
+			}
+		}
+	}
+</script>

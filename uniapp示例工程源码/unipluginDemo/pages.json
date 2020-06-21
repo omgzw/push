@@ -19,9 +19,9 @@
 			}
 		},
 		{
-			"path": "pages/sample/ext-component",
+			"path": "pages/sample/push",
 			"style": {
-				"navigationBarTitleText": "扩展 component"
+				"navigationBarTitleText": "推流component"
 			}
 		},
 		{

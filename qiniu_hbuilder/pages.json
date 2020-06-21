@@ -5,6 +5,30 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/sample/ext-module",
+			"style": {
+				"navigationBarTitleText": "扩展 module"
+			}
+		},
+		{
+			"path": "pages/sample/qiniu",
+			"style": {
+				"navigationBarTitleText": "七牛推流"
+			}
+		},
+		{
+			"path": "pages/sample/push",
+			"style": {
+				"navigationBarTitleText": "推流component"
+			}
+		},
+		{
+			"path": "pages/sample/richAlert",
+			"style": {
+				"navigationBarTitleText": "RichAlert"
+			}
 		}
 	],
 	"globalStyle": {

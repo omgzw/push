@@ -19,8 +19,8 @@
     <string name="string_state_con_timeout">CONNECTION TIMEOUT</string>
     <string name="title_activity_audio_streaming">AudioStreamingActivity</string>
 
-    <string name="flash_light_on">ON</string>
-    <string name="flash_light_off">OFF</string>
+    <string name="flash_light_on">闪光开</string>
+    <string name="flash_light_off">闪光关</string>
 
     <string name="cd_et_input_url">cd_et_input_url</string>
     <string name="cd_btn_hw_codec">cd_btn_hw_codec</string>
@@ -34,12 +34,14 @@
     <string name="cd_btn_torch">cd_btn_torch</string>
     <string name="cd_btn_capture">cd_btn_capture</string>
     <string name="cd_btn_orientation">cd_btn_orientation</string>
-    <string name="cd_btn_mute">cd_btn_mute</string>
-    <string name="cd_btn_fb">cd_btn_fb</string>
+    <string name="cd_btn_mute">静音</string>
+    <string name="cd_btn_fb">美颜</string>
     <string name="cd_tv_streaming_state_hint">cd_tv_streaming_state_hint</string>
     <string name="cd_shutter_button">cd_shutter_button</string>
     <string name="cd_btn_screen_recorder">cd_btn_screen_recorder</string>
     <string name="cd_btn_ext_cap">cd_btn_ext_cap</string>
     <string name="cd_preview_mirror">cd_preview_mirror</string>
     <string name="cd_encoding_mirror">cd_encoding_mirror</string>
+    <string name="camera_font">前置摄像头</string>
+    <string name="camera_back">后置摄像头</string>
 </resources>

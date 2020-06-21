@@ -1,0 +1,71 @@
+<template>
+	<div>
+		<button type="primary" @click="checkPermission">权限</button>
+		<button type="primary" @click="gotoNativePage">摄像头推流</button>
+		<button type="primary" @click="onClickInit">初始化</button>
+		<button type="primary" @click="onClickPush">推流</button>
+		<button type="primary" @click="onClickStop">停止</button>
+	</div>
+</template>
+
+<script>
+	// 获取 module 
+	const testModule = uni.requireNativePlugin("Mrtan-Qiniu")
+	const permissionModule = uni.requireNativePlugin("Mrtan-Permission")
+	const modal = uni.requireNativePlugin('modal');
+	const pushUrl =
+		"rtmp://push.dwusoft.com/924f9db69afe4cc6918e4f615bbafd0c/924f9db69afe4cc6918e4f615bbafd0c?auth_key=1592788558-0-0-62ed4d2a881777f61cd0a33e24abfdcf&itemId=924f9db69afe4cc6918e4f615bbafd0c"
+	export default {
+		data() {
+		    return {  
+		    }  
+		}, 
+		onLoad() {
+			plus.globalEvent.addEventListener('TestEvent', function(e) {
+				modal.toast({
+					message: "TestEvent收到：" + e.msg,
+					duration: 1.5
+				});
+			});
+		},
+		methods: {
+			checkPermission() {
+				permissionModule.checkPush((ret) => {
+						modal.toast({
+							message: ret,
+							duration: 1.5
+						});
+					});
+			},
+			gotoNativePage() {
+				testModule.gotoNativePage({"url":pushUrl});
+			},
+			onClickInit() {
+				testModule.setStreamingStateChangedListener((ret) => {
+					modal.toast({
+						message: ret,
+						duration: 1.5
+					});
+				});
+				testModule.setShutterStateCallback((ret) => {
+					modal.toast({
+						message: ret,
+						duration: 1.5
+					});
+				});
+				//开始直播
+				testModule.init({
+					"url": pushUrl
+				});
+			},
+			onClickPush() {
+				//推流
+				testModule.startStream()
+			},
+			onClickStop() {
+				//停止推流
+				testModule.stopStream()
+			}
+		}
+	}
+</script>

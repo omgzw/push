@@ -18,33 +18,36 @@
 	</view>
 </template>
 <script>
+	const permissionModule = uni.requireNativePlugin("PermissionModule")
+	const modal = uni.requireNativePlugin('modal');
 	export default {
 		data() {
 			return {
 				list: [{
-					id: 'ext-module',
-					name: '扩展 module',
-					open: false,
-					url: '/pages/sample/ext-module'
-				},
-				{
-					id: 'ext-component',
-					name: '扩展 component',
-					open: false,
-					url: '/pages/sample/ext-component'
-				},
-				{
-					id:'richAlert',
-					name:'插件示例RichAlert',
-					open:false,
-					url:'/pages/sample/richAlert'
-				},
-				{
-					id:'qiniu',
-					name:'七牛推流',
-					open:false,
-					url:'/pages/sample/qiniu'
-				}],
+						id: 'ext-module',
+						name: '扩展 module',
+						open: false,
+						url: '/pages/sample/ext-module'
+					},
+					{
+						id: 'push',
+						name: '推流 component',
+						open: false,
+						url: '/pages/sample/push'
+					},
+					{
+						id: 'richAlert',
+						name: '插件示例RichAlert',
+						open: false,
+						url: '/pages/sample/richAlert'
+					},
+					{
+						id: 'qiniu',
+						name: '七牛推流',
+						open: false,
+						url: '/pages/sample/qiniu'
+					}
+				],
 				navigateFlag: false
 			}
 		},
@@ -52,7 +55,8 @@
 		methods: {
 			triggerCollapse(e) {
 				if (!this.list[e].pages) {
-					this.goDetailPage(this.list[e].url);
+					const item = this.list[e]
+					this.goDetailPage(item.url, item.id);
 					return;
 				}
 				for (var i = 0; i < this.list.length; ++i) {
@@ -63,18 +67,50 @@
 					}
 				}
 			},
-			goDetailPage(e) {
-				if (this.navigateFlag) {
-					return;
+			goDetailPage(itemUrl, id) {
+				if (id === 'push' || id === 'qiniu') {
+					permissionModule.checkMicrophone((ret) => {
+						if (ret.code === 1) {
+							// 检查摄像头
+							permissionModule.checkCamera((ret) => {
+								if (ret.code === 1) {
+									if (this.navigateFlag) {
+										return;
+									}
+									this.navigateFlag = true;
+									uni.navigateTo({
+										url: itemUrl
+									});
+									setTimeout(() => {
+										this.navigateFlag = false;
+									}, 200)
+								} else {
+									modal.toast({
+										message: '请授权摄像头权限',
+										duration: 1.5
+									});
+								}
+							})
+						} else {
+							modal.toast({
+								message: '请授权录音权限',
+								duration: 1.5
+							});
+						}
+					});
+				} else {
+					if (this.navigateFlag) {
+						return;
+					}
+					this.navigateFlag = true;
+					uni.navigateTo({
+						url: itemUrl
+					});
+					setTimeout(() => {
+						this.navigateFlag = false;
+					}, 200)
+					return false;
 				}
-				this.navigateFlag = true;
-				uni.navigateTo({
-					url: e
-				});
-				setTimeout(() => {
-					this.navigateFlag = false;
-				}, 200)
-				return false;
 			}
 		}
 	}

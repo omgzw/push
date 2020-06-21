@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.SeekBar;
+//import android.widget.SeekBar;
 import android.widget.Toast;
 
 import com.mrtan.qiniu_push.R;
@@ -18,20 +18,20 @@ import com.mrtan.qiniu_push.gles.FBO;
 import com.mrtan.qiniu_push.plain.CameraConfig;
 import com.mrtan.qiniu_push.ui.CameraPreviewFrameView;
 import com.mrtan.qiniu_push.ui.RotateLayout;
-import com.mrtan.qiniu_push.utils.Cache;
-import com.mrtan.qiniu_push.utils.Config;
+//import com.mrtan.qiniu_push.utils.Cache;
+//import com.mrtan.qiniu_push.utils.Config;
 import com.qiniu.pili.droid.streaming.AVCodecType;
 import com.qiniu.pili.droid.streaming.CameraStreamingSetting;
 import com.qiniu.pili.droid.streaming.MediaStreamingManager;
 import com.qiniu.pili.droid.streaming.MicrophoneStreamingSetting;
 import com.qiniu.pili.droid.streaming.StreamingPreviewCallback;
-import com.qiniu.pili.droid.streaming.StreamingProfile;
+//import com.qiniu.pili.droid.streaming.StreamingProfile;
 import com.qiniu.pili.droid.streaming.StreamingState;
 import com.qiniu.pili.droid.streaming.SurfaceTextureCallback;
 import com.qiniu.pili.droid.streaming.av.common.PLFourCC;
-import com.qiniu.pili.droid.streaming.microphone.AudioMixer;
+//import com.qiniu.pili.droid.streaming.microphone.AudioMixer;
 
-import java.io.IOException;
+//import java.io.IOException;
 import java.util.List;
 
 
@@ -43,7 +43,7 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
     private Button mMuteButton;
     private Button mTorchBtn;
     private Button mCameraSwitchBtn;
-    private Button mEncodingOrientationSwitcherBtn;
+//    private Button mEncodingOrientationSwitcherBtn;
     private Button mFaceBeautyBtn;
     private RotateLayout mRotateLayout;
 
@@ -53,8 +53,8 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
     private boolean mIsTorchOn = false;
     private boolean mIsNeedMute = false;
     private boolean mIsNeedFB = false;
-    private boolean mIsPreviewMirror = false;
-    private boolean mIsEncodingMirror = false;
+//    private boolean mIsPreviewMirror = false;
+//    private boolean mIsEncodingMirror = false;
 //    private boolean mIsPlayback = false;
 
     private int mMaxZoom = 0;
@@ -64,14 +64,14 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
     private FBO mFBO = new FBO();
 
     private Switcher mSwitcher = new Switcher();
-    private EncodingOrientationSwitcher mEncodingOrientationSwitcher = new EncodingOrientationSwitcher();
+//    private EncodingOrientationSwitcher mEncodingOrientationSwitcher = new EncodingOrientationSwitcher();
 
     //推流设置
     private MediaStreamingManager mMediaStreamingManager;
     //摄像头参数配置
     private CameraStreamingSetting mCameraStreamingSetting;
     private CameraConfig mCameraConfig;
-    private AudioMixer mAudioMixer;
+//    private AudioMixer mAudioMixer;
 
     private boolean mIsPictureStreaming = false;
 
@@ -83,12 +83,14 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
     @Override
     protected void onResume() {
         super.onResume();
+        Log.i(TAG, "onResume");
         mMediaStreamingManager.resume();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        Log.i(TAG, "onPause");
         normalPause();
     }
 
@@ -130,7 +132,7 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
         mMediaStreamingManager.setAudioSourceCallback(this);
         mMediaStreamingManager.setStreamingStateListener(this);
 
-        mAudioMixer = mMediaStreamingManager.getAudioMixer();
+//        mAudioMixer = mMediaStreamingManager.getAudioMixer();
 //        mAudioMixer.setOnAudioMixListener(new OnAudioMixListener() {
 //            @Override
 //            public void onStatusChanged(MixStatus mixStatus) {
@@ -149,14 +151,14 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
 //                mMixProgress.setMax((int) l1);
 //            }
 //        });
-        String mAudioFile = Cache.getAudioFile(this);
-        if (mAudioFile != null) {
-            try {
-                mAudioMixer.setFile(mAudioFile, true);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+//        String mAudioFile = Cache.getAudioFile(this);
+//        if (mAudioFile != null) {
+//            try {
+//                mAudioMixer.setFile(mAudioFile, true);
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
     }
 
     //开始推流
@@ -172,23 +174,23 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
     }
 
     //横竖屏幕切换
-    private class EncodingOrientationSwitcher implements Runnable {
-        @Override
-        public void run() {
-            Log.i(TAG, "mIsEncOrientationPort:" + mIsEncOrientationPort);
-            mOrientationChanged = true;
-            mIsEncOrientationPort = !mIsEncOrientationPort;
-            mProfile.setEncodingOrientation(mIsEncOrientationPort ? StreamingProfile.ENCODING_ORIENTATION.PORT : StreamingProfile.ENCODING_ORIENTATION.LAND);
-            mMediaStreamingManager.setStreamingProfile(mProfile);
-            stopStreamingInternal();
-            setRequestedOrientation(mIsEncOrientationPort ? ActivityInfo.SCREEN_ORIENTATION_PORTRAIT : ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-            mMediaStreamingManager.notifyActivityOrientationChanged();
-            updateOrientationBtnText();
-            Toast.makeText(AVStreamingActivity.this, Config.HINT_ENCODING_ORIENTATION_CHANGED,
-                    Toast.LENGTH_SHORT).show();
-            Log.i(TAG, "EncodingOrientationSwitcher -");
-        }
-    }
+//    private class EncodingOrientationSwitcher implements Runnable {
+//        @Override
+//        public void run() {
+//            Log.i(TAG, "mIsEncOrientationPort:" + mIsEncOrientationPort);
+//            mOrientationChanged = true;
+//            mIsEncOrientationPort = !mIsEncOrientationPort;
+//            mProfile.setEncodingOrientation(mIsEncOrientationPort ? StreamingProfile.ENCODING_ORIENTATION.PORT : StreamingProfile.ENCODING_ORIENTATION.LAND);
+//            mMediaStreamingManager.setStreamingProfile(mProfile);
+//            stopStreamingInternal();
+//            setRequestedOrientation(mIsEncOrientationPort ? ActivityInfo.SCREEN_ORIENTATION_PORTRAIT : ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+//            mMediaStreamingManager.notifyActivityOrientationChanged();
+//            updateOrientationBtnText();
+//            Toast.makeText(AVStreamingActivity.this, Config.HINT_ENCODING_ORIENTATION_CHANGED,
+//                    Toast.LENGTH_SHORT).show();
+//            Log.i(TAG, "EncodingOrientationSwitcher -");
+//        }
+//    }
 
     //前后摄像头切换
     private class Switcher implements Runnable {
@@ -206,8 +208,8 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
             Log.i(TAG, "switchCamera:" + facingId);
             mMediaStreamingManager.switchCamera(facingId);
 
-            mIsEncodingMirror = mCameraConfig.mEncodingMirror;
-            mIsPreviewMirror = facingId == CameraStreamingSetting.CAMERA_FACING_ID.CAMERA_FACING_FRONT && mCameraConfig.mPreviewMirror;
+//            mIsEncodingMirror = mCameraConfig.mEncodingMirror;
+//            mIsPreviewMirror = facingId == CameraStreamingSetting.CAMERA_FACING_ID.CAMERA_FACING_FRONT && mCameraConfig.mPreviewMirror;
         }
     }
 
@@ -240,7 +242,7 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
         mCameraConfig.mEncodingMirror = false;
 
         CameraStreamingSetting cameraStreamingSetting = new CameraStreamingSetting();
-        cameraStreamingSetting.setCameraId(mCameraConfig.mFrontFacing ? Camera.CameraInfo.CAMERA_FACING_FRONT : Camera.CameraInfo.CAMERA_FACING_BACK)
+        cameraStreamingSetting.setCameraId(Camera.CameraInfo.CAMERA_FACING_BACK)
                 .setCameraPrvSizeLevel(mCameraConfig.mSizeLevel)
                 .setCameraPrvSizeRatio(mCameraConfig.mSizeRatio)
                 .setFocusMode(mCameraConfig.mFocusMode)
@@ -290,9 +292,9 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
         //是否开启美颜
         mIsNeedFB = mCameraConfig.mIsFaceBeautyEnabled;
         //是否开启镜像映射
-        mIsPreviewMirror = mCameraConfig.mPreviewMirror;
+//        mIsPreviewMirror = mCameraConfig.mPreviewMirror;
         //动态改变推流镜像
-        mIsEncodingMirror = mCameraConfig.mEncodingMirror;
+//        mIsEncodingMirror = mCameraConfig.mEncodingMirror;
         //前置摄像头还是后置摄像头
         mCurrentCamFacingIndex = mCameraConfig.mFrontFacing ? 1 : 0;
 
@@ -312,8 +314,8 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
         mTorchBtn = findViewById(R.id.torch_btn);
         mCameraSwitchBtn = findViewById(R.id.camera_switch_btn);
         mFaceBeautyBtn = findViewById(R.id.fb_btn);
-        Button previewMirrorBtn = findViewById(R.id.preview_mirror_btn);
-        Button encodingMirrorBtn = findViewById(R.id.encoding_mirror_btn);
+//        Button previewMirrorBtn = findViewById(R.id.preview_mirror_btn);
+//        Button encodingMirrorBtn = findViewById(R.id.encoding_mirror_btn);
 
         mFaceBeautyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -337,31 +339,31 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
             }
         });
 
-        previewMirrorBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isPictureStreaming()) {
-                    return;
-                }
-
-                mIsPreviewMirror = !mIsPreviewMirror;
-                mMediaStreamingManager.setPreviewMirror(mIsPreviewMirror);
-                Toast.makeText(AVStreamingActivity.this, "镜像成功", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        encodingMirrorBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isPictureStreaming()) {
-                    return;
-                }
-
-                mIsEncodingMirror = !mIsEncodingMirror;
-                mMediaStreamingManager.setEncodingMirror(mIsEncodingMirror);
-                Toast.makeText(AVStreamingActivity.this, "镜像成功", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        previewMirrorBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (isPictureStreaming()) {
+//                    return;
+//                }
+//
+//                mIsPreviewMirror = !mIsPreviewMirror;
+//                mMediaStreamingManager.setPreviewMirror(mIsPreviewMirror);
+//                Toast.makeText(AVStreamingActivity.this, "镜像成功", Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//
+//        encodingMirrorBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (isPictureStreaming()) {
+//                    return;
+//                }
+//
+//                mIsEncodingMirror = !mIsEncodingMirror;
+//                mMediaStreamingManager.setEncodingMirror(mIsEncodingMirror);
+//                Toast.makeText(AVStreamingActivity.this, "镜像成功", Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
         mTorchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -397,39 +399,39 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
             }
         });
 
-        mEncodingOrientationSwitcherBtn = findViewById(R.id.orientation_btn);
-        mEncodingOrientationSwitcherBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isPictureStreaming()) {
-                    return;
-                }
+//        mEncodingOrientationSwitcherBtn = findViewById(R.id.orientation_btn);
+//        mEncodingOrientationSwitcherBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (isPictureStreaming()) {
+//                    return;
+//                }
+//
+//                mEncodingOrientationSwitcherBtn.removeCallbacks(mEncodingOrientationSwitcher);
+//                mEncodingOrientationSwitcherBtn.postDelayed(mEncodingOrientationSwitcher, 100);
+//            }
+//        });
 
-                mEncodingOrientationSwitcherBtn.removeCallbacks(mEncodingOrientationSwitcher);
-                mEncodingOrientationSwitcherBtn.postDelayed(mEncodingOrientationSwitcher, 100);
-            }
-        });
-
-        SeekBar seekBarBeauty = findViewById(R.id.beautyLevel_seekBar);
-        seekBarBeauty.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                CameraStreamingSetting.FaceBeautySetting fbSetting = mCameraStreamingSetting.getFaceBeautySetting();
-                fbSetting.beautyLevel = progress / 100.0f;
-                fbSetting.whiten = progress / 100.0f;
-                fbSetting.redden = progress / 100.0f;
-
-                mMediaStreamingManager.updateFaceBeautySetting(fbSetting);
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-            }
-        });
+//        SeekBar seekBarBeauty = findViewById(R.id.beautyLevel_seekBar);
+//        seekBarBeauty.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+//            @Override
+//            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+//                CameraStreamingSetting.FaceBeautySetting fbSetting = mCameraStreamingSetting.getFaceBeautySetting();
+//                fbSetting.beautyLevel = progress / 100.0f;
+//                fbSetting.whiten = progress / 100.0f;
+//                fbSetting.redden = progress / 100.0f;
+//
+//                mMediaStreamingManager.updateFaceBeautySetting(fbSetting);
+//            }
+//
+//            @Override
+//            public void onStartTrackingTouch(SeekBar seekBar) {
+//            }
+//
+//            @Override
+//            public void onStopTrackingTouch(SeekBar seekBar) {
+//            }
+//        });
 
         initButtonText();
         initAudioMixerPanel();
@@ -552,6 +554,7 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
     @Override
     public void onStateChanged(StreamingState streamingState, Object extra) {
         // general states are handled in the `StreamingBaseActivity`
+        Log.i(TAG, String.format("onStateChanged %s", streamingState.toString()));
         super.onStateChanged(streamingState, extra);
         switch (streamingState) {
             case READY:
@@ -617,11 +620,11 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
     }
 
     private void updateOrientationBtnText() {
-        if (mIsEncOrientationPort) {
-            mEncodingOrientationSwitcherBtn.setText("Land");
-        } else {
-            mEncodingOrientationSwitcherBtn.setText("Port");
-        }
+//        if (mIsEncOrientationPort) {
+//            mEncodingOrientationSwitcherBtn.setText("Land");
+//        } else {
+//            mEncodingOrientationSwitcherBtn.setText("Port");
+//        }
     }
 
     private void updateFBButtonText() {
@@ -641,9 +644,9 @@ public class AVStreamingActivity extends StreamingBaseActivity implements
             return;
         }
         if (camId == Camera.CameraInfo.CAMERA_FACING_FRONT) {
-            mCameraSwitchBtn.setText("Back");
+            mCameraSwitchBtn.setText(R.string.camera_back);
         } else {
-            mCameraSwitchBtn.setText("Front");
+            mCameraSwitchBtn.setText(R.string.camera_font);
         }
     }
 

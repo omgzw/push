@@ -248,7 +248,7 @@ public class QiniuProxy implements StreamStatusCallback, StreamingStateChangedLi
         return mScreenStreamingManager.stopStreaming();
     }
 
-    private static DnsManager getMyDnsManager() {
+    public static DnsManager getMyDnsManager() {
         IResolver r0 = null;
         IResolver r1 = new DnspodFree();
         IResolver r2 = AndroidDnsServer.defaultResolver();

@@ -18,11 +18,6 @@
         android:layout_height="match_parent"
         android:contentDescription="@string/cd_tv_log_info" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom" />
-
     <Button
         android:id="@+id/camera_switch_btn"
         android:layout_width="wrap_content"
@@ -49,63 +44,22 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="left|center"
-        android:gravity="center_vertical"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/preview_mirror_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/cd_preview_mirror"
-            android:text="Mirror\n(Preview)"
-            android:textColor="@color/pldroid_streaming_white" />
-
-        <Button
-            android:id="@+id/encoding_mirror_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/cd_encoding_mirror"
-            android:text="Mirror\n(Encode)"
-            android:textColor="@color/pldroid_streaming_white" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_gravity="right|center"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/mix_panel_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Audio mix panel"
-            android:textColor="@color/pldroid_streaming_white"
-            android:visibility="gone"
-            />
-
-        <Button
-            android:id="@+id/orientation_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/cd_btn_orientation"
-            android:textColor="@color/pldroid_streaming_white" />
-
-        <Button
             android:id="@+id/mute_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="@string/cd_btn_mute"
+            android:text="@string/cd_btn_mute"
             android:textColor="@color/pldroid_streaming_white" />
 
         <Button
             android:id="@+id/fb_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="@string/cd_btn_fb"
+            android:text="@string/cd_btn_fb"
             android:textColor="@color/pldroid_streaming_white" />
 
         <Button
@@ -115,18 +69,9 @@
             android:contentDescription="@string/cd_btn_torch"
             android:text="@string/flash_light_on"
             android:textColor="@color/pldroid_streaming_white"
-            android:visibility="gone" />
+            android:visibility="visible" />
 
     </LinearLayout>
-
-    <SeekBar
-        android:id="@+id/beautyLevel_seekBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="60dp"
-        android:max="100"
-        android:progress="100" />
 
     <include layout="@layout/camera_button_holder" />
 
